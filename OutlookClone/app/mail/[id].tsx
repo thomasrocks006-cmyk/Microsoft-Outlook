@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { SafeAreaView, View, Text, TouchableOpacity, ScrollView, StyleSheet } from 'react-native'
 import { useLocalSearchParams, useRouter } from 'expo-router'
-import { ChevronLeft, MoreHorizontal, Trash2, Archive, CornerDownLeft, Mail, Calendar, FileText, Grid3X3 } from 'lucide-react-native'
+import { ChevronLeft, MoreHorizontal, Trash2, Archive, Mail, Calendar, FileText, Grid3X3 } from 'lucide-react-native'
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import { StatusBar } from 'expo-status-bar'
 // eslint-disable-next-line @typescript-eslint/no-var-requires
@@ -118,7 +118,7 @@ export default function MailReadScreen() {
         {/* Email Body */}
         <ScrollView
           style={styles.scroll}
-          contentContainerStyle={[styles.scrollContent, { paddingBottom: Math.max(insets.bottom + 96, 96) }]}
+          contentContainerStyle={[styles.scrollContent, { paddingBottom: Math.max(insets.bottom + 72, 72) }]}
           showsVerticalScrollIndicator={false}
         >
           {body ? (
@@ -127,14 +127,6 @@ export default function MailReadScreen() {
             <Text style={styles.bodyPlaceholder}>This message has no content.</Text>
           )}
         </ScrollView>
-
-        {/* Reply Button (floating bottom action) */}
-        <View style={[styles.replyWrap, { bottom: Math.max(insets.bottom + 86, 86) }]}>
-          <TouchableOpacity style={styles.replyBtn} activeOpacity={0.85} accessibilityRole="button" accessibilityLabel="Reply">
-            <CornerDownLeft size={18} color="#D1D5DB" />
-            <Text style={styles.replyText}>Reply</Text>
-          </TouchableOpacity>
-        </View>
 
         {/* Bottom Navigation */}
         <View style={styles.bottomNavigation}>
@@ -240,22 +232,7 @@ const styles = StyleSheet.create({
   bodyText: { color: '#E5E7EB', fontSize: 15, lineHeight: 22 },
   bodyPlaceholder: { color: '#9CA3AF', fontSize: 14, fontStyle: 'italic' },
 
-  // Reply
-  replyWrap: {
-    position: 'absolute',
-    left: 16,
-    right: 16,
-  },
-  replyBtn: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
-    paddingVertical: 12,
-    paddingHorizontal: 14,
-    borderRadius: 12,
-    backgroundColor: '#111827',
-  },
-  replyText: { color: '#D1D5DB', fontSize: 16, marginLeft: 8, fontWeight: '600' },
+  // Reply removed
 
   // Bottom nav (copied from index for consistency)
   bottomNavigation: {
