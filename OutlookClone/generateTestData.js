@@ -48,27 +48,27 @@ const senders = [
   },
   // New: Morning Brief sender (internal-brief)
   {
-    name: 'JPMorgan Markets Desk',
-    email: 'jpmorgan.am.brief@jpmorgan.com',
-    role: 'Daily Market Briefing',
+  name: 'J.P. Morgan Research',
+  email: 'research@jpmorgan.com',
+  role: 'Global Research',
     type: 'internal-brief',
-    signature: `--\nJ.P. Morgan Markets Desk\nThis is an automated daily briefing.`
+  signature: `--\nJ.P. Morgan Research\nThis is an automated daily briefing.\nFor more information, please contact your representative.`
   },
   // New: Microsoft Teams alerts (internal-teams)
   {
     name: 'Microsoft Teams',
-    email: 'microsoft.teams@jpmorgan.com',
-    role: 'Notifications',
-    type: 'internal-teams',
-    signature: `--\nMicrosoft Teams for J.P. Morgan\nThis is an automated message.`
+  email: 'no-reply@teams.microsoft.com',
+  role: 'Notifications',
+  type: 'external-teams',
+  signature: `--\nThis message was sent from a notification-only address that cannot accept incoming email.\nPlease do not reply to this message.`
   },
   // New: Facilities emails (internal-facilities)
   {
-    name: '101 Collins Facilities Team',
-    email: 'facilities.101collins@jpmorgan.com',
-    role: 'Building Management',
-    type: 'internal-facilities',
-    signature: `--\n101 Collins Facilities Team\nJ.P. Morgan Asset Management`
+  name: '101 Collins Facilities',
+  email: 'facilities@101collins.com.au',
+  role: 'Building Management',
+  type: 'external-facilities',
+  signature: `--\n101 Collins Facilities Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000`
   },
   // New: Executives (internal-allstaff)
   {
@@ -134,8 +134,8 @@ const templateStores = {
       };
     }
   ],
-  // New: Microsoft Teams alerts
-  'internal-teams': [
+  // New: Microsoft Teams alerts (external)
+  'external-teams': [
     (from, to, currentDate) => {
       const people = ['Lyndon Fagan', 'Hannah Pham', 'Al Harvey', 'The Resources Team'];
       return {
@@ -151,8 +151,8 @@ const templateStores = {
       };
     }
   ],
-  // New: Facilities emails
-  'internal-facilities': [
+  // New: Facilities emails (external)
+  'external-facilities': [
     (from, to, currentDate) => {
       return {
         subject: `Building Update: Fire Drill Scheduled`,
