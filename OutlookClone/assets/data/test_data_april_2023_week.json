@@ -34,7 +34,7 @@
     "from": "no-reply@teams.microsoft.com",
     "fromName": "Microsoft Teams",
     "to": "thomas.francis@jpmorgan.com",
-    "subject": "Reminder: \"Client XYZ Investment Committee\" starts in 15 minutes",
+    "subject": "Reminder: \"AMP Capital Investment Committee\" starts in 15 minutes",
     "body": "This is a reminder for your upcoming meeting.\n\n--\nMicrosoft Teams for J.P. Morgan\nThis is an automated message.",
     "timestamp": 1682292060000,
     "isRead": false,

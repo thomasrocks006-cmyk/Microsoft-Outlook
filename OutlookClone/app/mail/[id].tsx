@@ -4,11 +4,9 @@ import { useLocalSearchParams, useRouter } from 'expo-router'
 import { ChevronLeft, MoreHorizontal, Trash2, Archive, Mail, Calendar, FileText, Grid3X3 } from 'lucide-react-native'
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import { StatusBar } from 'expo-status-bar'
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const rawTestData = require('../../assets/data/test_data_april_2023_week.json') as Array<{
-  id: string
-  body: string
-}>
+import { loadLatestMonth } from '../../utils/dataLoader'
+const latest = loadLatestMonth()
+const rawMonth = latest?.data || []
 
 function getInitials(input?: string) {
   if (!input) return '?'
@@ -44,7 +42,7 @@ export default function MailReadScreen() {
   const time = (params.time as string) || ''
   const bodyParam = (params.body as string) || ''
   const idParam = (params.id as string) || ''
-  const fallbackBody = idParam ? (rawTestData.find((e) => e.id === idParam)?.body ?? '') : ''
+  const fallbackBody = idParam ? (rawMonth.find((e) => e.id === idParam)?.body ?? '') : ''
   const body = bodyParam || fallbackBody
 
   return (

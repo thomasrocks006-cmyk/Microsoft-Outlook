@@ -1,0 +1,1932 @@
+[
+  {
+    "id": "8a57bde8-df7c-4a2d-98e5-2bf1aa3f430c",
+    "from": "research@jpmorgan.com",
+    "fromName": "J.P. Morgan Research",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "AM Brief: Mon, 24 Apr 2023",
+    "body": "Good morning,\n\n**Overnight Market Summary:**\nThe tone was mixed. Tech stocks rallied amid concerns over Armenian Dram.\n\n**Key Event Today:** AU Employment Data at 15:00 AEST.\n\n**Key Reads for Today:**\n- JPM Research: Quitzon LLC upgraded to Neutral\n- Bloomberg: Concido umquam colligo arcesso collum caterva minus tremo.\n- AFR: Stips cibus maiores magni aperio confero.\n\n--\nJ.P. Morgan Research\nThis is an automated daily briefing.\nFor more information, please contact your representative.",
+    "timestamp": 1682282040000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal-brief"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "fb08c5b1-1bc8-44ac-ae4a-726c0c84bdb0",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: BHP - analyst rating changes",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: RIO AX Equity\nEvent: analyst rating changes detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682296740000,
+    "isRead": true,
+    "isStarred": true,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "9935af7b-776b-4f9c-9ae2-24c52e688567",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of QBE presentation",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the QBE presentation. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682298000000,
+    "isRead": true,
+    "isStarred": true,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "e3fb4631-86d6-4d9a-9c9b-bd39f018b3a1",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Nienow Group needs a final sign-off. \n\nThanks,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682301420000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Apr_23.pdf",
+        "size": 1502671
+      }
+    ]
+  },
+  {
+    "id": "f3445af9-c3ee-4cc1-9b36-f6b3bcfbec97",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of lithium sector deep dive",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the lithium sector deep dive. Could you take a look?\n\nCheers,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4449290 349\n",
+    "timestamp": 1682303400000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Apr_23.pdf",
+        "size": 1437709
+      }
+    ]
+  },
+  {
+    "id": "3c1f0ea4-02b8-4928-b526-7763939cefa3",
+    "from": "facilities@101collins.com.au",
+    "fromName": "101 Collins Facilities",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Building Update: Fire Drill Scheduled",
+    "body": "Dear Occupants of Level 31, 101 Collins Street,\n\nA scheduled fire drill will be conducted this Wednesday morning between 10:00 AM - 11:00 AM. Please follow warden instructions.\n\nRegards,\nFacilities Team\n\n--\n101 Collins Facilities Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000",
+    "timestamp": 1682304720000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-facilities"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "d262ee6f-e7ef-409b-9b85-499fd1ca2b51",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Fahey, Fisher and Kohler needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682308440000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Apr_23.pdf",
+        "size": 536145
+      }
+    ]
+  },
+  {
+    "id": "e7e8b130-ae19-4ee5-94d1-1a4ded22e982",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Jones - Zemlak needs a final sign-off. \n\nThanks,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682308980000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "e8ab0fa5-0350-4553-b3cf-649c451873f0",
+    "from": "facilities@101collins.com.au",
+    "fromName": "101 Collins Facilities",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Air Conditioning Maintenance Tonight",
+    "body": "Please be advised that essential AHU maintenance will be performed after 7:00 PM tonight on Level 31. Some noise disruption may occur.\n\nApologies for any inconvenience.\n\n--\n101 Collins Facilities Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000",
+    "timestamp": 1682315340000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-facilities"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "5c0b3223-795e-4c9e-b857-8867788c5881",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of lithium sector deep dive",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the lithium sector deep dive. Could you take a look?\n\nCheers,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682317560000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Apr_23.pdf",
+        "size": 522581
+      }
+    ]
+  },
+  {
+    "id": "3abae6bb-abde-4a4e-88e8-9763d4bb0ed6",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of lithium sector deep dive",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the lithium sector deep dive. Could you take a look?\n\nCheers,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682320740000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "225a8bdc-56e8-4610-a115-5b5a7829c974",
+    "from": "no-reply@teams.microsoft.com",
+    "fromName": "Microsoft Teams",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Missed call from Lyndon Fagan",
+    "body": "You missed a call.\n\nAl Harvey tried to call you at 16:44.\n\n\n--\nThis message was sent from a notification-only address that cannot accept incoming email.\nPlease do not reply to this message.",
+    "timestamp": 1682322120000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-teams"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "69b1220d-30e0-4f21-8f08-0aa372ea35b0",
+    "from": "facilities@101collins.com.au",
+    "fromName": "101 Collins Facilities",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Air Conditioning Maintenance Tonight",
+    "body": "Please be advised that essential AHU maintenance will be performed after 7:00 PM tonight on Level 31. Some noise disruption may occur.\n\nApologies for any inconvenience.\n\n--\n101 Collins Facilities Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000",
+    "timestamp": 1682323980000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-facilities"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "09d660b9-7e7b-4be0-9412-3f5bad180927",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of BHP model",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the BHP model. Could you take a look?\n\nCheers,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4449290 349\n",
+    "timestamp": 1682329980000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "f4d3fd45-3d9f-4a69-800f-c0788fc31b36",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Purdy LLC needs a final sign-off. \n\nThanks,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4449290 349\n",
+    "timestamp": 1682331720000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "f82e3961-10d3-4351-88cd-21a7d486e516",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: BHP - unusual options activity",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: RIO AX Equity\nEvent: unusual options activity detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682334420000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "85cd8414-a593-492f-bbe8-6b841260b492",
+    "from": "facilities@101collins.com.au",
+    "fromName": "101 Collins Facilities",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Air Conditioning Maintenance Tonight",
+    "body": "Please be advised that essential AHU maintenance will be performed after 7:00 PM tonight on Level 31. Some noise disruption may occur.\n\nApologies for any inconvenience.\n\n--\n101 Collins Facilities Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000",
+    "timestamp": 1682335500000,
+    "isRead": false,
+    "isStarred": true,
+    "labels": [
+      "external-facilities"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "8f1f5e9d-b017-42e5-9717-9cead31b3e89",
+    "from": "research@jpmorgan.com",
+    "fromName": "J.P. Morgan Research",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "AM Brief: Tue, 25 Apr 2023",
+    "body": "Good morning,\n\n**Overnight Market Summary:**\nThe tone was mixed. USD strengthened amid concerns over South Sudanese pound.\n\n**Key Event Today:** RBA Speech at 11:00 AEST.\n\n**Key Reads for Today:**\n- JPM Research: Davis and Sons downgraded to Overweight\n- Bloomberg: Auctus arma solio conduco illo tardus defendo uterque.\n- AFR: Claro accusator quos claro tantillus summisse.\n\n--\nJ.P. Morgan Research\nThis is an automated daily briefing.\nFor more information, please contact your representative.",
+    "timestamp": 1682368860000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal-brief"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "e859ff8b-3284-41ee-958a-105e61c30691",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of NPF report",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the NPF report. Could you take a look?\n\nCheers,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682377620000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "f1044524-a56d-4536-80e5-3b5690c487f5",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: FMG - unusual options activity",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: FMG AX Equity\nEvent: unusual options activity detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682378160000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Apr_23.pdf",
+        "size": 1393244
+      }
+    ]
+  },
+  {
+    "id": "163888e8-2215-4a77-8cc7-abdd55a0d3ab",
+    "from": "facilities@101collins.com.au",
+    "fromName": "101 Collins Facilities",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Air Conditioning Maintenance Tonight",
+    "body": "Please be advised that essential AHU maintenance will be performed after 7:00 PM tonight on Level 31. Some noise disruption may occur.\n\nApologies for any inconvenience.\n\n--\n101 Collins Facilities Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000",
+    "timestamp": 1682382900000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-facilities"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "eada7507-85d6-4417-ae04-2d65a047bdb8",
+    "from": "no-reply@teams.microsoft.com",
+    "fromName": "Microsoft Teams",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Reminder: \"Client XYZ Investment Committee\" starts in 15 minutes",
+    "body": "This is a reminder for your upcoming meeting.\n\n--\nThis message was sent from a notification-only address that cannot accept incoming email.\nPlease do not reply to this message.",
+    "timestamp": 1682383980000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-teams"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "75678483-801b-45e9-b68c-d6048ac87c12",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of lithium sector deep dive",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the lithium sector deep dive. Could you take a look?\n\nCheers,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4449290 349\n",
+    "timestamp": 1682396820000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "265cd4ad-f1df-4f28-acf1-540fda58253b",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Kuhn - Lindgren needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682397240000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "5c376f84-fd19-4a07-b232-fcb500057020",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: RIO - unusual options activity",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: BHP AX Equity\nEvent: analyst rating changes detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682397840000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "8cca6ba4-7f1e-4ae4-9e08-c2c898e02ea1",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: FMG - analyst rating changes",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: FMG AX Equity\nEvent: unusual options activity detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682398260000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "92b8db89-c057-4003-8ab1-c547f741439e",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of BHP model",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the BHP model. Could you take a look?\n\nCheers,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4449290 349\n",
+    "timestamp": 1682398500000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "fbdad704-1163-4af3-9523-733bf197a7a3",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of NPF report",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the NPF report. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682404020000,
+    "isRead": true,
+    "isStarred": true,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "14a0a46a-33ab-4b95-b5e2-60417c063b49",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of BHP model",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the BHP model. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682405760000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "24fc303b-8b2b-412c-91c1-18187e35f965",
+    "from": "no-reply@teams.microsoft.com",
+    "fromName": "Microsoft Teams",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Missed call from Al Harvey",
+    "body": "You missed a call.\n\nLyndon Fagan tried to call you at 13:33.\n\n\n--\nThis message was sent from a notification-only address that cannot accept incoming email.\nPlease do not reply to this message.",
+    "timestamp": 1682406540000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-teams"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Apr_23.pdf",
+        "size": 1667915
+      }
+    ]
+  },
+  {
+    "id": "7e537696-2d15-4f09-b3ed-fd74e840cd68",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of BHP model",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the BHP model. Could you take a look?\n\nCheers,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682410260000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "38355359-ef86-4a0a-93fb-6f1d7af25c69",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Reichert - Stracke needs a final sign-off. \n\nThanks,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4449290 349\n",
+    "timestamp": 1682410560000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "cb9cf95e-0bef-4dbb-ba5c-c4210f1b1e39",
+    "from": "no-reply@teams.microsoft.com",
+    "fromName": "Microsoft Teams",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Missed call from Al Harvey",
+    "body": "You missed a call.\n\nThe Resources Team tried to call you at 13:19.\n\n\n--\nThis message was sent from a notification-only address that cannot accept incoming email.\nPlease do not reply to this message.",
+    "timestamp": 1682412360000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-teams"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "32bbd4f0-2565-4132-89ba-e6303392c164",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: FMG - analyst rating changes",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: FMG AX Equity\nEvent: unusual options activity detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682412960000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "34bda34d-ae32-458f-b768-3355b5af93e8",
+    "from": "facilities@101collins.com.au",
+    "fromName": "101 Collins Facilities",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Building Update: Fire Drill Scheduled",
+    "body": "Dear Occupants of Level 31, 101 Collins Street,\n\nA scheduled fire drill will be conducted this Wednesday morning between 10:00 AM - 11:00 AM. Please follow warden instructions.\n\nRegards,\nFacilities Team\n\n--\n101 Collins Facilities Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000",
+    "timestamp": 1682421360000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-facilities"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "801a5894-1605-4ff0-b7fc-7711024601db",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Kovacek Group needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682421960000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "a9d9219c-07e8-4a34-addd-7c8b429a35c9",
+    "from": "research@jpmorgan.com",
+    "fromName": "J.P. Morgan Research",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "AM Brief: Wed, 26 Apr 2023",
+    "body": "Good morning,\n\n**Overnight Market Summary:**\nThe tone was risk-off. Tech stocks rallied amid concerns over Belarusian Ruble.\n\n**Key Event Today:** FOMC Minutes at 15:00 AEST.\n\n**Key Reads for Today:**\n- JPM Research: Schamberger, Torphy and Raynor downgraded to Neutral\n- Bloomberg: Amplus canto neque atavus carus veniam defluo advoco.\n- AFR: Doloribus umbra adsum curis validus quidem.\n\n--\nJ.P. Morgan Research\nThis is an automated daily briefing.\nFor more information, please contact your representative.",
+    "timestamp": 1682456100000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal-brief"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "7de5a063-3071-4331-bfbb-fa1ee7e31f73",
+    "from": "facilities@101collins.com.au",
+    "fromName": "101 Collins Facilities",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Air Conditioning Maintenance Tonight",
+    "body": "Please be advised that essential AHU maintenance will be performed after 7:00 PM tonight on Level 31. Some noise disruption may occur.\n\nApologies for any inconvenience.\n\n--\n101 Collins Facilities Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000",
+    "timestamp": 1682460720000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-facilities"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "ec715344-117c-4c3d-8cd1-9ab312951200",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of NPF report",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the NPF report. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682461020000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Apr_23.pdf",
+        "size": 1885701
+      }
+    ]
+  },
+  {
+    "id": "f13709f2-5d60-48d8-98d2-dcfa7fb04f05",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of QBE presentation",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the QBE presentation. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682461740000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Apr_23.pdf",
+        "size": 879678
+      }
+    ]
+  },
+  {
+    "id": "d2f5634d-4e49-43d2-9f8b-d2d581e63176",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of NPF report",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the NPF report. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682464080000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Apr_23.pdf",
+        "size": 780534
+      }
+    ]
+  },
+  {
+    "id": "ab515223-593e-4b34-95c2-3238df1f65e2",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of QBE presentation",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the QBE presentation. Could you take a look?\n\nCheers,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4449290 349\n",
+    "timestamp": 1682465880000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "4685ea85-71b3-4c06-8471-be19e23b79db",
+    "from": "no-reply@teams.microsoft.com",
+    "fromName": "Microsoft Teams",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Reminder: \"Q3 Performance Review\" starts in 15 minutes",
+    "body": "This is a reminder for your upcoming meeting.\n\n--\nThis message was sent from a notification-only address that cannot accept incoming email.\nPlease do not reply to this message.",
+    "timestamp": 1682470020000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-teams"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "e29ee703-51d9-4ccb-acd2-6bdf4a4afa5c",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Fritsch, Stanton and Wuckert needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682472780000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Apr_23.pdf",
+        "size": 1333962
+      }
+    ]
+  },
+  {
+    "id": "8658ec43-7a21-4586-9b55-fa9b0d61ec52",
+    "from": "no-reply@teams.microsoft.com",
+    "fromName": "Microsoft Teams",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Reminder: \"BHP Deep Dive\" starts in 15 minutes",
+    "body": "This is a reminder for your upcoming meeting.\n\n--\nThis message was sent from a notification-only address that cannot accept incoming email.\nPlease do not reply to this message.",
+    "timestamp": 1682473500000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-teams"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Apr_23.pdf",
+        "size": 1694757
+      }
+    ]
+  },
+  {
+    "id": "69f7a55e-8708-4610-b9b2-6c0b3f70cd0e",
+    "from": "facilities@101collins.com.au",
+    "fromName": "101 Collins Facilities",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Building Update: Fire Drill Scheduled",
+    "body": "Dear Occupants of Level 31, 101 Collins Street,\n\nA scheduled fire drill will be conducted this Monday morning between 10:00 AM - 11:00 AM. Please follow warden instructions.\n\nRegards,\nFacilities Team\n\n--\n101 Collins Facilities Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000",
+    "timestamp": 1682475780000,
+    "isRead": false,
+    "isStarred": true,
+    "labels": [
+      "external-facilities"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "fa0a9139-1620-4a23-b557-ac5b41fe8bec",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of QBE presentation",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the QBE presentation. Could you take a look?\n\nCheers,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4449290 349\n",
+    "timestamp": 1682476860000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "4942ab13-1514-4fc9-b4b1-f1e926d1969f",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of BHP model",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the BHP model. Could you take a look?\n\nCheers,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682479320000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "221ee55a-6d13-4be3-80e9-67f9476240b1",
+    "from": "no-reply@teams.microsoft.com",
+    "fromName": "Microsoft Teams",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Missed call from Al Harvey",
+    "body": "You missed a call.\n\nHannah Pham tried to call you at 14:13.\n\n\n--\nThis message was sent from a notification-only address that cannot accept incoming email.\nPlease do not reply to this message.",
+    "timestamp": 1682483700000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-teams"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "d71e0b6a-3e05-41b1-9c3a-e85edb63c7a7",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Casper - Barrows needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682485440000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Apr_23.pdf",
+        "size": 1572817
+      }
+    ]
+  },
+  {
+    "id": "2609a800-a613-4aa6-aac4-70914d2f9e04",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: RIO - unusual options activity",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: RIO AX Equity\nEvent: analyst rating changes detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682485620000,
+    "isRead": true,
+    "isStarred": true,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "b3840cf8-ec7d-4556-9efa-75c69d6a600c",
+    "from": "no-reply@teams.microsoft.com",
+    "fromName": "Microsoft Teams",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Reminder: \"Weekly Team Sync\" starts in 15 minutes",
+    "body": "This is a reminder for your upcoming meeting.\n\n--\nThis message was sent from a notification-only address that cannot accept incoming email.\nPlease do not reply to this message.",
+    "timestamp": 1682487720000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-teams"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "020ed6a3-b7d9-4808-b113-21870109e39b",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Schroeder, Paucek and McClure needs a final sign-off. \n\nThanks,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4449290 349\n",
+    "timestamp": 1682490120000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "3363374d-09a5-406b-960d-f5e2925e8958",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Ruecker - Terry needs a final sign-off. \n\nThanks,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682493120000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "f393e649-158c-4bb5-8a98-85e35f54e86a",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of NPF report",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the NPF report. Could you take a look?\n\nCheers,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682493480000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "305b8f7b-75ea-4e51-b226-f9851a055ddd",
+    "from": "facilities@101collins.com.au",
+    "fromName": "101 Collins Facilities",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Building Update: Fire Drill Scheduled",
+    "body": "Dear Occupants of Level 31, 101 Collins Street,\n\nA scheduled fire drill will be conducted this Wednesday morning between 10:00 AM - 11:00 AM. Please follow warden instructions.\n\nRegards,\nFacilities Team\n\n--\n101 Collins Facilities Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000",
+    "timestamp": 1682493480000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-facilities"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "e20f84c4-a8ad-4019-90fc-0725fa9d8ce3",
+    "from": "facilities@101collins.com.au",
+    "fromName": "101 Collins Facilities",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Air Conditioning Maintenance Tonight",
+    "body": "Please be advised that essential AHU maintenance will be performed after 7:00 PM tonight on Level 31. Some noise disruption may occur.\n\nApologies for any inconvenience.\n\n--\n101 Collins Facilities Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000",
+    "timestamp": 1682496960000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-facilities"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "738b8ebb-5f6d-4543-b72e-11057d780818",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of BHP model",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the BHP model. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682499240000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "1b34f937-25b3-4a90-aaa6-feb13a7f5568",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of QBE presentation",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the QBE presentation. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682500800000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Apr_23.pdf",
+        "size": 1200580
+      }
+    ]
+  },
+  {
+    "id": "f4820e79-7ddf-4f07-a85c-8132d1201126",
+    "from": "no-reply@teams.microsoft.com",
+    "fromName": "Microsoft Teams",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Reminder: \"Weekly Team Sync\" starts in 15 minutes",
+    "body": "This is a reminder for your upcoming meeting.\n\n--\nThis message was sent from a notification-only address that cannot accept incoming email.\nPlease do not reply to this message.",
+    "timestamp": 1682504640000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-teams"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "06d10fad-57db-4e7b-8c67-75bfd6e125da",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Walsh LLC needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682506380000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "8bdc3ede-f4e4-48ba-927e-98046a0e4c3b",
+    "from": "research@jpmorgan.com",
+    "fromName": "J.P. Morgan Research",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "AM Brief: Thu, 27 Apr 2023",
+    "body": "Good morning,\n\n**Overnight Market Summary:**\nThe tone was mixed. Base metals were volatile amid concerns over CFA Franc BEAC.\n\n**Key Event Today:** China PMI at 15:00 AEST.\n\n**Key Reads for Today:**\n- JPM Research: Zulauf - Prohaska downgraded to Neutral\n- Bloomberg: Adhaero adaugeo taceo utrum umbra maxime vesper tenus.\n- AFR: Admitto deleo utilis usitas atrocitas ceno.\n\n--\nJ.P. Morgan Research\nThis is an automated daily briefing.\nFor more information, please contact your representative.",
+    "timestamp": 1682541060000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal-brief"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "716b7117-687a-4c35-9274-9f29bf65e490",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Heaney, Cole and Hagenes needs a final sign-off. \n\nThanks,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4449290 349\n",
+    "timestamp": 1682549580000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "d1962751-9d26-4411-b02f-713cbab255da",
+    "from": "facilities@101collins.com.au",
+    "fromName": "101 Collins Facilities",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Building Update: Fire Drill Scheduled",
+    "body": "Dear Occupants of Level 31, 101 Collins Street,\n\nA scheduled fire drill will be conducted this Monday morning between 10:00 AM - 11:00 AM. Please follow warden instructions.\n\nRegards,\nFacilities Team\n\n--\n101 Collins Facilities Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000",
+    "timestamp": 1682553240000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-facilities"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "a9fd5c73-c2a3-494e-b462-147bc83e52d8",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Balistreri and Sons needs a final sign-off. \n\nThanks,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682554500000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "5f8f9ce7-8d80-4a0a-a357-5706d02445e4",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of NPF report",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the NPF report. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682556420000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "4ce77c76-1448-40c1-8cfa-b4ba60345d3f",
+    "from": "facilities@101collins.com.au",
+    "fromName": "101 Collins Facilities",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Building Update: Fire Drill Scheduled",
+    "body": "Dear Occupants of Level 31, 101 Collins Street,\n\nA scheduled fire drill will be conducted this Wednesday morning between 10:00 AM - 11:00 AM. Please follow warden instructions.\n\nRegards,\nFacilities Team\n\n--\n101 Collins Facilities Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000",
+    "timestamp": 1682557560000,
+    "isRead": true,
+    "isStarred": true,
+    "labels": [
+      "external-facilities"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "eb7dff88-e223-406c-ac90-af24efa63427",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Heidenreich Group needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682560740000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "71f74ba8-494c-4334-a0d5-6c8d4f15b653",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of lithium sector deep dive",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the lithium sector deep dive. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682560860000,
+    "isRead": true,
+    "isStarred": true,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "8b01a5a8-b1b4-4a20-942f-9b5d14d0a559",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Schuster Inc needs a final sign-off. \n\nThanks,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682562300000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "d06544fe-2371-47ef-87cb-086465b19f54",
+    "from": "no-reply@teams.microsoft.com",
+    "fromName": "Microsoft Teams",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Missed call from Lyndon Fagan",
+    "body": "You missed a call.\n\nAl Harvey tried to call you at 16:51.\n\n\n--\nThis message was sent from a notification-only address that cannot accept incoming email.\nPlease do not reply to this message.",
+    "timestamp": 1682565600000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-teams"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "cb4d57c6-cdd4-4ea0-9b2b-a3ce0d11cff1",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of NPF report",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the NPF report. Could you take a look?\n\nCheers,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4449290 349\n",
+    "timestamp": 1682567880000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "2982279b-7c58-4821-a079-ede38754324c",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of NPF report",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the NPF report. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682568300000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "e83ed7d2-d34d-4d22-abce-f8c5d7bed23d",
+    "from": "facilities@101collins.com.au",
+    "fromName": "101 Collins Facilities",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Air Conditioning Maintenance Tonight",
+    "body": "Please be advised that essential AHU maintenance will be performed after 7:00 PM tonight on Level 31. Some noise disruption may occur.\n\nApologies for any inconvenience.\n\n--\n101 Collins Facilities Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000",
+    "timestamp": 1682569140000,
+    "isRead": false,
+    "isStarred": true,
+    "labels": [
+      "external-facilities"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "f469759d-3ac6-4b0e-8915-dcbe3d31455d",
+    "from": "no-reply@teams.microsoft.com",
+    "fromName": "Microsoft Teams",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Missed call from Hannah Pham",
+    "body": "You missed a call.\n\nThe Resources Team tried to call you at 14:53.\n\n\n--\nThis message was sent from a notification-only address that cannot accept incoming email.\nPlease do not reply to this message.",
+    "timestamp": 1682573640000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-teams"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "bdd04ce6-1985-4971-90e4-49c16b729930",
+    "from": "facilities@101collins.com.au",
+    "fromName": "101 Collins Facilities",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Air Conditioning Maintenance Tonight",
+    "body": "Please be advised that essential AHU maintenance will be performed after 7:00 PM tonight on Level 31. Some noise disruption may occur.\n\nApologies for any inconvenience.\n\n--\n101 Collins Facilities Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000",
+    "timestamp": 1682584980000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-facilities"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "d3a29469-4dae-4b37-a217-b7220a276972",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of NPF report",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the NPF report. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682585040000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "5372cb41-2c5b-4f75-894e-d168dbc54da9",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Okuneva, Okuneva and Dickens needs a final sign-off. \n\nThanks,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682586360000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "d94fd368-52a6-449f-86cb-4f1a4faa1108",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Sipes - Cartwright needs a final sign-off. \n\nThanks,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682586420000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "a489befa-f17e-469e-8c81-cd23e734cff1",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Gutmann - Greenholt needs a final sign-off. \n\nThanks,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682587680000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Apr_23.pdf",
+        "size": 1177568
+      }
+    ]
+  },
+  {
+    "id": "1257e3dd-7bc7-4110-b86f-7848070edc78",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: FMG - unusual options activity",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: BHP AX Equity\nEvent: analyst rating changes detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682588400000,
+    "isRead": true,
+    "isStarred": true,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "d87013ed-680e-4c78-ae1b-3c6665660cab",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Raynor, Walker and Little needs a final sign-off. \n\nThanks,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682590320000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "be46dbaf-a4eb-4fa7-b635-92f972ad77c4",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Nolan, Abbott and Cummings needs a final sign-off. \n\nThanks,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4449290 349\n",
+    "timestamp": 1682592600000,
+    "isRead": true,
+    "isStarred": true,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "c27594b0-e82b-408b-806c-82723901e105",
+    "from": "facilities@101collins.com.au",
+    "fromName": "101 Collins Facilities",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Air Conditioning Maintenance Tonight",
+    "body": "Please be advised that essential AHU maintenance will be performed after 7:00 PM tonight on Level 31. Some noise disruption may occur.\n\nApologies for any inconvenience.\n\n--\n101 Collins Facilities Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000",
+    "timestamp": 1682592840000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-facilities"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "811bd661-487f-4545-bb5c-73e3f03ec55b",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that MacGyver - Balistreri needs a final sign-off. \n\nThanks,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4449290 349\n",
+    "timestamp": 1682593320000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Apr_23.pdf",
+        "size": 1508622
+      }
+    ]
+  },
+  {
+    "id": "eaa7115f-15b4-48c5-99f5-e24105ef8489",
+    "from": "facilities@101collins.com.au",
+    "fromName": "101 Collins Facilities",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Building Update: Fire Drill Scheduled",
+    "body": "Dear Occupants of Level 31, 101 Collins Street,\n\nA scheduled fire drill will be conducted this Monday morning between 10:00 AM - 11:00 AM. Please follow warden instructions.\n\nRegards,\nFacilities Team\n\n--\n101 Collins Facilities Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000",
+    "timestamp": 1682596140000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-facilities"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "bb398120-e314-4a9c-b16d-cfe7923b41de",
+    "from": "research@jpmorgan.com",
+    "fromName": "J.P. Morgan Research",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "AM Brief: Fri, 28 Apr 2023",
+    "body": "Good morning,\n\n**Overnight Market Summary:**\nThe tone was risk-on. USD strengthened amid concerns over CFP Franc.\n\n**Key Event Today:** AU Employment Data at 10:00 AEST.\n\n**Key Reads for Today:**\n- JPM Research: Keebler, Mohr and Parisian downgraded to Overweight\n- Bloomberg: Antea cuius delego nisi vicinus cubitum laborum ulciscor.\n- AFR: Addo audentia curiositas copiose ago comis.\n\n--\nJ.P. Morgan Research\nThis is an automated daily briefing.\nFor more information, please contact your representative.",
+    "timestamp": 1682628540000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal-brief"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "e837e3c5-2021-4817-94db-567359b2e2ad",
+    "from": "facilities@101collins.com.au",
+    "fromName": "101 Collins Facilities",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Building Update: Fire Drill Scheduled",
+    "body": "Dear Occupants of Level 31, 101 Collins Street,\n\nA scheduled fire drill will be conducted this Wednesday morning between 10:00 AM - 11:00 AM. Please follow warden instructions.\n\nRegards,\nFacilities Team\n\n--\n101 Collins Facilities Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000",
+    "timestamp": 1682633880000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-facilities"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "eb526260-db42-4c34-9140-ede4278f04f7",
+    "from": "no-reply@teams.microsoft.com",
+    "fromName": "Microsoft Teams",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Missed call from The Resources Team",
+    "body": "You missed a call.\n\nLyndon Fagan tried to call you at 10:43.\n\n\n--\nThis message was sent from a notification-only address that cannot accept incoming email.\nPlease do not reply to this message.",
+    "timestamp": 1682634180000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-teams"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "72411432-1be3-4a3b-8f12-6f641213620e",
+    "from": "facilities@101collins.com.au",
+    "fromName": "101 Collins Facilities",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Air Conditioning Maintenance Tonight",
+    "body": "Please be advised that essential AHU maintenance will be performed after 7:00 PM tonight on Level 31. Some noise disruption may occur.\n\nApologies for any inconvenience.\n\n--\n101 Collins Facilities Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000",
+    "timestamp": 1682635380000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-facilities"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "0f6e80a8-c0b5-4e30-843b-092e5dd8edfc",
+    "from": "no-reply@teams.microsoft.com",
+    "fromName": "Microsoft Teams",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Reminder: \"Q3 Performance Review\" starts in 15 minutes",
+    "body": "This is a reminder for your upcoming meeting.\n\n--\nThis message was sent from a notification-only address that cannot accept incoming email.\nPlease do not reply to this message.",
+    "timestamp": 1682638380000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-teams"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "0334b64d-da09-4c0b-b9af-1b5cc8dcefbd",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of BHP model",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the BHP model. Could you take a look?\n\nCheers,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682639100000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "79203aa6-0820-4ed1-9aee-babed1d30bc6",
+    "from": "no-reply@teams.microsoft.com",
+    "fromName": "Microsoft Teams",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Missed call from Hannah Pham",
+    "body": "You missed a call.\n\nAl Harvey tried to call you at 13:58.\n\n\n--\nThis message was sent from a notification-only address that cannot accept incoming email.\nPlease do not reply to this message.",
+    "timestamp": 1682639760000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-teams"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "eb304368-7cdb-442e-97f2-c2b39c7b7004",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Homenick, Dibbert and Collier needs a final sign-off. \n\nThanks,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4449290 349\n",
+    "timestamp": 1682640240000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "240e2ce5-f56d-4375-a81c-7bc3f7a8f7ea",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: FMG - unusual options activity",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: RIO AX Equity\nEvent: unusual options activity detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682641380000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "ea1df495-5421-45a0-9fbf-5d40da880735",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: RIO - analyst rating changes",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: RIO AX Equity\nEvent: analyst rating changes detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682641620000,
+    "isRead": true,
+    "isStarred": true,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "85c68281-1047-411f-9c81-932429965b46",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of BHP model",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the BHP model. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682641860000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "edc6ba5a-3916-492c-95f5-47016b976d4a",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Ankunding LLC needs a final sign-off. \n\nThanks,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4449290 349\n",
+    "timestamp": 1682645040000,
+    "isRead": true,
+    "isStarred": true,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "ae254daf-cec6-458c-956c-cd94396780f1",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of NPF report",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the NPF report. Could you take a look?\n\nCheers,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4449290 349\n",
+    "timestamp": 1682646420000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "1764e3e2-67f4-48f7-9411-cdd44c851f64",
+    "from": "facilities@101collins.com.au",
+    "fromName": "101 Collins Facilities",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Air Conditioning Maintenance Tonight",
+    "body": "Please be advised that essential AHU maintenance will be performed after 7:00 PM tonight on Level 31. Some noise disruption may occur.\n\nApologies for any inconvenience.\n\n--\n101 Collins Facilities Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000",
+    "timestamp": 1682646960000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-facilities"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "0f8012fa-86f1-47f5-b0d4-2617ce89a001",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of lithium sector deep dive",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the lithium sector deep dive. Could you take a look?\n\nCheers,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682648520000,
+    "isRead": false,
+    "isStarred": true,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "47994961-00f7-4aa3-826a-23c76a5a5302",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: BHP - analyst rating changes",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: RIO AX Equity\nEvent: analyst rating changes detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682651220000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "fe8d1c23-3e03-4e76-98dc-95b72c55285c",
+    "from": "no-reply@teams.microsoft.com",
+    "fromName": "Microsoft Teams",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Missed call from The Resources Team",
+    "body": "You missed a call.\n\nAl Harvey tried to call you at 11:27.\n\n\n--\nThis message was sent from a notification-only address that cannot accept incoming email.\nPlease do not reply to this message.",
+    "timestamp": 1682652060000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-teams"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "6d223caf-d605-4444-93d9-ac900c84f9e4",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Rohan LLC needs a final sign-off. \n\nThanks,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4449290 349\n",
+    "timestamp": 1682658780000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Apr_23.pdf",
+        "size": 982617
+      }
+    ]
+  },
+  {
+    "id": "07bfb6e3-dac7-4967-903e-68f15d5c9591",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: RIO - analyst rating changes",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: RIO AX Equity\nEvent: unusual options activity detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682660880000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "18c852e5-0b4c-4338-bcd6-5590e64cb013",
+    "from": "facilities@101collins.com.au",
+    "fromName": "101 Collins Facilities",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Air Conditioning Maintenance Tonight",
+    "body": "Please be advised that essential AHU maintenance will be performed after 7:00 PM tonight on Level 31. Some noise disruption may occur.\n\nApologies for any inconvenience.\n\n--\n101 Collins Facilities Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000",
+    "timestamp": 1682661660000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-facilities"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Apr_23.pdf",
+        "size": 1341602
+      }
+    ]
+  },
+  {
+    "id": "5446009a-5304-453f-934e-4004e6e316c0",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of NPF report",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the NPF report. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682662200000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "7fde56aa-944b-4f1c-b612-95f62ee61dbb",
+    "from": "no-reply@teams.microsoft.com",
+    "fromName": "Microsoft Teams",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Reminder: \"Q3 Performance Review\" starts in 15 minutes",
+    "body": "This is a reminder for your upcoming meeting.\n\n--\nThis message was sent from a notification-only address that cannot accept incoming email.\nPlease do not reply to this message.",
+    "timestamp": 1682665920000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-teams"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "a06fb432-5817-4af4-a3c4-b9cf70319c8b",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Veum, Block and Bartell needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682672100000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Apr_23.pdf",
+        "size": 1331889
+      }
+    ]
+  },
+  {
+    "id": "7dda1294-ef71-4e86-8126-c215c25011f4",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Boyer - Wisoky needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682673780000,
+    "isRead": false,
+    "isStarred": true,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "301ae74b-a7f3-449a-8326-6d83cc0b52a1",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of NPF report",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the NPF report. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682674020000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "187940db-4c43-44de-9acc-8b2322a37325",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of QBE presentation",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the QBE presentation. Could you take a look?\n\nCheers,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682726280000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "d44e1a3a-8499-4234-909c-847a4bc5dbc6",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Kautzer - Kuhlman needs a final sign-off. \n\nThanks,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4449290 349\n",
+    "timestamp": 1682730780000,
+    "isRead": true,
+    "isStarred": true,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "9e58395e-2c30-46d3-b4af-6ba40e217045",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of BHP model",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the BHP model. Could you take a look?\n\nCheers,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4449290 349\n",
+    "timestamp": 1682741760000,
+    "isRead": false,
+    "isStarred": true,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "30d4b1a2-5fd0-49f2-b8bc-69904eb8e75a",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Lind - Raynor needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682743200000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "434a885b-982d-444a-9da9-fe16587d354b",
+    "from": "facilities@101collins.com.au",
+    "fromName": "101 Collins Facilities",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Building Update: Fire Drill Scheduled",
+    "body": "Dear Occupants of Level 31, 101 Collins Street,\n\nA scheduled fire drill will be conducted this Wednesday morning between 10:00 AM - 11:00 AM. Please follow warden instructions.\n\nRegards,\nFacilities Team\n\n--\n101 Collins Facilities Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000",
+    "timestamp": 1682745240000,
+    "isRead": true,
+    "isStarred": true,
+    "labels": [
+      "external-facilities"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Apr_23.pdf",
+        "size": 1037780
+      }
+    ]
+  },
+  {
+    "id": "3ed8b9c9-83e1-4f1a-ac64-6a5b58709011",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Powlowski, MacGyver and Wisoky needs a final sign-off. \n\nThanks,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682814300000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "fa063d5e-c199-4f24-934f-d650b7b6fd25",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: FMG - analyst rating changes",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: BHP AX Equity\nEvent: unusual options activity detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682815260000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Apr_23.pdf",
+        "size": 1482030
+      }
+    ]
+  },
+  {
+    "id": "975bbe4b-2a50-4e3d-966a-a4ac8f13387e",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: FMG - analyst rating changes",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: FMG AX Equity\nEvent: analyst rating changes detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682815620000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "680bf00a-b7a5-4f72-92e1-7a5ecdce20b6",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of QBE presentation",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the QBE presentation. Could you take a look?\n\nCheers,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4449290 349\n",
+    "timestamp": 1682828940000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "3a4ec9b2-7336-4ce7-80cc-912b7d672fdb",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: FMG - unusual options activity",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: BHP AX Equity\nEvent: analyst rating changes detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682832120000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "5f115bc6-6d7f-4ff2-adf3-4b0359a9fa47",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of NPF report",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the NPF report. Could you take a look?\n\nCheers,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4449290 349\n",
+    "timestamp": 1682832540000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  }
+]

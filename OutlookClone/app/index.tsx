@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useEffect, useMemo, useRef, useState } from "react"
 import { View, Text, ScrollView, TouchableOpacity, StyleSheet, SafeAreaView, StatusBar } from "react-native"
 import { Home, Bell, Search, Filter, Mail, Calendar, FileText, Grid3X3 } from "lucide-react-native"
 import Svg, { Path, LinearGradient, Defs, Stop, Rect } from 'react-native-svg'
@@ -12,24 +12,14 @@ interface Email {
   subject: string
   preview: string
   timestamp: string
+  timestampMs: number
   avatar: string
   isUnread: boolean
   avatarColor: string
   body?: string
 }
 
-// Load test dataset generated in assets/data
-// Use require to avoid TS JSON module config
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const rawTestData = require('../assets/data/test_data_april_2023_week.json') as Array<{
-  id: string
-  from: string
-  fromName: string
-  subject: string
-  body: string
-  timestamp: number
-  isRead: boolean
-}>
+import { getAvailableMonths, loadMonth, type RawEmail } from "../utils/dataLoader"
 
 const palette = ['#22c55e', '#ec4899', '#f59e0b', '#06b6d4', '#a78bfa']
 const colorFor = (name: string) => {
@@ -49,24 +39,7 @@ const formatDetailTime = (ms: number) => {
   return `${pad2(d.getHours())}:${pad2(d.getMinutes())}`
 }
 
-const emails: Email[] = rawTestData
-  .slice()
-  .sort((a, b) => b.timestamp - a.timestamp)
-  .map((e) => {
-    const preview = e.body.replace(/\s+/g, ' ').trim().slice(0, 90)
-    const initials = (e.fromName || '?').split(' ').map((p) => p[0]).join('').slice(0, 2).toUpperCase()
-    return {
-      id: e.id,
-      sender: e.fromName,
-      subject: e.subject,
-      preview: preview,
-      timestamp: formatListTimestamp(e.timestamp),
-      avatar: initials,
-      isUnread: !e.isRead,
-      avatarColor: colorFor(e.fromName || 'Sender'),
-  body: e.body,
-    }
-  })
+const PAGE_SIZE = 200
 
 const Avatar = ({ children, backgroundColor }: { children: string; backgroundColor: string }) => (
   <View style={[styles.avatar, { backgroundColor }]}>
@@ -78,6 +51,86 @@ export default function OutlookMobile() {
   const [activeTab, setActiveTab] = useState("Focused")
   const [activeBottomTab, setActiveBottomTab] = useState("Email")
   const router = useRouter()
+  const allMonths = useMemo(() => {
+    // Sort months descending by year, then month number (from prefix MM_)
+    const list = getAvailableMonths()
+    const withNum = list.map(m => ({ ...m, ym: parseInt(`${m.year}${(m.monthKey.split('_')[0] || '00')}`, 10) }))
+    withNum.sort((a, b) => b.ym - a.ym)
+    return withNum.map(({ year, monthKey }) => ({ year, monthKey }))
+  }, [])
+
+  const monthCacheRef = useRef<Record<string, RawEmail[]>>({})
+  const [monthPos, setMonthPos] = useState(0) // index in allMonths (descending)
+  const [monthOffset, setMonthOffset] = useState(0) // how many consumed from current month (descending)
+  const [emails, setEmails] = useState<Email[]>([])
+
+  // Helper to get month data in descending timestamp order, with caching
+  const getMonthDesc = (year: string, monthKey: string): RawEmail[] => {
+    const key = `${year}/${monthKey}`
+    let data = monthCacheRef.current[key]
+    if (!data) {
+      const m = loadMonth(year, monthKey) || []
+      data = m.slice().sort((a, b) => b.timestamp - a.timestamp)
+      monthCacheRef.current[key] = data
+    }
+    return data
+  }
+
+  const loadNextPage = () => {
+    if (monthPos >= allMonths.length) return
+    let added = 0
+    const next: Email[] = []
+    let pos = monthPos
+    let offset = monthOffset
+
+    while (added < PAGE_SIZE && pos < allMonths.length) {
+      const { year, monthKey } = allMonths[pos]
+      const desc = getMonthDesc(year, monthKey)
+      const remaining = desc.length - offset
+      if (remaining <= 0) {
+        pos += 1
+        offset = 0
+        continue
+      }
+      const take = Math.min(PAGE_SIZE - added, remaining)
+      const slice = desc.slice(offset, offset + take)
+      for (const e of slice) {
+        const preview = e.body.replace(/\s+/g, ' ').trim().slice(0, 90)
+        const initials = (e.fromName || '?').split(' ').map((p) => p[0]).join('').slice(0, 2).toUpperCase()
+        next.push({
+          id: e.id,
+          sender: e.fromName,
+          subject: e.subject,
+          preview,
+          timestamp: formatListTimestamp(e.timestamp),
+          timestampMs: e.timestamp,
+          avatar: initials,
+          isUnread: !e.isRead,
+          avatarColor: colorFor(e.fromName || 'Sender'),
+          body: e.body,
+        })
+      }
+      added += take
+      offset += take
+      if (offset >= desc.length) {
+        pos += 1
+        offset = 0
+      }
+    }
+
+    if (next.length > 0) {
+      setEmails(prev => [...prev, ...next])
+      setMonthPos(pos)
+      setMonthOffset(offset)
+    }
+  }
+
+  useEffect(() => {
+    if (emails.length === 0 && allMonths.length > 0) {
+      loadNextPage()
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [allMonths.length])
 
   return (
     <SafeAreaView style={styles.container}>
@@ -96,6 +149,8 @@ export default function OutlookMobile() {
           <Search size={24} color="#ffffff" />
         </View>
       </View>
+
+  {/* Removed Month Selector per design */}
 
       {/* Tab Navigation */}
       <View style={styles.tabNavigation}>
@@ -163,7 +218,7 @@ export default function OutlookMobile() {
                     sender: email.sender,
                     initials: email.avatar,
                     avatarColor: email.avatarColor,
-        time: formatDetailTime((rawTestData as any[]).find((e) => e.id === email.id)?.timestamp || Date.now()),
+        time: formatDetailTime(email.timestampMs || Date.now()),
         body: email.body || '',
                   },
                 })
@@ -207,7 +262,7 @@ export default function OutlookMobile() {
                     sender: email.sender,
                     initials: email.avatar,
                     avatarColor: email.avatarColor,
-        time: formatDetailTime((rawTestData as any[]).find((e) => e.id === email.id)?.timestamp || Date.now()),
+        time: formatDetailTime(email.timestampMs || Date.now()),
         body: email.body || '',
                   },
                 })
@@ -230,6 +285,14 @@ export default function OutlookMobile() {
             </TouchableOpacity>
           ))}
         </View>
+        {/* Load more */}
+        { (monthPos < allMonths.length || monthOffset > 0) && (
+          <View style={{ padding: 16, alignItems: 'center' }}>
+            <TouchableOpacity onPress={loadNextPage} style={{ paddingVertical: 10, paddingHorizontal: 16, borderRadius: 20, backgroundColor: '#111827' }}>
+              <Text style={{ color: '#60a5fa', fontWeight: '600' }}>Load more conversations</Text>
+            </TouchableOpacity>
+          </View>
+        )}
       </ScrollView>
 
       {/* Floating New Email Widget (SVG gradient) */}
@@ -348,6 +411,29 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     gap: 16,
+  },
+  monthSelector: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: 16,
+    paddingVertical: 10,
+    backgroundColor: '#111827',
+    borderBottomWidth: StyleSheet.hairlineWidth,
+    borderBottomColor: '#1f2937',
+    columnGap: 8,
+  },
+  monthArrow: {
+    padding: 6,
+    borderRadius: 999,
+  },
+  monthLabel: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: '500',
+    textTransform: 'capitalize',
+    flex: 1,
+    textAlign: 'center',
   },
   tabNavigation: {
     flexDirection: "row",

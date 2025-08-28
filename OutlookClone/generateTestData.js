@@ -144,7 +144,8 @@ const templateStores = {
       };
     },
     (from, to, currentDate) => {
-      const meetingTitles = ['Q3 Performance Review', 'BHP Deep Dive', 'Client XYZ Investment Committee', 'Weekly Team Sync'];
+      const knownClients = ['Club Plus', 'TWUSUPER', 'QBE', 'NPF', 'Sunsuper', 'Future Fund', 'AMP Capital'];
+      const meetingTitles = ['Q3 Performance Review', 'BHP Deep Dive', `${faker.helpers.arrayElement(knownClients)} Investment Committee`, 'Weekly Team Sync'];
       return {
         subject: `Reminder: "${faker.helpers.arrayElement(meetingTitles)}" starts in 15 minutes`,
         body: `This is a reminder for your upcoming meeting.\n\n--\nMicrosoft Teams for J.P. Morgan\nThis is an automated message.`
