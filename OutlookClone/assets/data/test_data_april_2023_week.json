@@ -1,0 +1,1822 @@
+[
+  {
+    "id": "24c07125-0fb7-4976-8e9f-4728825c9579",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Roberts - Spencer needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682289540000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "2620985a-3253-481c-a3ff-fc750a948b85",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: RIO - unusual options activity",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: RIO AX Equity\nEvent: analyst rating changes detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682289600000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "6796dbfc-12f3-45fd-85bd-56ddf9dd2018",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Friesen LLC needs a final sign-off. \n\nThanks,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682292060000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "58aefc83-e3b1-410c-a883-88be96ec0469",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of QBE presentation",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the QBE presentation. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682295300000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "a9c71d3a-9eb0-4b29-9007-e6260475f436",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Rogahn and Sons needs a final sign-off. \n\nThanks,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4139983 904\n",
+    "timestamp": 1682297520000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "aa2bd8c2-8a85-47c1-b270-4a07a1a59ed1",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of QBE presentation",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the QBE presentation. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682298240000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "a559d7d9-2bdb-4673-be61-400c13e07f64",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of BHP model",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the BHP model. Could you take a look?\n\nCheers,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4139983 904\n",
+    "timestamp": 1682299140000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "a9808b34-b8fc-4c94-b3c8-b24a6cb1c362",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of NPF report",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the NPF report. Could you take a look?\n\nCheers,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4139983 904\n",
+    "timestamp": 1682299800000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "8098de3e-f81e-4171-8235-098afd7a3ad6",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: FMG - unusual options activity",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: BHP AX Equity\nEvent: analyst rating changes detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682300160000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "70256733-ec63-481c-bdde-258b4f7ce55a",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Walker - Tromp needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682305380000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "07290aa4-6bca-49ba-acc7-5d40c2de6e78",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: FMG - analyst rating changes",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: BHP AX Equity\nEvent: analyst rating changes detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682308860000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Apr_23.pdf",
+        "size": 603849
+      }
+    ]
+  },
+  {
+    "id": "4e48124e-1917-432c-a793-4a4983d154e6",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of BHP model",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the BHP model. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682314140000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "7437d217-0aa7-4894-a06b-f3d785b12483",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Mueller - Walsh needs a final sign-off. \n\nThanks,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682317800000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "baeff9b1-3902-4e02-9f6c-268d84a8ed84",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of NPF report",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the NPF report. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682319180000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "6df0aa46-330e-408e-8c42-a187fcc22db2",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: BHP - analyst rating changes",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: RIO AX Equity\nEvent: analyst rating changes detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682324340000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "81685841-4566-447c-a5a1-cf1ec8dd548a",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of NPF report",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the NPF report. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682327940000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "003dbc24-96da-4bad-9ef7-23f7dedb996f",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Koch, Stiedemann and Becker needs a final sign-off. \n\nThanks,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682374080000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "d6bff017-1c36-472e-a981-04399395aa58",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Hilll, Kuhn and Kautzer needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682376000000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "4d660807-0f56-4362-8611-d52c074d00fe",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: FMG - analyst rating changes",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: BHP AX Equity\nEvent: analyst rating changes detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682376120000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "37fcda65-e992-4edd-a465-fe7851c00786",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Kuvalis and Sons needs a final sign-off. \n\nThanks,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4139983 904\n",
+    "timestamp": 1682378940000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "3dc8af39-c5ad-469e-8d19-5a912646afd4",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Marquardt LLC needs a final sign-off. \n\nThanks,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4139983 904\n",
+    "timestamp": 1682381760000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "34c12d6a-fbfa-401e-8b5d-927f48e5624c",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Johnston - Barrows needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682385120000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "c49534ce-7cd3-4575-a703-5bd1ce1d1cef",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: BHP - analyst rating changes",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: FMG AX Equity\nEvent: analyst rating changes detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682393820000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "74f1de8b-2a4e-4fe8-aa75-05c8d485ec96",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of lithium sector deep dive",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the lithium sector deep dive. Could you take a look?\n\nCheers,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682394060000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "23a67f7b-9f30-476b-8291-d2052dd1b5c8",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: RIO - unusual options activity",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: RIO AX Equity\nEvent: unusual options activity detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682394780000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "72d23d65-b2bc-4be2-99e0-33e18fa59ea8",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: FMG - analyst rating changes",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: RIO AX Equity\nEvent: unusual options activity detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682396040000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "659c974a-8e24-4eb0-8a30-6f6ca13f614c",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Ferry and Sons needs a final sign-off. \n\nThanks,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4139983 904\n",
+    "timestamp": 1682397120000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "d6da1690-58ef-45b8-9371-ab63eb33fea2",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of lithium sector deep dive",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the lithium sector deep dive. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682397240000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "9e10a31a-301f-4a98-95f2-7770a5bcc0ec",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Krajcik - Rutherford needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682398680000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "b6a44221-4ef8-4182-adf3-18984c64a56b",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of lithium sector deep dive",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the lithium sector deep dive. Could you take a look?\n\nCheers,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682406960000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "4def1657-a034-49ee-a962-572c4f641dc4",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Waters - Rosenbaum needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682407680000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "3b6fd64e-338a-4f4d-891f-f15b2172686a",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: BHP - analyst rating changes",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: RIO AX Equity\nEvent: analyst rating changes detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682408460000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "9cb3d6b7-f370-4ac9-b5ee-970d23eab8a7",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Barton, Reynolds and Kovacek needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682409960000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Apr_23.pdf",
+        "size": 1206407
+      }
+    ]
+  },
+  {
+    "id": "d6af0861-bfdd-4e3e-a680-a99366868c9b",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of QBE presentation",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the QBE presentation. Could you take a look?\n\nCheers,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4139983 904\n",
+    "timestamp": 1682413260000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "52944eae-96c5-4d2b-9813-1fd40759a659",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of QBE presentation",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the QBE presentation. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682416680000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "cd490b07-f017-42f3-99b9-25966dac0887",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Legros LLC needs a final sign-off. \n\nThanks,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4139983 904\n",
+    "timestamp": 1682417400000,
+    "isRead": false,
+    "isStarred": true,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "bd126331-7a6c-4849-9476-641b6bf0077f",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of NPF report",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the NPF report. Could you take a look?\n\nCheers,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682420460000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "50873a5b-c9ac-4f3c-85b5-69209156d5c0",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Bernhard Group needs a final sign-off. \n\nThanks,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682422020000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Apr_23.pdf",
+        "size": 1589036
+      }
+    ]
+  },
+  {
+    "id": "2d8f9bbd-ecd2-4215-ba42-92ec721fad72",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of lithium sector deep dive",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the lithium sector deep dive. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682423580000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Apr_23.pdf",
+        "size": 1107032
+      }
+    ]
+  },
+  {
+    "id": "1eb16d57-c94a-49a0-a597-385e954364d3",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Tromp - Cummings needs a final sign-off. \n\nThanks,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4139983 904\n",
+    "timestamp": 1682462340000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "99d86793-4d7f-4c6b-8e31-c948ba328be1",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of BHP model",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the BHP model. Could you take a look?\n\nCheers,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4139983 904\n",
+    "timestamp": 1682464080000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "b6acece2-9942-4b82-ba3f-6448c0a031eb",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Keebler, Cremin and Ryan needs a final sign-off. \n\nThanks,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4139983 904\n",
+    "timestamp": 1682468340000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "dd5f776f-24da-4974-b1e9-ecd5647b21a5",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Barrows - Hammes needs a final sign-off. \n\nThanks,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682470740000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "e8bc6054-887d-4aef-a819-66d6289e7ebb",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Padberg - Schneider needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682480040000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "1528247d-e7ce-4d67-bff7-b3a703ca0767",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: FMG - analyst rating changes",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: BHP AX Equity\nEvent: unusual options activity detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682485920000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "db7dec8e-6a60-4193-936c-378a16e56d62",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Frami - Conroy needs a final sign-off. \n\nThanks,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4139983 904\n",
+    "timestamp": 1682490120000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "640775e4-d7cf-491d-ac26-12fc9dd346cc",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Metz, Mitchell and Murazik needs a final sign-off. \n\nThanks,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682491080000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "94294b69-1b8b-45df-acc5-0d50dc842bc1",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that D'Amore Inc needs a final sign-off. \n\nThanks,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4139983 904\n",
+    "timestamp": 1682491500000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "cf50b6f9-0165-41f9-a8c9-e2ae1a8ca6eb",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of QBE presentation",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the QBE presentation. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682494920000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "b4c45561-24dd-4eeb-b0c1-ebb7af8cbc8c",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of NPF report",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the NPF report. Could you take a look?\n\nCheers,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682496180000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "20d88a3a-4fde-4e1d-bd69-ed6f68162e15",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Erdman, Watsica and Simonis needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682498100000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "f959ca13-1102-458a-8088-c33275952358",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: RIO - analyst rating changes",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: FMG AX Equity\nEvent: unusual options activity detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682501160000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Apr_23.pdf",
+        "size": 1805212
+      }
+    ]
+  },
+  {
+    "id": "540092c9-6c8d-48c3-a83a-d8e7a79c261f",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: RIO - unusual options activity",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: BHP AX Equity\nEvent: analyst rating changes detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682501400000,
+    "isRead": true,
+    "isStarred": true,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "b347e62a-39dd-4d76-a43e-5238782c1042",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of lithium sector deep dive",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the lithium sector deep dive. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682506380000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "98f143c2-6bc7-4823-8098-b554b5ecb3ad",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of lithium sector deep dive",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the lithium sector deep dive. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682507100000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "f2a66f32-345c-43f8-9511-cbc2a2c1bfcc",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: FMG - analyst rating changes",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: BHP AX Equity\nEvent: unusual options activity detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682509620000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Apr_23.pdf",
+        "size": 920191
+      }
+    ]
+  },
+  {
+    "id": "5994d1de-1425-4d4c-9a06-3cadb223c0bd",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of BHP model",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the BHP model. Could you take a look?\n\nCheers,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682546400000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "153c46b9-f6c4-4f11-a766-65b2c85ea3bd",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Ward and Sons needs a final sign-off. \n\nThanks,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4139983 904\n",
+    "timestamp": 1682549520000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "d5120315-f0d4-4f36-8230-4bec3a399c79",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Pfeffer, Keeling and Spinka needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682552640000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "530f09d1-f25b-4324-88e5-391b28d7a030",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: RIO - unusual options activity",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: RIO AX Equity\nEvent: unusual options activity detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682554560000,
+    "isRead": false,
+    "isStarred": true,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "4781ea07-52fd-4cf9-967f-986fcc510c6f",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: RIO - unusual options activity",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: BHP AX Equity\nEvent: analyst rating changes detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682555880000,
+    "isRead": false,
+    "isStarred": true,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "e075b224-4075-4c95-a0e1-b8af1fce4d13",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: RIO - unusual options activity",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: RIO AX Equity\nEvent: unusual options activity detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682556540000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "af881a0c-697a-48b3-a6ae-07a3187ec58e",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Flatley - Schuster needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682559180000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "7e5fb2f5-f3b4-4aaa-824b-d500a8f4ee0e",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of NPF report",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the NPF report. Could you take a look?\n\nCheers,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682559840000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "b757fb12-a362-4967-956e-f98d058c1e73",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: RIO - analyst rating changes",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: BHP AX Equity\nEvent: unusual options activity detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682566980000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "e11d1aed-1c2e-42e3-b0e8-42d3e5a1d859",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Oberbrunner and Sons needs a final sign-off. \n\nThanks,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682569080000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "c9913f51-c607-49dd-82a8-bfd9a62427cc",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: RIO - analyst rating changes",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: FMG AX Equity\nEvent: analyst rating changes detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682572260000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "c02f7dd8-98d6-4cc4-b058-92c2fecd770a",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: FMG - analyst rating changes",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: FMG AX Equity\nEvent: analyst rating changes detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682573880000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "25646f12-c9b0-4cc6-91ba-927fc4785908",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of NPF report",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the NPF report. Could you take a look?\n\nCheers,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682575020000,
+    "isRead": false,
+    "isStarred": true,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "73fb053b-49e7-441e-9312-adfba57925a0",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Lockman - Altenwerth needs a final sign-off. \n\nThanks,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4139983 904\n",
+    "timestamp": 1682575200000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "f0b0081a-0e60-4753-a3c9-6ece3f037c30",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: FMG - unusual options activity",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: BHP AX Equity\nEvent: unusual options activity detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682575620000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "cc99442d-b918-4214-8aed-a6156006faf4",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Wunsch Inc needs a final sign-off. \n\nThanks,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4139983 904\n",
+    "timestamp": 1682576400000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "19b0691c-f52a-4d13-8e33-4bd262dbc1d1",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of lithium sector deep dive",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the lithium sector deep dive. Could you take a look?\n\nCheers,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682578320000,
+    "isRead": true,
+    "isStarred": true,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "24b2500e-6e23-407a-b39a-26f6d3a8ce0b",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of BHP model",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the BHP model. Could you take a look?\n\nCheers,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682581740000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "99c6e6a9-93bd-443d-b9d1-5f31406818c8",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Rutherford LLC needs a final sign-off. \n\nThanks,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682587260000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "a5ae05a6-e3c4-4231-b93c-58274039d2ae",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of lithium sector deep dive",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the lithium sector deep dive. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682588220000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "3647cba0-4ccd-44df-a207-ad2513af19e4",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Conroy, Collins and Kunze needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682589000000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "5eee508d-0d81-4c7a-8f53-4d391fa05d71",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: BHP - analyst rating changes",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: FMG AX Equity\nEvent: unusual options activity detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682589420000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "9efcc0be-f28d-45bd-8a7e-32ffbaa2f152",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Lehner - Leuschke needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682590920000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "2d406c0b-3ef4-455c-99ce-35b809416b3d",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Leuschke - Bayer needs a final sign-off. \n\nThanks,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682594400000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "02713ffb-c647-414b-b6ce-32861bf3bc26",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: BHP - unusual options activity",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: BHP AX Equity\nEvent: unusual options activity detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682596560000,
+    "isRead": false,
+    "isStarred": true,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Apr_23.pdf",
+        "size": 1438530
+      }
+    ]
+  },
+  {
+    "id": "cf6c9ec6-e333-42c9-a11d-16f4818ba805",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Kovacek - Mayert needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682633100000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "5364af45-3590-4a53-8db8-17b49a65190a",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of BHP model",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the BHP model. Could you take a look?\n\nCheers,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682634180000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "57553d57-ea3e-48b8-bbac-5325b277729c",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Jaskolski and Sons needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682635740000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "206bbcc9-ccfd-4acb-91de-552679710f93",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: BHP - analyst rating changes",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: RIO AX Equity\nEvent: analyst rating changes detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682635920000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "940b4b28-266c-4f23-91b9-3b4a12610a07",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Rowe - Bauch needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682637240000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "674956f7-eb81-4201-ae58-a219a6bab73f",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Mann Group needs a final sign-off. \n\nThanks,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682642400000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "97a99a04-2ebb-4038-abe1-1c21d644d247",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Zulauf - Bednar needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682643360000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "c221492b-91f9-4d22-aeb5-f456ba1fc580",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Sipes and Sons needs a final sign-off. \n\nThanks,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4139983 904\n",
+    "timestamp": 1682646360000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "2da19377-4b2e-4777-9945-0241bb1c6312",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Zulauf - Gutkowski needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682649600000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "fb9c3bf6-722f-45e6-b7da-7a7fd943eeed",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of NPF report",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the NPF report. Could you take a look?\n\nCheers,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682655420000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "aebd7ba4-88da-46e5-a869-e0c3ab085a11",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of NPF report",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the NPF report. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682661060000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Apr_23.pdf",
+        "size": 613813
+      }
+    ]
+  },
+  {
+    "id": "6ff32035-0a46-4d2b-99d6-596a6c5d58a9",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: RIO - analyst rating changes",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: RIO AX Equity\nEvent: analyst rating changes detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682664480000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "e49b2991-3855-448f-84d4-d72649119421",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Weimann, Conroy and Stroman needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682667840000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "c0426a9f-1c2e-4e34-8f5e-5651f7a7b6a6",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Torphy - Hodkiewicz needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682668440000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "7982f1bc-58d9-43a5-afce-d53d1b1350d1",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: RIO - analyst rating changes",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: FMG AX Equity\nEvent: analyst rating changes detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682670120000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "2a623d2d-5fb6-47f5-9e0e-e10d2c04423a",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: RIO - analyst rating changes",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: BHP AX Equity\nEvent: unusual options activity detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682672640000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "601063d0-2b72-40a8-812a-411f8467d1c2",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of QBE presentation",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the QBE presentation. Could you take a look?\n\nCheers,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4139983 904\n",
+    "timestamp": 1682677740000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "865eb77f-4f87-4bb1-a7c0-ef9f65641a46",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of QBE presentation",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the QBE presentation. Could you take a look?\n\nCheers,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682678820000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "84bcc074-58e7-47be-b0f6-3f9f1397bc08",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of QBE presentation",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the QBE presentation. Could you take a look?\n\nCheers,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4139983 904\n",
+    "timestamp": 1682679120000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "20a3b437-297d-4875-a1d1-f97a56649945",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Mann LLC needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682680320000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "15a776d2-c6e5-4a99-9c41-26909081427c",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Bauch, Hoppe and Wolf needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682680860000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "00dabe25-a99a-4b0f-ad8d-ad824b758d88",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of QBE presentation",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the QBE presentation. Could you take a look?\n\nCheers,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682683020000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "fdca9037-0211-4503-b021-24ab972e4fc8",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Rice - Haley needs a final sign-off. \n\nThanks,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682745420000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "d2f45e56-7120-47e1-a1cb-d4923a8d74fb",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Koepp, Jakubowski and Luettgen needs a final sign-off. \n\nThanks,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4139983 904\n",
+    "timestamp": 1682746500000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "1a6fc9c3-c795-4cad-a16b-dc480f23b580",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of BHP model",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the BHP model. Could you take a look?\n\nCheers,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682748360000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "618c1401-f89f-4fd6-9b72-8a2a6a6db530",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of BHP model",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the BHP model. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682748480000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "6fcf258b-0beb-4f1d-bc39-84ad2ae19432",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Dickinson, Krajcik and Harber needs a final sign-off. \n\nThanks,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1682753640000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "ce18c297-b589-4fbd-941b-a29d085c1271",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of QBE presentation",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the QBE presentation. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682806080000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "bf4aa06a-ab30-4841-a965-b99a9557270b",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: FMG - analyst rating changes",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: RIO AX Equity\nEvent: unusual options activity detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682808000000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "cf2f1a76-7d7f-42b1-bbbd-2242304d3c72",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Thomas,\n\nQuick reminder that Cartwright - D'Amore needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682808900000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "149905dd-5efa-4976-a5af-041b6064bfc0",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: RIO - unusual options activity",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: BHP AX Equity\nEvent: analyst rating changes detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682814720000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "73cc79a6-0fd6-4aa1-a46b-1c4152bbab59",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: BHP - unusual options activity",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: FMG AX Equity\nEvent: analyst rating changes detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682815920000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "da59ca76-2287-435a-af2b-9bdd1c1f9626",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: RIO - unusual options activity",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: FMG AX Equity\nEvent: analyst rating changes detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682816520000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "4a39a8d2-3414-49d4-bbfd-b2705ec7612d",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of BHP model",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the BHP model. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682823420000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Apr_23.pdf",
+        "size": 1410539
+      }
+    ]
+  },
+  {
+    "id": "cd175499-90ec-4481-ac63-10453bd36691",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of lithium sector deep dive",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the lithium sector deep dive. Could you take a look?\n\nCheers,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4139983 904\n",
+    "timestamp": 1682824620000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "24033263-a61e-4255-83c8-2149a7afdebb",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of QBE presentation",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the QBE presentation. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1682827680000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Apr_23.pdf",
+        "size": 1754103
+      }
+    ]
+  },
+  {
+    "id": "3da6735e-cde8-48d2-8e4f-c85507b23143",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: BHP - unusual options activity",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: BHP AX Equity\nEvent: unusual options activity detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1682830440000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  }
+]
