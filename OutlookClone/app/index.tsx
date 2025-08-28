@@ -17,68 +17,54 @@ interface Email {
   avatarColor: string
 }
 
-const emails: Email[] = [
-  {
-    id: "1",
-    sender: "Microsoft",
-    subject: "Updates to our terms of use",
-    preview: "Hello, You're receiving this email because we are updating the Microsoft Services Agreement, whi...",
-    timestamp: "Friday",
-    avatar: "M",
-    isUnread: true,
-    avatarColor: "#22c55e",
-  },
-  {
-    id: "2",
-    sender: "GitHub",
-    subject: "[GitHub] A third-party OAuth application has be...",
-    preview: "Hey tomtom10233! A third-party OAuth application (Brandfetch Developers) with read:u...",
-    timestamp: "Friday",
-    avatar: "G",
-    isUnread: true,
-    avatarColor: "#ec4899",
-  },
-  {
-    id: "3",
-    sender: "GitHub",
-    subject: "[GitHub] A fine-grained personal access token h...",
-    preview: "@tomtom10233, a personal access token was created on your account. Hey tomtom10233! A fi...",
-    timestamp: "15/8/2025",
-    avatar: "G",
-    isUnread: false,
-    avatarColor: "#ec4899",
-  },
-  {
-    id: "4",
-    sender: "GitHub",
-    subject: "[GitHub] A third-party GitHub Application has be...",
-    preview: "Hey tomtom10233! A third-party GitHub Application (Replit) with the following permission...",
-    timestamp: "15/8/2025",
-    avatar: "G",
-    isUnread: true,
-    avatarColor: "#ec4899",
-  },
-  {
-    id: "5",
-    sender: "GitHub",
-    subject: "GitHub Copilot: What's in your free plan 🤖",
-    preview: "How to get started with GitHub Copilot. Welcome to GitHub Copilot. He...",
-    timestamp: "15/8/2025",
-    avatar: "G",
-    isUnread: true,
-    avatarColor: "#ec4899",
-  },
-  {
-    id: "6",
-    sender: "GitHub",
-    subject: "GitHub Copilot: What's in your free plan 🤖",
-    preview: "How to get started with GitHub Copilot. Welcome to GitHub Copilot. He...",
-    timestamp: "15/8/2025",
-    avatar: "G",
-    isUnread: false,
-    avatarColor: "#ec4899",
-  },
-]
+// Load test dataset generated in assets/data
+// Use require to avoid TS JSON module config
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const rawTestData = require('../assets/data/test_data_april_2023_week.json') as Array<{
+  id: string
+  from: string
+  fromName: string
+  subject: string
+  body: string
+  timestamp: number
+  isRead: boolean
+}>
+
+const palette = ['#22c55e', '#ec4899', '#f59e0b', '#06b6d4', '#a78bfa']
+const colorFor = (name: string) => {
+  let h = 0
+  for (let i = 0; i < name.length; i++) h = (h * 31 + name.charCodeAt(i)) >>> 0
+  return palette[h % palette.length]
+}
+
+const pad2 = (n: number) => (n < 10 ? `0${n}` : `${n}`)
+const dayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
+const formatListTimestamp = (ms: number) => {
+  const d = new Date(ms)
+  return dayNames[d.getDay()]
+}
+const formatDetailTime = (ms: number) => {
+  const d = new Date(ms)
+  return `${pad2(d.getHours())}:${pad2(d.getMinutes())}`
+}
+
+const emails: Email[] = rawTestData
+  .slice()
+  .sort((a, b) => b.timestamp - a.timestamp)
+  .map((e) => {
+    const preview = e.body.replace(/\s+/g, ' ').trim().slice(0, 90)
+    const initials = (e.fromName || '?').split(' ').map((p) => p[0]).join('').slice(0, 2).toUpperCase()
+    return {
+      id: e.id,
+      sender: e.fromName,
+      subject: e.subject,
+      preview: preview,
+      timestamp: formatListTimestamp(e.timestamp),
+      avatar: initials,
+      isUnread: !e.isRead,
+      avatarColor: colorFor(e.fromName || 'Sender'),
+    }
+  })
 
 const Avatar = ({ children, backgroundColor }: { children: string; backgroundColor: string }) => (
   <View style={[styles.avatar, { backgroundColor }]}>
@@ -163,7 +149,23 @@ export default function OutlookMobile() {
         {/* Last Week Emails */}
         <View>
           {emails.slice(0, 2).map((email) => (
-            <TouchableOpacity key={email.id} style={styles.emailItem}>
+            <TouchableOpacity
+              key={email.id}
+              style={styles.emailItem}
+      onPress={() =>
+                router.push({
+                  pathname: '/mail/[id]',
+                  params: {
+                    id: email.id,
+                    subject: email.subject,
+                    sender: email.sender,
+                    initials: email.avatar,
+                    avatarColor: email.avatarColor,
+        time: formatDetailTime((rawTestData as any[]).find((e) => e.id === email.id)?.timestamp || Date.now()),
+                  },
+                })
+              }
+            >
               <View style={styles.unreadIndicator}>{email.isUnread && <View style={styles.unreadDot} />}</View>
               <Avatar backgroundColor={email.avatarColor}>{email.avatar}</Avatar>
               <View style={styles.emailContent}>
@@ -190,7 +192,23 @@ export default function OutlookMobile() {
         {/* This Month Emails */}
         <View>
           {emails.slice(2).map((email) => (
-            <TouchableOpacity key={email.id} style={styles.emailItem}>
+            <TouchableOpacity
+              key={email.id}
+              style={styles.emailItem}
+      onPress={() =>
+                router.push({
+                  pathname: '/mail/[id]',
+                  params: {
+                    id: email.id,
+                    subject: email.subject,
+                    sender: email.sender,
+                    initials: email.avatar,
+                    avatarColor: email.avatarColor,
+        time: formatDetailTime((rawTestData as any[]).find((e) => e.id === email.id)?.timestamp || Date.now()),
+                  },
+                })
+              }
+            >
               <View style={styles.unreadIndicator}>{email.isUnread && <View style={styles.unreadDot} />}</View>
               <Avatar backgroundColor={email.avatarColor}>{email.avatar}</Avatar>
               <View style={styles.emailContent}>
