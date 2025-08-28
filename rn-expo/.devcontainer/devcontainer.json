@@ -1,0 +1,7 @@
+{
+  "name": "rn-expo",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bullseye",
+  "forwardPorts": [19000, 19001, 19006, 8081],
+  "postCreateCommand": "corepack enable && npm i -g eas-cli",
+  "features": { "ghcr.io/devcontainers/features/node:1": { "version": "20" } }
+}
