@@ -15,6 +15,7 @@ interface Email {
   avatar: string
   isUnread: boolean
   avatarColor: string
+  body?: string
 }
 
 // Load test dataset generated in assets/data
@@ -63,6 +64,7 @@ const emails: Email[] = rawTestData
       avatar: initials,
       isUnread: !e.isRead,
       avatarColor: colorFor(e.fromName || 'Sender'),
+  body: e.body,
     }
   })
 
@@ -162,6 +164,7 @@ export default function OutlookMobile() {
                     initials: email.avatar,
                     avatarColor: email.avatarColor,
         time: formatDetailTime((rawTestData as any[]).find((e) => e.id === email.id)?.timestamp || Date.now()),
+        body: email.body || '',
                   },
                 })
               }
@@ -205,6 +208,7 @@ export default function OutlookMobile() {
                     initials: email.avatar,
                     avatarColor: email.avatarColor,
         time: formatDetailTime((rawTestData as any[]).find((e) => e.id === email.id)?.timestamp || Date.now()),
+        body: email.body || '',
                   },
                 })
               }

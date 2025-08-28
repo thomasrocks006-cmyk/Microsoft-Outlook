@@ -45,10 +45,56 @@ const senders = [
     role: 'Market Data',
     type: 'external-vendor',
     signature: `--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n`
+  },
+  // New: Morning Brief sender (internal-brief)
+  {
+    name: 'JPMorgan Markets Desk',
+    email: 'jpmorgan.am.brief@jpmorgan.com',
+    role: 'Daily Market Briefing',
+    type: 'internal-brief',
+    signature: `--\nJ.P. Morgan Markets Desk\nThis is an automated daily briefing.`
+  },
+  // New: Microsoft Teams alerts (internal-teams)
+  {
+    name: 'Microsoft Teams',
+    email: 'microsoft.teams@jpmorgan.com',
+    role: 'Notifications',
+    type: 'internal-teams',
+    signature: `--\nMicrosoft Teams for J.P. Morgan\nThis is an automated message.`
+  },
+  // New: Facilities emails (internal-facilities)
+  {
+    name: '101 Collins Facilities Team',
+    email: 'facilities.101collins@jpmorgan.com',
+    role: 'Building Management',
+    type: 'internal-facilities',
+    signature: `--\n101 Collins Facilities Team\nJ.P. Morgan Asset Management`
+  },
+  // New: Executives (internal-allstaff)
+  {
+    name: 'Jamie Dimon',
+    email: 'jamie.dimon@jpmorgan.com',
+    role: 'Chairman and CEO',
+    type: 'internal-allstaff',
+    signature: `--\nJamie Dimon\nChairman and CEO\nJPMorgan Chase & Co.`
+  },
+  {
+    name: 'Elaine Myers',
+    email: 'elaine.myers@jpmorgan.com',
+    role: 'CEO, Asia Pacific',
+    type: 'internal-allstaff',
+    signature: `--\nElaine Myers\nCEO, Asia Pacific\nJPMorgan Chase & Co.`
+  },
+  {
+    name: 'Andrew Creber',
+    email: 'andrew.creber@jpmorgan.com',
+    role: 'CEO Australia & New Zealand',
+    type: 'internal-allstaff',
+    signature: `--\nAndrew Creber\nCEO Australia & New Zealand\nJ.P. Morgan`
   }
 ];
 
-// 4. DEFINE EMAIL TEMPLATES (Same as before)
+// 4. DEFINE EMAIL TEMPLATES (Original + new categories)
 const templateStores = {
   internal: [
     (from, to, currentDate) => {
@@ -75,6 +121,59 @@ const templateStores = {
         body: `This is an automated alert from the Bloomberg Terminal.\n\nSecurity: ${faker.helpers.arrayElement(stocks)} AX Equity\nEvent: ${faker.helpers.arrayElement(alerts)} detected.\n\n${from.signature}`
       };
     }
+  ],
+  // New: Morning Briefs
+  'internal-brief': [
+    (from, to, currentDate) => {
+      const marketTone = faker.helpers.arrayElement(['risk-off', 'risk-on', 'mixed', 'cautious']);
+      const movers = ['USD strengthened', 'Oil futures dropped', 'Tech stocks rallied', 'Base metals were volatile'];
+      const keyEvent = faker.helpers.arrayElement(['FOMC Minutes', 'AU Employment Data', 'China PMI', 'RBA Speech']);
+      return {
+        subject: `AM Brief: ${format(currentDate, 'EEE, d MMM yyyy')}`,
+        body: `Good morning,\n\n**Overnight Market Summary:**\nThe tone was ${marketTone}. ${faker.helpers.arrayElement(movers)} amid concerns over ${faker.finance.currencyName()}.\n\n**Key Event Today:** ${keyEvent} at ${faker.number.int({min: 10, max: 15})}:00 AEST.\n\n**Key Reads for Today:**\n- JPM Research: ${faker.company.name()} ${faker.helpers.arrayElement(['downgraded', 'upgraded'])} to ${faker.helpers.arrayElement(['Overweight', 'Neutral'])}\n- Bloomberg: ${faker.lorem.sentence(8)}\n- AFR: ${faker.lorem.sentence(6)}\n\n--\nJ.P. Morgan Markets Desk\nThis is an automated daily briefing.`
+      };
+    }
+  ],
+  // New: Microsoft Teams alerts
+  'internal-teams': [
+    (from, to, currentDate) => {
+      const people = ['Lyndon Fagan', 'Hannah Pham', 'Al Harvey', 'The Resources Team'];
+      return {
+        subject: `Missed call from ${faker.helpers.arrayElement(people)}`,
+        body: `You missed a call.\n\n${faker.helpers.arrayElement(people)} tried to call you at ${faker.number.int({min: 9, max: 16})}:${faker.number.int({min: 10, max: 59})}.\n\n\n--\nMicrosoft Teams for J.P. Morgan\nThis is an automated message.`
+      };
+    },
+    (from, to, currentDate) => {
+      const meetingTitles = ['Q3 Performance Review', 'BHP Deep Dive', 'Client XYZ Investment Committee', 'Weekly Team Sync'];
+      return {
+        subject: `Reminder: "${faker.helpers.arrayElement(meetingTitles)}" starts in 15 minutes`,
+        body: `This is a reminder for your upcoming meeting.\n\n--\nMicrosoft Teams for J.P. Morgan\nThis is an automated message.`
+      };
+    }
+  ],
+  // New: Facilities emails
+  'internal-facilities': [
+    (from, to, currentDate) => {
+      return {
+        subject: `Building Update: Fire Drill Scheduled`,
+        body: `Dear Occupants of Level 31, 101 Collins Street,\n\nA scheduled fire drill will be conducted this ${faker.helpers.arrayElement(['Monday', 'Wednesday'])} morning between 10:00 AM - 11:00 AM. Please follow warden instructions.\n\nRegards,\nFacilities Team\n\n--\nJ.P. Morgan Asset Management | 101 Collins Street, Melbourne`
+      };
+    },
+    (from, to, currentDate) => {
+      return {
+        subject: `Air Conditioning Maintenance Tonight`,
+        body: `Please be advised that essential AHU maintenance will be performed after 7:00 PM tonight on Level 31. Some noise disruption may occur.\n\nApologies for any inconvenience.\n\n--\n101 Collins Facilities Team`
+      };
+    }
+  ],
+  // New: All-staff emails
+  'internal-allstaff': [
+    (from, to, currentDate) => {
+      return {
+        subject: `A note from ${from.name}`,
+        body: `Dear colleagues,\n\n${faker.lorem.paragraphs(2)}\n\nI am consistently impressed with your dedication and want to thank you for your hard work during this ${faker.helpers.arrayElement(['period of market volatility', 'successful quarter', 'busy reporting season'])}.\n\nPlease continue to ${faker.helpers.arrayElement(['focus on our clients', 'uphold our first-class reputation', 'work together as one team'])}.\n\nBest,\n${from.name}\n\n--\n${from.name}\n${from.role}\nJ.P. Morgan`
+      };
+    }
   ]
 };
 
@@ -91,6 +190,14 @@ function generateTimestampForDate(date) {
   dateWithTime = setMinutes(dateWithTime, minute);
   // Convert local time in specified zone to UTC Date
   const utcDate = fromZonedTime(dateWithTime, timeZone);
+  return utcDate.getTime();
+}
+
+// Helper to generate a specific local time (hour:minute) in the configured time zone
+function generateTimestampAt(date, hour, minute) {
+  let d = setHours(date, hour);
+  d = setMinutes(d, minute);
+  const utcDate = fromZonedTime(d, timeZone);
   return utcDate.getTime();
 }
 
@@ -121,8 +228,59 @@ function generateEmails(start, end) {
     const emailCount = getEmailCountForDate(current);
     const dateEmails = [];
 
-    for (let i = 0; i < emailCount; i++) {
-      const from = faker.helpers.arrayElement(senders);
+    // Pre-scheduled: Morning Brief (weekdays only), exactly one
+    if (!isWeekend(current)) {
+      const briefSender = senders.find((s) => s.type === 'internal-brief');
+      const briefTemplate = templateStores['internal-brief'][0];
+      const { subject, body } = briefTemplate(briefSender, user, current);
+      const minute = faker.number.int({ min: 30, max: 59 }); // ~6:30-6:59 AEST
+      const briefTs = generateTimestampAt(current, 6, minute);
+      dateEmails.push({
+        id: uuidv4(),
+        from: briefSender.email,
+        fromName: briefSender.name,
+        to: user.email,
+        subject,
+        body,
+        timestamp: briefTs,
+        isRead: faker.datatype.boolean({ probability: 0.4 }),
+        isStarred: faker.datatype.boolean({ probability: 0.05 }),
+        labels: [briefSender.type],
+        attachments: []
+      });
+    }
+
+    // Rare: All-staff (very low probability)
+    const execSenders = senders.filter((s) => s.type === 'internal-allstaff');
+    if (execSenders.length && faker.datatype.boolean({ probability: 0.001 })) {
+      const exec = faker.helpers.arrayElement(execSenders);
+      const tpl = faker.helpers.arrayElement(templateStores['internal-allstaff']);
+      const { subject, body } = tpl(exec, user, current);
+      const hour = faker.number.int({ min: 10, max: 15 });
+      const minute = faker.number.int({ min: 0, max: 59 });
+      const ts = generateTimestampAt(current, hour, minute);
+      dateEmails.push({
+        id: uuidv4(),
+        from: exec.email,
+        fromName: exec.name,
+        to: user.email,
+        subject,
+        body,
+        timestamp: ts,
+        isRead: faker.datatype.boolean({ probability: 0.8 }),
+        isStarred: faker.datatype.boolean({ probability: 0.2 }),
+        labels: [exec.type],
+        attachments: []
+      });
+    }
+
+    // Remaining emails for the day (exclude special case senders from random pool)
+    const scheduledCount = dateEmails.length;
+    const remaining = Math.max(0, emailCount - scheduledCount);
+    const generalSenders = senders.filter((s) => s.type !== 'internal-allstaff' && s.type !== 'internal-brief');
+
+    for (let i = 0; i < remaining; i++) {
+      const from = faker.helpers.arrayElement(generalSenders);
       const templateStore = templateStores[from.type];
       const template = faker.helpers.arrayElement(templateStore);
       const { subject, body } = template(from, user, current);
@@ -144,7 +302,7 @@ function generateEmails(start, end) {
       };
       dateEmails.push(email);
     }
-    dateEmails.sort((a, b) => a.timestamp - b.timestamp);
+  dateEmails.sort((a, b) => a.timestamp - b.timestamp);
     allEmails.push(...dateEmails);
 
     console.log(`Generated ${emailCount} emails for ${format(current, 'yyyy-MM-dd')}`);
