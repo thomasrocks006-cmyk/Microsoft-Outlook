@@ -222,6 +222,29 @@ const senders = [
     type: 'internal-it',
     signature: `--\nJ.P. Morgan Technology - APAC\nThis is an automated message. Do not reply.\nFor support, please contact the IT Service Desk.`,
   },
+  // Out of Office Auto-replies (virtual senders with same base email addresses)
+  {
+    name: 'Hannah Pham (Out of Office)',
+    email: 'hannah.pham@jpmorgan.com',
+    role: 'Out of Office Auto-Reply',
+    type: 'internal-ooo',
+    signature: `--\nThis is an automated response.\n\nI am out of the office on annual leave from ${faker.date.future({ years: 0.1 })} to ${faker.date.future({ years: 0.1 })} with no email access. For urgent matters, please contact Thomas Francis at thomas.francis@jpmorgan.com.\n\nOtherwise, I will respond to your email upon my return.\n\nThank you.`,
+  },
+  {
+    name: 'Lyndon Fagan (Out of Office)',
+    email: 'lyndon.fagan@jpmorgan.com',
+    role: 'Out of Office Auto-Reply',
+    type: 'internal-ooo',
+    signature: `--\nThis is an automated response.\n\nI am traveling for client meetings this week with limited availability. For urgent, time-sensitive matters, please contact Paul Randall.\n\nFor all research-related queries, please contact Al Harvey or Thomas Francis.\n\nThank you.`,
+  },
+  // System Mailer
+  {
+    name: 'Microsoft Exchange Online',
+    email: 'postmaster@jpmorgan.com',
+    role: 'System Mailer',
+    type: 'internal-system',
+    signature: `--\nMicrosoft Exchange Online\nJ.P. Morgan Mail System\nDo not reply to this message.`,
+  },
 ];
 
 // 4. TEMPLATE STORES
@@ -443,6 +466,35 @@ const templateStores = {
       body: `Hi ${to.name.split(' ')[0]},\n\nYour profile stood out given your experience in metals & mining. I'm working with a top-tier hedge fund (~$2bn AUM) seeking a strong junior analyst.\n\nOpen to a confidential 10-minute call this week?\n\nBest,\n${from.name}\n\n${from.signature}`,
     }),
   ],
+  // OUT OF OFFICE AUTO-REPLIES
+  'internal-ooo': [
+    (from, to, currentDate) => ({
+      subject: `Auto Reply: Out of Office`,
+      body: `Thank you for your email.\n\n${from.signature}`,
+    }),
+  ],
+  // SYSTEM EMAILS (read receipts, bounces)
+  'internal-system': [
+    (from, to, currentDate) => ({
+      subject: `Read: ${faker.lorem.words(3)}`,
+      body: `This message confirms that the email you sent to ${faker.helpers.arrayElement(['investments@clubplus.com.au','group.treasury@qbe.com'])} on ${format(faker.date.recent({ days: 2 }), 'PPP')} was displayed on the recipient's computer. This does not guarantee that the recipient has read or understood the email contents.\n\n${from.signature}`,
+    }),
+    (from, to, currentDate) => ({
+      subject: `Delivery has failed` ,
+      body: `Your message couldn't be delivered to ${faker.internet.email()} because the recipient's email provider rejected it.\n\nTechnical Details:\nRemote server returned: 550 5.1.1 RESOLVER.ADR.RecipientNotFound; Recipient not found\n\n${from.signature}`,
+    }),
+  ],
+  // JUNK / SPAM (rare)
+  'external-junk': [
+    (from, to, currentDate) => ({
+      subject: `Your J.P. Morgan Visa has a security alert`,
+      body: `Dear Valued Customer,\n\nWe've detected unusual login activity on your account. To secure your account, please verify your identity by clicking the link below.\n\n${faker.internet.url()}\n\nThank you,\nJ.P. Morgan Customer Security Team\n\nFake phishing signature would be here`,
+    }),
+    (from, to, currentDate) => ({
+      subject: `You're invited: Exclusive Webinar on Crypto Futures`,
+      body: `Hi ${to.name.split(' ')[0]},\n\nYou've been selected to attend an exclusive webinar for finance professionals on the future of digital assets.\n\nDate: ${format(faker.date.soon({ days: 7 }), 'PPPP')}\nTime: 2:00 PM AEST\n\nRegister here: ${faker.internet.url()}\n\nFake signature would be here`,
+    }),
+  ],
 };
 
 // 5. TIME HELPERS
@@ -572,7 +624,7 @@ function generateEmails(start, end) {
     // 3) Remaining random emails for the day
     const targetCount = getEmailCountForDate(current);
     const remaining = Math.max(0, targetCount - dateEmails.length);
-    const generalSenders = senders.filter((s) => s.type !== 'internal-brief' && s.type !== 'internal-allstaff');
+  const generalSenders = senders.filter((s) => !['internal-brief','internal-allstaff','internal-ooo','internal-system','external-junk'].includes(s.type));
     for (let i = 0; i < remaining; i++) {
       const from = faker.helpers.arrayElement(generalSenders);
       const templateStore = templateStores[from.type];
@@ -583,6 +635,7 @@ function generateEmails(start, end) {
       const { subject, body, timestamp: tsOverride } = tplResult;
       const email = {
         id: uuidv4(),
+        // threadId will be assigned later if this email spawns a thread
         from: from.email,
         fromName: from.name,
         to: user.email,
@@ -595,13 +648,134 @@ function generateEmails(start, end) {
         attachments: faker.datatype.boolean({ probability: 0.15 })
           ? [
               {
-                name: `Report_${format(current, 'MMM_yy')}.pdf`,
+                name: `Report_${format(current, 'MMM_yy')}.${faker.helpers.arrayElement(['xlsx','pdf','pptx'])}`,
                 size: faker.number.int({ min: 500000, max: 2000000 }),
               },
             ]
           : [],
       };
       dateEmails.push(email);
+
+      // THREAD: 5% chance create a reply thread (avoid junk/system types)
+      if (faker.datatype.boolean({ probability: 0.05 }) && !['external-junk','internal-system','internal-ooo'].includes(from.type)) {
+        const threadId = email.id;
+        email.threadId = threadId; // assign to original
+        const replyTs = email.timestamp + faker.number.int({ min: 15*60*1000, max: 120*60*1000 });
+        const replyBody = `Thanks for sending this. ${faker.helpers.arrayElement([
+          'I have a quick question about the assumptions on slide 12.',
+          'This looks great. Let\'s discuss in the morning meeting.',
+          'Can you please forward the underlying data?',
+          'I\'ve shared this with Lyndon for review.'
+        ])}`;
+        dateEmails.push({
+          id: uuidv4(),
+          threadId,
+          from: user.email,
+          fromName: user.name,
+          to: from.email,
+          subject: `RE: ${email.subject}`,
+          body: replyBody,
+          timestamp: replyTs,
+          isRead: true,
+          isStarred: false,
+          labels: ['sent'],
+          attachments: [],
+        });
+      }
+
+      // OOO Auto-reply chance if emailing Hannah or Lyndon (simulate you sent something earlier)
+      if (faker.datatype.boolean({ probability: 0.1 }) && ['hannah.pham@jpmorgan.com','lyndon.fagan@jpmorgan.com'].includes(from.email)) {
+        const oooSender = senders.find(s => s.email === from.email && s.type === 'internal-ooo');
+        if (oooSender) {
+          const tpl = templateStores['internal-ooo'][0];
+          const { subject: oooSubject, body: oooBody } = tpl(oooSender, user, current);
+          const oooTs = email.timestamp + faker.number.int({ min: 2*60*60*1000, max: 6*60*60*1000 });
+          dateEmails.push({
+            id: uuidv4(),
+            threadId: email.threadId || email.id,
+            from: oooSender.email,
+            fromName: oooSender.name,
+            to: user.email,
+            subject: oooSubject,
+            body: oooBody,
+            timestamp: oooTs,
+            isRead: faker.datatype.boolean({ probability: 0.9 }),
+            isStarred: false,
+            labels: ['internal-ooo'],
+            attachments: [],
+          });
+        }
+      }
+
+      // SYSTEM read receipt or bounce (for external-client emails only)
+      if (from.type === 'external-client' && faker.datatype.boolean({ probability: 0.15 })) {
+        const systemSender = senders.find(s => s.type === 'internal-system');
+        if (systemSender) {
+          const systemTemplate = faker.helpers.arrayElement(templateStores['internal-system']);
+          const { subject: sysSubject, body: sysBody } = systemTemplate(systemSender, user, current);
+          // Use +12-18h (same-day or early next) rather than full day to keep monthly grouping simple
+          const sysTs = email.timestamp + faker.number.int({ min: 12*60*60*1000, max: 18*60*60*1000 });
+          dateEmails.push({
+            id: uuidv4(),
+            threadId: email.threadId || email.id,
+            from: systemSender.email,
+            fromName: systemSender.name,
+            to: user.email,
+            subject: sysSubject,
+            body: sysBody,
+            timestamp: sysTs,
+            isRead: true,
+            isStarred: false,
+            labels: ['internal-system'],
+            attachments: [],
+          });
+        }
+      }
+
+      // JUNK spam slip-through (0.8%)
+      if (faker.datatype.boolean({ probability: 0.008 })) {
+        const junkTemplate = faker.helpers.arrayElement(templateStores['external-junk']);
+        const junkSender = { name: faker.company.name(), email: faker.internet.email() };
+        const { subject: junkSubject, body: junkBody } = junkTemplate(junkSender, user, current);
+        dateEmails.push({
+          id: uuidv4(),
+          from: junkSender.email,
+          fromName: junkSender.name,
+          to: user.email,
+          subject: junkSubject,
+          body: junkBody,
+          timestamp: generateTimestampForDate(current),
+          isRead: faker.datatype.boolean({ probability: 0.3 }),
+          isStarred: false,
+          labels: ['junk'],
+          attachments: [],
+        });
+      }
+
+      // CALENDAR INVITE (small probability) with .ics attachment
+      if (faker.datatype.boolean({ probability: 0.03 })) {
+        const meetingHour = faker.number.int({ min: 9, max: 16 });
+        const meetingMinute = faker.helpers.arrayElement([0,15,30,45]);
+        const inviteTs = generateTimestampAt(current, meetingHour-1 < 8 ? 8 : meetingHour-1, meetingMinute); // invite ~1h before
+        const subjectMeeting = `Meeting Invite: ${faker.helpers.arrayElement(['Portfolio Review','Client Update','Strategy Session','Research Debrief'])}`;
+        const icsName = subjectMeeting.replace(/[^A-Za-z0-9]+/g,'_')+'.ics';
+        const icsContent = `BEGIN:VCALENDAR\nVERSION:2.0\nBEGIN:VEVENT\nUID:${uuidv4()}\nDTSTAMP:${format(new Date(), 'yyyyMMdd\'T\'HHmmss')}Z\nSUMMARY:${subjectMeeting}\nDTSTART:${format(new Date(inviteTs + 60*60*1000), 'yyyyMMdd\'T\'HHmmss')}Z\nDTEND:${format(new Date(inviteTs + 2*60*60*1000), 'yyyyMMdd\'T\'HHmmss')}Z\nEND:VEVENT\nEND:VCALENDAR`;
+        dateEmails.push({
+          id: uuidv4(),
+          from: 'no-reply@teams.microsoft.com',
+          fromName: 'Microsoft Teams',
+          to: user.email,
+            subject: subjectMeeting,
+            body: `You are invited to a meeting.\n\n${subjectMeeting}\n\nAn ICS calendar file is attached.`,
+          timestamp: inviteTs,
+          isRead: faker.datatype.boolean({ probability: 0.6 }),
+          isStarred: false,
+          labels: ['calendar-invite'],
+          attachments: [
+            { name: icsName, size: Buffer.byteLength(icsContent, 'utf8'), mime: 'text/calendar', inline: false },
+          ],
+        });
+      }
     }
 
     // Append to monthly file (optimized; avoid duplicate day)
