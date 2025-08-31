@@ -222,6 +222,22 @@ const senders = [
     type: 'internal-it',
     signature: `--\nJ.P. Morgan Technology - APAC\nThis is an automated message. Do not reply.\nFor support, please contact the IT Service Desk.`,
   },
+  // New: Payments (Bianca Bates)
+  {
+    name: 'Bianca Bates',
+    email: 'bianca.bates@jpmorgan.com',
+    role: 'Head of Payments, Australia & New Zealand',
+    type: 'internal-payments',
+    signature: `--\nBianca Bates\nHead of Payments, Australia & New Zealand\nJ.P. Morgan\nLevel 18, 85 Castlereagh Street, Sydney NSW 2000\nTel: +61 2 9003 8888`,
+  },
+  // Personal / external life blend - MCG Membership
+  {
+    name: 'Melbourne Cricket Ground',
+    email: 'membership@mcg.org.au',
+    role: 'MCG Membership Services',
+    type: 'external-personal',
+    signature: `--\nMelbourne Cricket Ground\nMembership Services\nBrunton Ave, Richmond VIC 3000\nTel: +61 3 9657 8888`,
+  },
   // Out of Office Auto-replies (virtual senders with same base email addresses)
   {
     name: 'Hannah Pham (Out of Office)',
@@ -276,6 +292,26 @@ const templateStores = {
       }
       return null;
     },
+    // Running late casual note
+    (from, to, currentDate) => ({
+      subject: `Running 10 mins late`,
+      body: `Sorry – stuck on a call with ${faker.helpers.arrayElement(['Compliance','Risk','a client'])}. See you soon.\n\n${from.name.split(' ')[0]}\n\n${from.signature}`,
+    }),
+    // Quick question as email
+    (from, to, currentDate) => ({
+      subject: `Quick question`,
+      body: `Hey Tom – ${faker.helpers.arrayElement([
+        'Do you have the latest deck for the NPF meeting?',
+        'What time is our call with BHP tomorrow?',
+        'Can you send me the model we used for XYZ last quarter?',
+        'Are you free for a coffee chat at 3pm?'
+      ])}\n\n${from.name.split(' ')[0]}\n\n${from.signature}`,
+    }),
+    // Forwarded item
+    (from, to, currentDate) => ({
+      subject: `Fw: Interesting research from ${faker.company.name()} on ${faker.helpers.arrayElement(['lithium','iron ore','gold'])}`,
+      body: `FYI – thought this might be useful for our ${faker.helpers.arrayElement(['Club Plus','QBE','NPF'])} presentation.\n\n---------- Forwarded message ----------\nFrom: ${faker.internet.email()}\nDate: ${format(faker.date.recent({ days: 2 }), 'PPP')}\nSubject: Interesting research from ${faker.company.name()}\n\n${faker.lorem.paragraphs(2)}\n\n${from.signature}`,
+    }),
   ],
   // NEW: External Client templates
   'external-client': [
@@ -466,6 +502,28 @@ const templateStores = {
       body: `Hi ${to.name.split(' ')[0]},\n\nYour profile stood out given your experience in metals & mining. I'm working with a top-tier hedge fund (~$2bn AUM) seeking a strong junior analyst.\n\nOpen to a confidential 10-minute call this week?\n\nBest,\n${from.name}\n\n${from.signature}`,
     }),
   ],
+  // Internal Payments templates
+  'internal-payments': [
+    (from, to, currentDate) => ({
+      subject: `IMPORTANT: SWIFT System Upgrade - This Weekend`,
+      body: `Dear Colleagues,\n\nPlease be advised that a mandatory SWIFT network upgrade will take place this weekend from Saturday 10:00 PM to Sunday 2:00 AM AEST.\n\nAll outgoing payment instructions must be submitted by 5:00 PM Friday. Any payments submitted after this time will be queued and processed after the maintenance window.\n\nApologies for any inconvenience.\n\nRegards,\n${from.name}\n\n${from.signature}`,
+    }),
+    (from, to, currentDate) => ({
+      subject: `Reminder: Annual Payment Operations Compliance Training`,
+      body: `This is a reminder that all Markets and Asset Management staff must complete the Annual Payment Operations Compliance training module by ${format(faker.date.soon({ days: 14 }), 'PPPP')}.\n\nThis is a regulatory requirement. Non-compliance will be reported to your line manager.\n\n${from.signature}`,
+    }),
+  ],
+  // External personal / life blend templates
+  'external-personal': [
+    (from, to, currentDate) => ({
+      subject: `Your MCG Membership Renewal is Due`,
+      body: `Dear Mr. Francis,\n\nYour Melbourne Cricket Ground membership is due for renewal on ${format(faker.date.soon({ days: 30 }), 'PPPP')}.\n\nTo renew your membership and secure your seat for the 2025 season, please visit our website or call the membership team.\n\n${from.signature}`,
+    }),
+    (from, to, currentDate) => ({
+      subject: `Exclusive Member Offer: AFL Grand Final Lunch`,
+      body: `As a valued MCG member, you're invited to our exclusive AFL Grand Final lunch event. This premium experience includes:\n\n- Three-course meal and beverages\n- Guest appearance by AFL legend ${faker.person.fullName()}\n- Premium reserved seating\n\nBook now: ${faker.internet.url()}\n\n${from.signature}`,
+    }),
+  ],
   // OUT OF OFFICE AUTO-REPLIES
   'internal-ooo': [
     (from, to, currentDate) => ({
@@ -538,6 +596,17 @@ function generateEmails(start, end) {
   }
 
   while (current <= end) {
+    // Australian public holidays (simplified subset) to skip generation
+    const ausHolidays = [
+      '2023-12-25','2023-12-26','2024-01-01','2024-01-26','2024-03-29','2024-04-25',
+      '2024-12-25','2024-12-26','2025-01-01','2025-01-27','2025-04-18','2025-04-25'
+    ];
+    const currentDateStr = format(current,'yyyy-MM-dd');
+    if (ausHolidays.includes(currentDateStr)) {
+      if (!QUIET) console.log(`Skipping email generation for holiday: ${currentDateStr}`);
+      current = addDays(current,1);
+      continue;
+    }
     const year = format(current, 'yyyy');
     const month = format(current, 'MM_MMMM').toLowerCase();
     const yearDirectory = `${outputDirectory}/${year}`;
