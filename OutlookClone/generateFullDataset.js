@@ -34,7 +34,7 @@ const knownClients = [
   'AMP Capital',
 ];
 
-// 3. DEFINE THE COMPLETE CAST (subset + corrected senders)
+// 3. DEFINE THE COMPLETE CAST (expanded)
 const senders = [
   {
     name: 'Lyndon Fagan',
@@ -59,6 +59,14 @@ const senders = [
     type: 'internal',
     signature: `--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n`,
   },
+  // Added: Paul Randall (internal)
+  {
+    name: 'Paul Randall',
+    email: 'paul.randall@jpmorgan.com',
+    role: 'Executive Director',
+    type: 'internal',
+    signature: `--\nPaul Randall\nExecutive Director | Asset Management\nJ.P. Morgan Asset Management\nSydney, Australia\nTel: +61 2 9003 8888\n`,
+  },
   {
     name: 'Bloomberg Terminal',
     email: 'alerts@bloomberg.net',
@@ -66,14 +74,14 @@ const senders = [
     type: 'external-vendor',
     signature: `--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n`,
   },
-  // Updated: Facilities replaced with Nathan Wright (external-facilities)
+  // Updated: Facilities replaced with Nathan Penny (external-facilities)
   {
-    name: 'Nathan Wright',
-    email: 'nathan.wright@101collins.com.au',
+    name: 'Nathan Penny',
+    email: 'nathan.penny@101collins.com.au',
     role: 'Building Manager, 101 Collins Street',
     type: 'external-facilities',
     signature:
-      `--\nNathan Wright\nBuilding Manager\n101 Collins Street Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000`,
+      `--\nNathan Penny\nBuilding Manager\n101 Collins Street Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000`,
   },
   // New: Catering sender (external-catering)
   {
@@ -91,6 +99,22 @@ const senders = [
     type: 'internal-brief',
     signature:
       `--\nJ.P. Morgan Research\nThis is an automated daily briefing.\nFor more information, please contact your representative.`,
+  },
+  // Compliance Office
+  {
+    name: 'Compliance Office',
+    email: 'compliance.asia@jpmorgan.com',
+    role: 'Asia Pacific Compliance',
+    type: 'internal-compliance',
+    signature: `--\nCompliance Office | Asia Pacific\nJ.P. Morgan`,
+  },
+  // Recruiter
+  {
+    name: 'James Robertson',
+    email: 'james@selbyjennings.com',
+    role: 'Senior Associate, Selby Jennings',
+    type: 'external-recruiter',
+    signature: `--\nJames Robertson\nSenior Associate\nSelby Jennings | Ph: ${faker.phone.number()}`,
   },
   // Corrected: Microsoft Teams (external)
   {
@@ -218,6 +242,17 @@ const templateStores = {
   body: `${faker.helpers.arrayElement(greetings)},\n\nQuick reminder that ${faker.helpers.arrayElement(knownClients)} needs a final sign-off. \n\nThanks,\n${from.name.split(' ')[0]}\n\n${from.signature}`,
       };
     },
+    // Weekly look-ahead email (Fridays) with dynamic client instead of placeholder
+    (from, to, currentDate) => {
+      if (isFriday(currentDate)) {
+        const client = faker.helpers.arrayElement(knownClients);
+        return {
+          subject: `Your Week Ahead`,
+          body: `Hi ${to.name.split(' ')[0]},\n\nHere is a look at key meetings for the week of ${format(addDays(currentDate, 3), 'MMMM do')}:\n\n- Mon 10:00: Weekly Team Sync (Lyndon)\n- Tue 14:00: ${client} Review\n- Wed 09:00: BHP Production Call\n- Thu 16:00: Sector Deep Dive Prep\n- Fri 08:30: Performance Attribution\n\nLet me know if you need any prep materials.\n\nCheers,\n${faker.person.firstName()} (Executive Assistant)\n\n--\nJ.P. Morgan Asset Management`,
+        };
+      }
+      return null;
+    },
   ],
   // NEW: External Client templates
   'external-client': [
@@ -238,23 +273,6 @@ const templateStores = {
       return {
         subject: `Alert: ${faker.helpers.arrayElement(stocks)} - ${faker.helpers.arrayElement(alerts)}`,
         body: `This is an automated alert from the Bloomberg Terminal.\n\nSecurity: ${faker.helpers.arrayElement(stocks)} AX Equity\nEvent: ${faker.helpers.arrayElement(alerts)} detected.\n\n${from.signature}`,
-      };
-    },
-  ],
-  // New: IT alert templates
-  'internal-it': [
-    (from, to, currentDate) => {
-      const systems = ['Email Gateway', 'Market Data Feed', 'VPN Cluster', 'File Storage Service'];
-      return {
-        subject: `Incident: Degraded Performance - ${faker.helpers.arrayElement(systems)}`,
-        body: `Dear Users,\n\nWe are investigating reports of degraded performance affecting the ${faker.helpers.arrayElement(systems)}. Our engineers are actively working on mitigation. Next update in 30 minutes.\n\n${from.signature}`,
-      };
-    },
-    (from, to, currentDate) => {
-      const systems = ['Security Patch Deployment', 'Network Core Switch Maintenance', 'Database Failover Test'];
-      return {
-        subject: `Planned Maintenance: ${faker.helpers.arrayElement(systems)}`,
-        body: `Notification:\nA planned maintenance window will commence at ${faker.number.int({ min: 22, max: 23 })}:00 AEST tonight. Brief service disruption may occur.\n\n${from.signature}`,
       };
     },
   ],
@@ -376,7 +394,7 @@ const templateStores = {
   // NEW: Portfolio Manager directives
   'internal-pm': [
     (from, to, currentDate) => {
-  const clients = knownClients;
+      const clients = knownClients;
       const actions = ['immediately reduce', 'begin accumulating', 'liquidate the', 'hedge our exposure to'];
       const assets = ['energy sector holdings', 'BHP position', 'USD exposure', 'small-cap portfolio'];
       const greetings = ['Thomas,', 'Tom,', 'Team,', 'Thomas -'];
@@ -385,6 +403,45 @@ const templateStores = {
         body: `${faker.helpers.arrayElement(greetings)}\n\nClient instruction just came down. We need to ${faker.helpers.arrayElement(actions)} the ${faker.helpers.arrayElement(assets)}.\n\nPlease drop everything and model out the implications. I need execution levels and a full impact analysis on my desk in 2 hours.\n\n${from.name}\n\n${from.signature}`,
       };
     },
+  ],
+  // NEW: IT alerts (expanded: incident, maintenance, security update, phishing)
+  'internal-it': [
+    (from, to, currentDate) => {
+      const systems = ['Email Gateway', 'Market Data Feed', 'VPN Cluster', 'File Storage Service'];
+      return {
+        subject: `Incident: Degraded Performance - ${faker.helpers.arrayElement(systems)}`,
+        body: `Dear Users,\n\nWe are investigating reports of degraded performance affecting the ${faker.helpers.arrayElement(systems)}. Mitigation in progress. Next update in 30 minutes.\n\n${from.signature}`,
+      };
+    },
+    (from, to, currentDate) => {
+      const systems = ['Security Patch Deployment', 'Network Core Switch Maintenance', 'Database Failover Test'];
+      return {
+        subject: `Planned Maintenance: ${faker.helpers.arrayElement(systems)}`,
+        body: `Notification: Planned maintenance will commence at ${faker.number.int({ min: 22, max: 23 })}:00 AEST tonight. Brief disruption possible.\n\n${from.signature}`,
+      };
+    },
+    (from, to, currentDate) => ({
+      subject: `Required: Mandatory Security Update for Bloomberg Terminal`,
+      body: `Action Required.\n\nA critical security patch is available for your Bloomberg Terminal application. Please restart before EOD to apply this update or access may be suspended.\n\n${from.signature}`,
+    }),
+    (from, to, currentDate) => ({
+      subject: `Phishing Alert: Fake Compliance Training Email`,
+      body: `Security Alert.\n\nBe aware of a phishing campaign using a fake 'Compliance Training' email. Do not click links from 'jpmorgan.compliance.training@gmail.com'. If clicked, contact IT Security immediately.\n\n${from.signature}`,
+    }),
+  ],
+  // NEW: Compliance reminders
+  'internal-compliance': [
+    (from, to, currentDate) => ({
+      subject: `FINAL REMINDER: Annual Code of Conduct Certification`,
+      body: `Final reminder: Your Annual Code of Conduct certification is overdue and must be completed by 5pm TODAY or access may be restricted.\n\n${from.signature}`,
+    }),
+  ],
+  // NEW: Recruiter outreach
+  'external-recruiter': [
+    (from, to, currentDate) => ({
+      subject: `Opportunity at Top-Tier Hedge Fund - Melbourne`,
+      body: `Hi ${to.name.split(' ')[0]},\n\nYour profile stood out given your experience in metals & mining. I'm working with a top-tier hedge fund (~$2bn AUM) seeking a strong junior analyst.\n\nOpen to a confidential 10-minute call this week?\n\nBest,\n${from.name}\n\n${from.signature}`,
+    }),
   ],
 };
 
@@ -414,9 +471,9 @@ function getEmailCountForDate(date) {
   const weekOfMonth = getWeekOfMonth(date);
   const isCrunchTime = weekOfMonth >= 4;
   if (isWeekend(date)) {
-    return isCrunchTime ? faker.number.int({ min: 5, max: 10 }) : faker.number.int({ min: 2, max: 5 });
+    return isCrunchTime ? faker.number.int({ min: 25, max: 40 }) : faker.number.int({ min: 5, max: 12 });
   }
-  return faker.number.int({ min: 15, max: 25 });
+  return faker.number.int({ min: 40, max: 60 });
 }
 
 // 6. MAIN GENERATION FUNCTION
