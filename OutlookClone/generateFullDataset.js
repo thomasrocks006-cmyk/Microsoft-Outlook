@@ -11,6 +11,11 @@ const envEnd = process.env.GEN_END ? new Date(process.env.GEN_END) : new Date('2
 const startDate = envStart;
 const endDate = envEnd;
 const outputDirectory = process.env.GEN_OUTDIR || './data'; // Root directory for all data (relative to this script's CWD)
+const QUIET = process.env.QUIET === '1' || process.env.QUIET === 'true';
+const LOG_EVERY = parseInt(process.env.LOG_EVERY || '25', 10); // Log progress every N days
+const FORCE_REBUILD = process.env.FORCE_REBUILD === '1' || process.env.FORCE_REBUILD === 'true';
+const SKIP_EXISTING_DAY = process.env.SKIP_EXISTING_DAY === '0' ? false : true; // default true
+const CATERING_PROB = parseFloat(process.env.CATERING_PROB || '0.4');
 
 // 2. DEFINE OUR USER - THOMAS FRANCIS
 const user = {
@@ -61,14 +66,22 @@ const senders = [
     type: 'external-vendor',
     signature: `--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n`,
   },
-  // Corrected: Facilities (external)
+  // Updated: Facilities replaced with Nathan Wright (external-facilities)
   {
-    name: '101 Collins Facilities',
-    email: 'facilities@101collins.com.au',
-    role: 'Building Management',
+    name: 'Nathan Wright',
+    email: 'nathan.wright@101collins.com.au',
+    role: 'Building Manager, 101 Collins Street',
     type: 'external-facilities',
     signature:
-      `--\n101 Collins Facilities Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000`,
+      `--\nNathan Wright\nBuilding Manager\n101 Collins Street Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000`,
+  },
+  // New: Catering sender (external-catering)
+  {
+    name: '101 Collins Catering',
+    email: 'catering@101collins.com.au',
+    role: 'Building Catering Services',
+    type: 'external-catering',
+    signature: `--\n101 Collins Catering\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5001\nMenu: https://catering.101collins.com.au`,
   },
   // Corrected: Morning Brief (internal-brief)
   {
@@ -177,6 +190,14 @@ const senders = [
     type: 'external-client',
     signature: `--\nAMP Capital Investments\nSydney, Australia`,
   },
+  // New: IT Alerts sender (internal-it)
+  {
+    name: 'J.P. Morgan Technology',
+    email: 'it.alerts.apac@jpmorgan.com',
+    role: 'APAC Technology Operations',
+    type: 'internal-it',
+    signature: `--\nJ.P. Morgan Technology - APAC\nThis is an automated message. Do not reply.\nFor support, please contact the IT Service Desk.`,
+  },
 ];
 
 // 4. TEMPLATE STORES
@@ -217,6 +238,23 @@ const templateStores = {
       return {
         subject: `Alert: ${faker.helpers.arrayElement(stocks)} - ${faker.helpers.arrayElement(alerts)}`,
         body: `This is an automated alert from the Bloomberg Terminal.\n\nSecurity: ${faker.helpers.arrayElement(stocks)} AX Equity\nEvent: ${faker.helpers.arrayElement(alerts)} detected.\n\n${from.signature}`,
+      };
+    },
+  ],
+  // New: IT alert templates
+  'internal-it': [
+    (from, to, currentDate) => {
+      const systems = ['Email Gateway', 'Market Data Feed', 'VPN Cluster', 'File Storage Service'];
+      return {
+        subject: `Incident: Degraded Performance - ${faker.helpers.arrayElement(systems)}`,
+        body: `Dear Users,\n\nWe are investigating reports of degraded performance affecting the ${faker.helpers.arrayElement(systems)}. Our engineers are actively working on mitigation. Next update in 30 minutes.\n\n${from.signature}`,
+      };
+    },
+    (from, to, currentDate) => {
+      const systems = ['Security Patch Deployment', 'Network Core Switch Maintenance', 'Database Failover Test'];
+      return {
+        subject: `Planned Maintenance: ${faker.helpers.arrayElement(systems)}`,
+        body: `Notification:\nA planned maintenance window will commence at ${faker.number.int({ min: 22, max: 23 })}:00 AEST tonight. Brief service disruption may occur.\n\n${from.signature}`,
       };
     },
   ],
@@ -280,18 +318,36 @@ const templateStores = {
       };
     },
   ],
-  // UPDATED: Facilities templates (no floor specifics)
+  // UPDATED: Personalised Facilities templates (Nathan)
   'external-facilities': [
     (from, to, currentDate) => {
       return {
         subject: `Building Update: Scheduled Fire Drill`,
-        body: `Dear Occupants,\n\nA scheduled fire drill will be conducted this ${faker.helpers.arrayElement(['Monday', 'Wednesday'])} morning between 10:00 AM - 11:00 AM. All building employees must participate. Please follow instructions from your floor wardens.\n\nRegards,\nFacilities Team\n\n${from.signature}`,
+        body: `Dear Occupants,\n\nA scheduled fire drill will be conducted this ${faker.helpers.arrayElement(['Monday', 'Wednesday'])} morning between 10:00 AM - 11:00 AM. All building employees must participate.\n\nPlease follow instructions from your floor wardens. If you have any questions, please don't hesitate to reach out.\n\nKind regards,\n${from.name}\n\n${from.signature}`,
       };
     },
     (from, to, currentDate) => {
       return {
         subject: `Important: Air Conditioning Maintenance Tonight`,
-        body: `Please be advised that essential maintenance will be performed on the building's air conditioning system after 7:00 PM tonight. Some noise disruption may occur.\n\nWe appreciate your patience and apologise for any inconvenience caused.\n\n${from.signature}`,
+        body: `Please be advised that essential maintenance will be performed on the building's air conditioning system after 7:00 PM tonight. Some noise disruption may occur.\n\nWe appreciate your patience and apologise for any inconvenience caused.\n\nRegards,\n${from.name}\n\n${from.signature}`,
+      };
+    },
+  ],
+  // NEW: Catering templates
+  'external-catering': [
+    (from, to, currentDate) => {
+      const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+      const weekdayIndex = currentDate.getDay(); // 0=Sun
+      const today = days[weekdayIndex - 1] || 'Monday';
+      return {
+        subject: `Lunch Menu - ${today} ${format(currentDate, 'do MMM')}`,
+        body: `Good morning,\n\nToday's featured lunch options for 101 Collins are:\n\n- Main: ${faker.food.dish()}\n- Main: ${faker.food.dish()}\n- Salad: ${faker.food.dish()}\n- Soup: ${faker.food.dish()}\n\nPlease place your orders before 10:30 AM via the online portal.\n\nBon appétit,\nThe Catering Team\n\n${from.signature}`,
+      };
+    },
+    (from, to, currentDate) => {
+      return {
+        subject: `Reminder: Client Meeting Catering Order`,
+        body: `Dear ${faker.helpers.arrayElement(['Occupant', 'Team'])},\n\nThis is a reminder that your catering order for a client meeting is confirmed for tomorrow at 11:00 AM.\n\nIf you need to make any changes or cancellations, please contact us immediately.\n\n${from.signature}`,
       };
     },
   ],
@@ -384,6 +440,32 @@ function generateEmails(start, end) {
 
     const dateEmails = [];
 
+    // Scheduled: Catering menu (approx probability on weekdays) before random generation
+    if (!isWeekend(current)) {
+      const cateringSender = senders.find((s) => s.type === 'external-catering');
+      if (cateringSender && faker.datatype.boolean({ probability: CATERING_PROB })) {
+        const cateringStore = templateStores['external-catering'];
+        if (cateringStore && cateringStore.length) {
+          const menuTemplate = cateringStore[0];
+            const { subject, body } = menuTemplate(cateringSender, user, current);
+            const ts = generateTimestampAt(current, 9, faker.number.int({ min: 0, max: 25 })); // ~9:00-9:25 AEST
+            dateEmails.push({
+              id: uuidv4(),
+              from: cateringSender.email,
+              fromName: cateringSender.name,
+              to: user.email,
+              subject,
+              body,
+              timestamp: ts,
+              isRead: faker.datatype.boolean({ probability: 0.6 }),
+              isStarred: false,
+              labels: ['external-catering'],
+              attachments: [],
+            });
+        }
+      }
+    }
+
     // 1) Scheduled Morning Brief on weekdays ~6:30-6:59 AEST
     if (!isWeekend(current)) {
       const researchSender = senders.find((s) => s.email === 'research@jpmorgan.com');
@@ -465,28 +547,61 @@ function generateEmails(start, end) {
       dateEmails.push(email);
     }
 
-    // Append to monthly file
+    // Append to monthly file (optimized; avoid duplicate day)
     let existingMonthlyData = [];
-    if (existsSync(monthlyFile)) {
+    if (existsSync(monthlyFile) && !FORCE_REBUILD) {
       try {
         const buf = readFileSync(monthlyFile, 'utf8');
         existingMonthlyData = JSON.parse(buf);
       } catch (e) {
         existingMonthlyData = [];
       }
+    } else if (FORCE_REBUILD && existsSync(monthlyFile)) {
+      // Clear file content if forcing rebuild
+      existingMonthlyData = [];
+    }
+
+    // Skip the day if emails for that date already exist (by UTC date) and skipping is enabled
+    const dayKey = format(current, 'yyyy-MM-dd');
+    if (SKIP_EXISTING_DAY && existingMonthlyData.length) {
+      const existsForDay = existingMonthlyData.some((e) => format(new Date(e.timestamp), 'yyyy-MM-dd') === dayKey);
+      if (existsForDay) {
+        if (!QUIET) console.log(`Skip existing day ${dayKey} (monthly: ${month})`);
+        current = addDays(current, 1);
+        continue;
+      }
     }
 
     dateEmails.sort((a, b) => a.timestamp - b.timestamp);
-    const allEmailsForMonth = [...existingMonthlyData, ...dateEmails];
-    allEmailsForMonth.sort((a, b) => a.timestamp - b.timestamp);
+    let allEmailsForMonth;
+    if (existingMonthlyData.length === 0) {
+      allEmailsForMonth = dateEmails;
+    } else {
+      // If last existing timestamp <= first new timestamp, we can just append
+      const lastExistingTs = existingMonthlyData[existingMonthlyData.length - 1].timestamp;
+      const firstNewTs = dateEmails[0]?.timestamp ?? Number.MAX_SAFE_INTEGER;
+      if (lastExistingTs <= firstNewTs) {
+        allEmailsForMonth = [...existingMonthlyData, ...dateEmails];
+      } else {
+        allEmailsForMonth = [...existingMonthlyData, ...dateEmails];
+        allEmailsForMonth.sort((a, b) => a.timestamp - b.timestamp);
+      }
+    }
+
     if (!existsSync(yearDirectory)) mkdirSync(yearDirectory, { recursive: true });
-    writeFileSync(monthlyFile, JSON.stringify(allEmailsForMonth, null, 2), 'utf8');
-    console.log(`Appended ${dateEmails.length} emails to ${monthlyFile} for ${format(current, 'yyyy-MM-dd')}`);
+    const tmpFile = monthlyFile + '.tmp';
+    writeFileSync(tmpFile, JSON.stringify(allEmailsForMonth, null, 2), 'utf8');
+    // Atomic replace
+    try { require('fs').renameSync(tmpFile, monthlyFile); } catch { /* fallback already written */ }
+    if (!QUIET && ((dateEmails.length && !((current - startDate) / 86400000 % LOG_EVERY)) || LOG_EVERY === 1)) {
+      console.log(`Appended ${dateEmails.length.toString().padStart(2)} emails -> ${month} for ${dayKey}`);
+    }
 
     current = addDays(current, 1);
   }
 
-  console.log(`Finished! Full dataset generated in ${outputDirectory}/.`);
+  if (!QUIET) console.log(`Finished! Full dataset generated in ${outputDirectory}/.`);
+  else console.log('DONE');
 }
 
 // 7. RUN
