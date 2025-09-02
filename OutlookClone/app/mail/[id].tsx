@@ -5,6 +5,8 @@ import { ChevronLeft, MoreHorizontal, Trash2, Archive, Mail, Calendar, FileText,
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import { StatusBar } from 'expo-status-bar'
 import { loadLatestMonth } from '../../utils/dataLoader'
+import { parseEmailBody } from '../../utils/emailParser'
+import { SignatureComponent } from '../../components/SignatureComponent'
 const latest = loadLatestMonth()
 const rawMonth = latest?.data || []
 
@@ -44,6 +46,13 @@ export default function MailReadScreen() {
   const idParam = (params.id as string) || ''
   const fallbackBody = idParam ? (rawMonth.find((e) => e.id === idParam)?.body ?? '') : ''
   const body = bodyParam || fallbackBody
+  
+  // Get sender email from the data if available
+  const emailData = idParam ? rawMonth.find((e) => e.id === idParam) : null
+  const senderEmail = emailData?.from || ''
+  
+  // Parse the email body to separate content from signature
+  const parsedBody = parseEmailBody(body, senderEmail)
 
   return (
     <SafeAreaView style={styles.safe}>
@@ -120,7 +129,12 @@ export default function MailReadScreen() {
           showsVerticalScrollIndicator={false}
         >
           {body ? (
-            <Text style={styles.bodyText}>{body}</Text>
+            <>
+              <Text style={styles.bodyText}>{parsedBody.content}</Text>
+              {parsedBody.signature && (
+                <SignatureComponent signature={parsedBody.signature} />
+              )}
+            </>
           ) : (
             <Text style={styles.bodyPlaceholder}>This message has no content.</Text>
           )}
