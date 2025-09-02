@@ -1,0 +1,522 @@
+[
+  {
+    "id": "74a5b801-4cef-4789-8e39-b9c7929e6c67",
+    "from": "payroll.au@jpmorgan.com",
+    "fromName": "J.P. Morgan Payroll",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Your J.P. Morgan Payslip is Available",
+    "body": "Dear Thomas Francis,\n\nYour payslip for March 2024 is now available online.\n\nTo view your payslip, please log in to the Employee Portal.\n\n--\nJ.P. Morgan Payroll - Australia\nThis is an automated notification. Please do not reply.\nFor inquiries, please contact HR Services.",
+    "timestamp": 1711834320000,
+    "isRead": true,
+    "isStarred": true,
+    "labels": [
+      "internal-hr"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Mar_24.pdf",
+        "size": 1915634
+      }
+    ]
+  },
+  {
+    "id": "5d269485-920b-494a-ac55-db35e7e195fa",
+    "from": "compliance.asia@jpmorgan.com",
+    "fromName": "Compliance Office",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "FINAL REMINDER: Annual Code of Conduct Certification",
+    "body": "Final reminder: Your Annual Code of Conduct certification is overdue and must be completed by 5pm TODAY or access may be restricted.\n\n--\nCompliance Office | Asia Pacific\nJ.P. Morgan",
+    "timestamp": 1711834500000,
+    "isRead": true,
+    "isStarred": true,
+    "labels": [
+      "internal-compliance"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "66bec769-ce33-4bb4-a35f-28391b0fe4d8",
+    "from": "investments@ampcapital.com",
+    "fromName": "AMP Capital Investments",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Parisian - McKenzie request for proposal",
+    "body": "Dear Thomas,\n\nHope you are well.\n\nI'm following up on the request for proposal. We require an update by EOD Thursday for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nAMP Capital Investments\n\n--\nAMP Capital Investments\nSydney, Australia",
+    "timestamp": 1711835640000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "d9d91407-d369-4259-9c5d-b266714a276a",
+    "from": "investments@npf.org.nz",
+    "fromName": "Michael Jones",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Emard Group performance report",
+    "body": "Thomas,\n\nGood to connect with you last week.\n\nI'm following up on the performance report. We require an update by EOD Thursday for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nMichael Jones\n\n--\nMichael Jones\nPortfolio Manager\nNational Provident Fund\nWellington, New Zealand",
+    "timestamp": 1711836900000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "560e5aa0-9d61-4873-aef5-e1f686dcb998",
+    "from": "paul.randall@jpmorgan.com",
+    "fromName": "Paul Randall",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of NPF report",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the NPF report. Could you take a look?\n\nCheers,\nPaul\n\n--\nPaul Randall\nExecutive Director | Asset Management\nJ.P. Morgan Asset Management\nSydney, Australia\nTel: +61 2 9003 8888\n",
+    "timestamp": 1711837860000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "ffe51e86-e527-4ad1-a235-1f755efba999",
+    "from": "mandates@futurefund.gov.au",
+    "fromName": "Future Fund Mandates",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Olson - Sipes investment committee meeting",
+    "body": "Hi Thomas,\n\nHope you are well.\n\nI'm following up on the investment committee meeting. We require an update by EOD Thursday for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nFuture Fund Mandates\n\n--\nFuture Fund\nMelbourne, Australia",
+    "timestamp": 1711838220000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "54dfe302-a315-4d20-8190-eba5b02f10e1",
+    "from": "nathan.penny@101collins.com.au",
+    "fromName": "Nathan Penny",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Important: Air Conditioning Maintenance Tonight",
+    "body": "Please be advised that essential maintenance will be performed on the building's air conditioning system after 7:00 PM tonight. Some noise disruption may occur.\n\nWe appreciate your patience and apologise for any inconvenience caused.\n\nRegards,\nNathan Penny\n\n--\nNathan Penny\nBuilding Manager\n101 Collins Street Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000",
+    "timestamp": 1711838400000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-facilities"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "7875b438-00fc-47f7-a12a-9ebd02cc5738",
+    "from": "investments@npf.org.nz",
+    "fromName": "Michael Jones",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Becker - O'Connell request for proposal",
+    "body": "Dear Thomas,\n\nGood to connect with you last week.\n\nI'm following up on the request for proposal. We require an update by EOD tomorrow for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nMichael Jones\n\n--\nMichael Jones\nPortfolio Manager\nNational Provident Fund\nWellington, New Zealand",
+    "timestamp": 1711840140000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "414480e8-cf25-47ca-82b1-e6a09d0d218f",
+    "from": "payroll.au@jpmorgan.com",
+    "fromName": "J.P. Morgan Payroll",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Your J.P. Morgan Payslip is Available",
+    "body": "Dear Thomas Francis,\n\nYour payslip for March 2024 is now available online.\n\nTo view your payslip, please log in to the Employee Portal.\n\n--\nJ.P. Morgan Payroll - Australia\nThis is an automated notification. Please do not reply.\nFor inquiries, please contact HR Services.",
+    "timestamp": 1711841820000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal-hr"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "b5f2d207-9e22-4434-af1a-a68b01740ec8",
+    "from": "mandates@futurefund.gov.au",
+    "fromName": "Future Fund Mandates",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Erdman - Jast transition of funds",
+    "body": "Thomas,\n\nGood to connect with you last week.\n\nI'm following up on the transition of funds. We require an update by EOD next week for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nFuture Fund Mandates\n\n--\nFuture Fund\nMelbourne, Australia",
+    "timestamp": 1711842600000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "9cdbba6b-0e6d-46cb-8413-a787423d23cc",
+    "from": "investments@sunsuper.com.au",
+    "fromName": "Sunsuper Investments Team",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Watsica - Schimmel performance report",
+    "body": "Dear Thomas,\n\nGood to connect with you last week.\n\nI'm following up on the performance report. We require an update by EOD Thursday for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nSunsuper Investments Team\n\n--\nSunsuper Investments Team\nQueensland, Australia",
+    "timestamp": 1711843740000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "bafd04f1-8466-4e4b-9952-1b5bbbedec35",
+    "from": "investments@sunsuper.com.au",
+    "fromName": "Sunsuper Investments Team",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Hackett LLC performance report",
+    "body": "Hi Thomas,\n\nGood to connect with you last week.\n\nI'm following up on the performance report. We require an update by EOD tomorrow for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nSunsuper Investments Team\n\n--\nSunsuper Investments Team\nQueensland, Australia",
+    "timestamp": 1711844580000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "c84f7f10-90bf-40b0-992f-9ecb72691199",
+    "from": "catering@101collins.com.au",
+    "fromName": "101 Collins Catering",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Lunch Menu - Monday 31st Mar",
+    "body": "Good morning,\n\nToday's featured lunch options for 101 Collins are:\n\n- Main: Pasta And Beans\n- Main: Katsu Curry\n- Salad: Malaysian Indian Cottage Cheese Soup\n- Soup: Creamy Irish Stew\n\nPlease place your orders before 10:30 AM via the online portal.\n\nBon appétit,\nThe Catering Team\n\n--\n101 Collins Catering\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5001\nMenu: https://catering.101collins.com.au",
+    "timestamp": 1711845900000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-catering"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Mar_24.pdf",
+        "size": 1439884
+      }
+    ]
+  },
+  {
+    "id": "e538f128-c820-470a-af34-70e260393302",
+    "from": "sarah.connor@jpmorgan.com",
+    "fromName": "Sarah Connor",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "URGENT: Portfolio Adjustment for QBE",
+    "body": "Team,\n\nClient instruction just came down. We need to immediately reduce the small-cap portfolio.\n\nPlease drop everything and model out the implications. I need execution levels and a full impact analysis on my desk in 2 hours.\n\nSarah Connor\n\n--\nSarah Connor\nManaging Director, Portfolio Manager\nJ.P. Morgan Asset Management\nSydney, Australia\nTel: +61 2 9003 8888",
+    "timestamp": 1711845960000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal-pm"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "cbd3777c-eab4-4378-9c0f-0d63b907128c",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Hi Tom,\n\nQuick reminder that NPF needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1711847280000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "93ffa744-ba41-41c2-a0b0-7a4f26f4dd42",
+    "from": "catering@101collins.com.au",
+    "fromName": "101 Collins Catering",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Reminder: Client Meeting Catering Order",
+    "body": "Dear Team,\n\nThis is a reminder that your catering order for a client meeting is confirmed for tomorrow at 11:00 AM.\n\nIf you need to make any changes or cancellations, please contact us immediately.\n\n--\n101 Collins Catering\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5001\nMenu: https://catering.101collins.com.au",
+    "timestamp": 1711848060000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-catering"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "4ffebb97-baf6-4f5b-9be0-1ddbb1084224",
+    "from": "payroll.au@jpmorgan.com",
+    "fromName": "J.P. Morgan Payroll",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Your J.P. Morgan Payslip is Available",
+    "body": "Dear Thomas Francis,\n\nYour payslip for March 2024 is now available online.\n\nTo view your payslip, please log in to the Employee Portal.\n\n--\nJ.P. Morgan Payroll - Australia\nThis is an automated notification. Please do not reply.\nFor inquiries, please contact HR Services.",
+    "timestamp": 1711850040000,
+    "isRead": false,
+    "isStarred": true,
+    "labels": [
+      "internal-hr"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "67c0b0f8-8695-4781-8bc4-db44570d27e5",
+    "from": "compliance.asia@jpmorgan.com",
+    "fromName": "Compliance Office",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "FINAL REMINDER: Annual Code of Conduct Certification",
+    "body": "Final reminder: Your Annual Code of Conduct certification is overdue and must be completed by 5pm TODAY or access may be restricted.\n\n--\nCompliance Office | Asia Pacific\nJ.P. Morgan",
+    "timestamp": 1711850940000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal-compliance"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "076e7529-f639-4e75-baf0-349731285fdf",
+    "from": "payroll.au@jpmorgan.com",
+    "fromName": "J.P. Morgan Payroll",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Your J.P. Morgan Payslip is Available",
+    "body": "Dear Thomas Francis,\n\nYour payslip for March 2024 is now available online.\n\nTo view your payslip, please log in to the Employee Portal.\n\n--\nJ.P. Morgan Payroll - Australia\nThis is an automated notification. Please do not reply.\nFor inquiries, please contact HR Services.",
+    "timestamp": 1711851180000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal-hr"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "2043a3de-a270-490f-8b5c-0425b938570e",
+    "from": "investments@ampcapital.com",
+    "fromName": "AMP Capital Investments",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Collier, Harris and Kemmer request for proposal",
+    "body": "Thomas,\n\nGood to connect with you last week.\n\nI'm following up on the request for proposal. We require an update by EOD next week for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nAMP Capital Investments\n\n--\nAMP Capital Investments\nSydney, Australia",
+    "timestamp": 1711852380000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "ae3d25d9-2a0c-4e9e-a0ff-889101a53f41",
+    "from": "no-reply@teams.microsoft.com",
+    "fromName": "Microsoft Teams",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Reminder: \"Weekly Team Sync\" starts in 15 minutes",
+    "body": "This is a reminder for your upcoming meeting.\n\n--\nThis message was sent from a notification-only address that cannot accept incoming email.\nPlease do not reply to this message.",
+    "timestamp": 1711856280000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-teams"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "23fb6241-cc96-43f0-b1c6-503fc17e07ce",
+    "from": "it.alerts.apac@jpmorgan.com",
+    "fromName": "J.P. Morgan Technology",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Required: Mandatory Security Update for Bloomberg Terminal",
+    "body": "Action Required.\n\nA critical security patch is available for your Bloomberg Terminal application. Please restart before EOD to apply this update or access may be suspended.\n\n--\nJ.P. Morgan Technology - APAC\nThis is an automated message. Do not reply.\nFor support, please contact the IT Service Desk.",
+    "timestamp": 1711856460000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal-it"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "6dbcd930-e83c-4ee4-9353-6959c10a0f0a",
+    "from": "sarah.connor@jpmorgan.com",
+    "fromName": "Sarah Connor",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "URGENT: Portfolio Adjustment for QBE",
+    "body": "Tom,\n\nClient instruction just came down. We need to immediately reduce the small-cap portfolio.\n\nPlease drop everything and model out the implications. I need execution levels and a full impact analysis on my desk in 2 hours.\n\nSarah Connor\n\n--\nSarah Connor\nManaging Director, Portfolio Manager\nJ.P. Morgan Asset Management\nSydney, Australia\nTel: +61 2 9003 8888",
+    "timestamp": 1711856520000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal-pm"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "91c8add3-4155-480d-a484-1a0eb7dee279",
+    "from": "no-reply@teams.microsoft.com",
+    "fromName": "Microsoft Teams",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Reminder: \"APAC Resources Morning Huddle\" starts soon",
+    "body": "This is a reminder for your team meeting.\n\n--\nThis message was sent from a notification-only address that cannot accept incoming email.\nPlease do not reply to this message.",
+    "timestamp": 1711858080000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-teams"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Mar_24.pdf",
+        "size": 592475
+      }
+    ]
+  },
+  {
+    "id": "4db40e51-2219-49d4-b522-f35413bcf34f",
+    "from": "investments@npf.org.nz",
+    "fromName": "Michael Jones",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Mayer, Franecki and Watsica request for proposal",
+    "body": "Thomas,\n\nHope you are well.\n\nI'm following up on the request for proposal. We require an update by EOD tomorrow for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nMichael Jones\n\n--\nMichael Jones\nPortfolio Manager\nNational Provident Fund\nWellington, New Zealand",
+    "timestamp": 1711858080000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "4c91dd86-c7de-460d-90e0-c1ebdedd5f6b",
+    "from": "payroll.au@jpmorgan.com",
+    "fromName": "J.P. Morgan Payroll",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Your J.P. Morgan Payslip is Available",
+    "body": "Dear Thomas Francis,\n\nYour payslip for March 2024 is now available online.\n\nTo view your payslip, please log in to the Employee Portal.\n\n--\nJ.P. Morgan Payroll - Australia\nThis is an automated notification. Please do not reply.\nFor inquiries, please contact HR Services.",
+    "timestamp": 1711861500000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal-hr"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "24d3931e-54bd-41d7-affe-80873f7a030b",
+    "from": "group.treasury@qbe.com",
+    "fromName": "David Chen",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: MacGyver - Haley performance report",
+    "body": "Thomas,\n\nGood to connect with you last week.\n\nI'm following up on the performance report. We require an update by EOD next week for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nDavid Chen\n\n--\nDavid Chen\nGroup Treasury\nQBE Insurance",
+    "timestamp": 1711863000000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "fe3011ed-7cde-43eb-98d1-72d174819b84",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: RIO - analyst rating changes",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: FMG AX Equity\nEvent: analyst rating changes detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1711864260000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "36f36f22-08df-42fc-bd4f-16a68a965957",
+    "from": "it.alerts.apac@jpmorgan.com",
+    "fromName": "J.P. Morgan Technology",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Incident: Degraded Performance - File Storage Service",
+    "body": "Dear Users,\n\nWe are investigating reports of degraded performance affecting the VPN Cluster. Mitigation in progress. Next update in 30 minutes.\n\n--\nJ.P. Morgan Technology - APAC\nThis is an automated message. Do not reply.\nFor support, please contact the IT Service Desk.",
+    "timestamp": 1711864560000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal-it"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Mar_24.pdf",
+        "size": 1401303
+      }
+    ]
+  },
+  {
+    "id": "3dfe2a6e-3060-40a7-bec0-5b134c56e1fa",
+    "from": "james@selbyjennings.com",
+    "fromName": "James Robertson",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Opportunity at Top-Tier Hedge Fund - Melbourne",
+    "body": "Hi Thomas,\n\nYour profile stood out given your experience in metals & mining. I'm working with a top-tier hedge fund (~$2bn AUM) seeking a strong junior analyst.\n\nOpen to a confidential 10-minute call this week?\n\nBest,\nJames Robertson\n\n--\nJames Robertson\nSenior Associate\nSelby Jennings | Ph: (459) 972-9521 x2269",
+    "timestamp": 1711865640000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-recruiter"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "cc1077b3-4a32-47a7-ba63-efa780365e09",
+    "from": "sarah.connor@jpmorgan.com",
+    "fromName": "Sarah Connor",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "URGENT: Portfolio Adjustment for QBE",
+    "body": "Team,\n\nClient instruction just came down. We need to liquidate the the small-cap portfolio.\n\nPlease drop everything and model out the implications. I need execution levels and a full impact analysis on my desk in 2 hours.\n\nSarah Connor\n\n--\nSarah Connor\nManaging Director, Portfolio Manager\nJ.P. Morgan Asset Management\nSydney, Australia\nTel: +61 2 9003 8888",
+    "timestamp": 1711865940000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal-pm"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "f11dbe94-e354-4182-b203-e7ba2e10498f",
+    "from": "nathan.penny@101collins.com.au",
+    "fromName": "Nathan Penny",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Important: Air Conditioning Maintenance Tonight",
+    "body": "Please be advised that essential maintenance will be performed on the building's air conditioning system after 7:00 PM tonight. Some noise disruption may occur.\n\nWe appreciate your patience and apologise for any inconvenience caused.\n\nRegards,\nNathan Penny\n\n--\nNathan Penny\nBuilding Manager\n101 Collins Street Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000",
+    "timestamp": 1711866060000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-facilities"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "83fc48ae-5c67-4bc4-a788-f6e7d0a8003a",
+    "from": "nathan.penny@101collins.com.au",
+    "fromName": "Nathan Penny",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Building Update: Scheduled Fire Drill",
+    "body": "Dear Occupants,\n\nA scheduled fire drill will be conducted this Wednesday morning between 10:00 AM - 11:00 AM. All building employees must participate.\n\nPlease follow instructions from your floor wardens. If you have any questions, please don't hesitate to reach out.\n\nKind regards,\nNathan Penny\n\n--\nNathan Penny\nBuilding Manager\n101 Collins Street Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000",
+    "timestamp": 1711866780000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-facilities"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Mar_24.pdf",
+        "size": 1276567
+      }
+    ]
+  }
+]

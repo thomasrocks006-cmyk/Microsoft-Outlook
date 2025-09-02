@@ -1,0 +1,677 @@
+[
+  {
+    "id": "cd654d2c-dab4-4d1c-92f4-fb10ea7b317b",
+    "from": "research@jpmorgan.com",
+    "fromName": "J.P. Morgan Research",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "AM Brief: Thu, 31 Jul 2025",
+    "body": "Good morning,\n\n**Overnight Market Summary:**\nThe tone was risk-on. Oil futures dropped amid concerns over Fiji Dollar.\n\n**Key Event Today:** FOMC Minutes at 12:00 AEST.\n\n**Key Reads for Today:**\n- JPM Research: McGlynn - Berge upgraded to Overweight\n- Bloomberg: Vos decor cognomen cornu tutis comprehendo urbanus sustineo.\n- AFR: Terra trucido demo solus bis voluptatum.\n\n--\nJ.P. Morgan Research\nThis is an automated daily briefing.\nFor more information, please contact your representative.",
+    "timestamp": 1753907820000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal-brief"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "3957ea05-7c05-4c60-be41-5f87f2bb99d7",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Hi Thomas,\n\nQuick reminder that Future Fund needs a final sign-off. \n\nThanks,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4669517 429\n",
+    "timestamp": 1753912980000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "e06fa9a7-6704-46e6-96ec-a292de8150e9",
+    "from": "no-reply@teams.microsoft.com",
+    "fromName": "Microsoft Teams",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Reminder: \"APAC Resources Morning Huddle\" starts at 8:30 AM",
+    "body": "This is a reminder for your daily team meeting.\n\n--\nThis message was sent from a notification-only address that cannot accept incoming email.\nPlease do not reply to this message.",
+    "timestamp": 1753914600000,
+    "isRead": true,
+    "isStarred": true,
+    "labels": [
+      "external-teams"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "71dd162f-7653-4a59-a3a1-6c4b41bd93d8",
+    "from": "no-reply@teams.microsoft.com",
+    "fromName": "Microsoft Teams",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Reminder: \"APAC Resources Morning Huddle\" starts at 8:30 AM",
+    "body": "This is a reminder for your daily team meeting.\n\n--\nThis message was sent from a notification-only address that cannot accept incoming email.\nPlease do not reply to this message.",
+    "timestamp": 1753914600000,
+    "isRead": false,
+    "isStarred": true,
+    "labels": [
+      "external-teams"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "8e685786-26ab-4e46-b7ef-8b5f3a973386",
+    "from": "payroll.au@jpmorgan.com",
+    "fromName": "J.P. Morgan Payroll",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Your J.P. Morgan Payslip is Available",
+    "body": "Dear Thomas Francis,\n\nYour payslip for July 2025 is now available online.\n\nTo view your payslip, please log in to the Employee Portal.\n\n--\nJ.P. Morgan Payroll - Australia\nThis is an automated notification. Please do not reply.\nFor inquiries, please contact HR Services.",
+    "timestamp": 1753915080000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal-hr"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "17c026d1-04df-46e5-a9b7-9bec7c7b9f8a",
+    "from": "payroll.au@jpmorgan.com",
+    "fromName": "J.P. Morgan Payroll",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Your J.P. Morgan Payslip is Available",
+    "body": "Dear Thomas Francis,\n\nYour payslip for July 2025 is now available online.\n\nTo view your payslip, please log in to the Employee Portal.\n\n--\nJ.P. Morgan Payroll - Australia\nThis is an automated notification. Please do not reply.\nFor inquiries, please contact HR Services.",
+    "timestamp": 1753915560000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal-hr"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "37741de9-c79b-4b68-a021-8f7433ebbf8b",
+    "from": "investments@ampcapital.com",
+    "fromName": "AMP Capital Investments",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Sauer - Streich request for proposal",
+    "body": "Thomas,\n\nGood to connect with you last week.\n\nI'm following up on the request for proposal. We require an update by EOD Thursday for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nAMP Capital Investments\n\n--\nAMP Capital Investments\nSydney, Australia",
+    "timestamp": 1753916160000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "5a7fe294-7245-48ec-8f82-abfc37df171f",
+    "from": "mandates@futurefund.gov.au",
+    "fromName": "Future Fund Mandates",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Koss, Braun and Weimann request for proposal",
+    "body": "Dear Thomas,\n\nGood to connect with you last week.\n\nI'm following up on the request for proposal. We require an update by EOD next week for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nFuture Fund Mandates\n\n--\nFuture Fund\nMelbourne, Australia",
+    "timestamp": 1753918920000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "f5a7570d-828a-43e3-aef4-0d46e1ac2127",
+    "from": "james@selbyjennings.com",
+    "fromName": "James Robertson",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Opportunity at Top-Tier Hedge Fund - Melbourne",
+    "body": "Hi Thomas,\n\nYour profile stood out given your experience in metals & mining. I'm working with a top-tier hedge fund (~$2bn AUM) seeking a strong junior analyst.\n\nOpen to a confidential 10-minute call this week?\n\nBest,\nJames Robertson\n\n--\nJames Robertson\nSenior Associate\nSelby Jennings | Ph: (459) 972-9521 x2269",
+    "timestamp": 1753923300000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-recruiter"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "7994dca0-64f8-4ae5-963e-3238798f93ae",
+    "from": "paul.randall@jpmorgan.com",
+    "fromName": "Paul Randall",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Dear Thomas,\n\nQuick reminder that Future Fund needs a final sign-off. \n\nThanks,\nPaul\n\n--\nPaul Randall\nExecutive Director | Asset Management\nJ.P. Morgan Asset Management\nSydney, Australia\nTel: +61 2 9003 8888\n",
+    "timestamp": 1753924620000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "b64779b9-960b-40c5-9c4f-4c4b74e2851c",
+    "from": "james@selbyjennings.com",
+    "fromName": "James Robertson",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Opportunity at Top-Tier Hedge Fund - Melbourne",
+    "body": "Hi Thomas,\n\nYour profile stood out given your experience in metals & mining. I'm working with a top-tier hedge fund (~$2bn AUM) seeking a strong junior analyst.\n\nOpen to a confidential 10-minute call this week?\n\nBest,\nJames Robertson\n\n--\nJames Robertson\nSenior Associate\nSelby Jennings | Ph: (459) 972-9521 x2269",
+    "timestamp": 1753924920000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-recruiter"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "c6bbc7cc-f47f-406d-b99d-9b7adb1bc6e4",
+    "from": "james@selbyjennings.com",
+    "fromName": "James Robertson",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Opportunity at Top-Tier Hedge Fund - Melbourne",
+    "body": "Hi Thomas,\n\nYour profile stood out given your experience in metals & mining. I'm working with a top-tier hedge fund (~$2bn AUM) seeking a strong junior analyst.\n\nOpen to a confidential 10-minute call this week?\n\nBest,\nJames Robertson\n\n--\nJames Robertson\nSenior Associate\nSelby Jennings | Ph: (459) 972-9521 x2269",
+    "timestamp": 1753925400000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-recruiter"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "02d8bda5-9865-4013-a78f-a3064bd393f0",
+    "from": "investments@sunsuper.com.au",
+    "fromName": "Sunsuper Investments Team",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Carroll, Emmerich and Stark performance report",
+    "body": "Dear Thomas,\n\nGood to connect with you last week.\n\nI'm following up on the performance report. We require an update by EOD Thursday for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nSunsuper Investments Team\n\n--\nSunsuper Investments Team\nQueensland, Australia",
+    "timestamp": 1753925640000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "462e3dd6-a29b-4dbe-8797-7656b35541fe",
+    "from": "group.treasury@qbe.com",
+    "fromName": "David Chen",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Donnelly, Friesen and Morar transition of funds",
+    "body": "Hi Tom,\n\nHope you are well.\n\nI'm following up on the transition of funds. We require an update by EOD Thursday for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nDavid Chen\n\n--\nDavid Chen\nGroup Treasury\nQBE Insurance",
+    "timestamp": 1753927920000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Jul_25.pdf",
+        "size": 1018492
+      }
+    ]
+  },
+  {
+    "id": "ffc36dcc-c2ce-48ef-b08b-6ab3dd95581c",
+    "from": "james@selbyjennings.com",
+    "fromName": "James Robertson",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Opportunity at Top-Tier Hedge Fund - Melbourne",
+    "body": "Hi Thomas,\n\nYour profile stood out given your experience in metals & mining. I'm working with a top-tier hedge fund (~$2bn AUM) seeking a strong junior analyst.\n\nOpen to a confidential 10-minute call this week?\n\nBest,\nJames Robertson\n\n--\nJames Robertson\nSenior Associate\nSelby Jennings | Ph: (459) 972-9521 x2269",
+    "timestamp": 1753929480000,
+    "isRead": false,
+    "isStarred": true,
+    "labels": [
+      "external-recruiter"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Jul_25.pdf",
+        "size": 1747486
+      }
+    ]
+  },
+  {
+    "id": "d3676eaf-cd09-449a-85b9-712233d6a20b",
+    "from": "compliance.asia@jpmorgan.com",
+    "fromName": "Compliance Office",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "FINAL REMINDER: Annual Code of Conduct Certification",
+    "body": "Final reminder: Your Annual Code of Conduct certification is overdue and must be completed by 5pm TODAY or access may be restricted.\n\n--\nCompliance Office | Asia Pacific\nJ.P. Morgan",
+    "timestamp": 1753930020000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal-compliance"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "74baa9e2-061d-47e7-9244-e27b1ee992f7",
+    "from": "investments@sunsuper.com.au",
+    "fromName": "Sunsuper Investments Team",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Parker - Paucek request for proposal",
+    "body": "Hi Tom,\n\nHope you are well.\n\nI'm following up on the request for proposal. We require an update by EOD next week for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nSunsuper Investments Team\n\n--\nSunsuper Investments Team\nQueensland, Australia",
+    "timestamp": 1753931280000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "0514aad3-0105-4af5-904e-06a8104a5276",
+    "from": "investments@npf.org.nz",
+    "fromName": "Michael Jones",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Deckow, Beahan and Emmerich request for proposal",
+    "body": "Hi Thomas,\n\nHope you are well.\n\nI'm following up on the request for proposal. We require an update by EOD Thursday for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nMichael Jones\n\n--\nMichael Jones\nPortfolio Manager\nNational Provident Fund\nWellington, New Zealand",
+    "timestamp": 1753935120000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "a2a6767b-af4d-4c5f-821f-f0af054bc726",
+    "from": "payroll.au@jpmorgan.com",
+    "fromName": "J.P. Morgan Payroll",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Your J.P. Morgan Payslip is Available",
+    "body": "Dear Thomas Francis,\n\nYour payslip for July 2025 is now available online. Due to the public holiday, payment will be processed a day early this period.\n\nTo view your payslip, please log in to the Employee Portal.\n\n--\nJ.P. Morgan Payroll - Australia\nThis is an automated notification. Please do not reply.\nFor inquiries, please contact HR Services.",
+    "timestamp": 1753936020000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal-hr"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "241c2639-edd6-4081-86e0-a0cdcd9e9952",
+    "from": "catering@101collins.com.au",
+    "fromName": "101 Collins Catering",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Reminder: Client Meeting Catering Order",
+    "body": "Dear Team,\n\nThis is a reminder that your catering order for a client meeting is confirmed for tomorrow at 11:00 AM.\n\nIf you need to make any changes or cancellations, please contact us immediately.\n\n--\n101 Collins Catering\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5001\nMenu: https://catering.101collins.com.au",
+    "timestamp": 1753937520000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-catering"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "51a6e320-6b0d-4e0e-9687-97c81038cd2a",
+    "from": "payroll.au@jpmorgan.com",
+    "fromName": "J.P. Morgan Payroll",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Your J.P. Morgan Payslip is Available",
+    "body": "Dear Thomas Francis,\n\nYour payslip for July 2025 is now available online.\n\nTo view your payslip, please log in to the Employee Portal.\n\n--\nJ.P. Morgan Payroll - Australia\nThis is an automated notification. Please do not reply.\nFor inquiries, please contact HR Services.",
+    "timestamp": 1753941060000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal-hr"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "ec31033b-5e66-4b1e-a4a0-c9a51ef6da96",
+    "from": "it.alerts.apac@jpmorgan.com",
+    "fromName": "J.P. Morgan Technology",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Required: Mandatory Security Update for Bloomberg Terminal",
+    "body": "Action Required.\n\nA critical security patch is available for your Bloomberg Terminal application. Please restart before EOD to apply this update or access may be suspended.\n\n--\nJ.P. Morgan Technology - APAC\nThis is an automated message. Do not reply.\nFor support, please contact the IT Service Desk.",
+    "timestamp": 1753941360000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal-it"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "049c8c65-28a9-4983-a4c6-e84e69fdc0b3",
+    "from": "payroll.au@jpmorgan.com",
+    "fromName": "J.P. Morgan Payroll",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Your J.P. Morgan Payslip is Available",
+    "body": "Dear Thomas Francis,\n\nYour payslip for July 2025 is now available online.\n\nTo view your payslip, please log in to the Employee Portal.\n\n--\nJ.P. Morgan Payroll - Australia\nThis is an automated notification. Please do not reply.\nFor inquiries, please contact HR Services.",
+    "timestamp": 1753943400000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal-hr"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "c355cc37-c05e-4cec-bbe2-bcdcc63f28b5",
+    "from": "catering@101collins.com.au",
+    "fromName": "101 Collins Catering",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Reminder: Client Meeting Catering Order",
+    "body": "Dear Team,\n\nThis is a reminder that your catering order for a client meeting is confirmed for tomorrow at 11:00 AM.\n\nIf you need to make any changes or cancellations, please contact us immediately.\n\n--\n101 Collins Catering\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5001\nMenu: https://catering.101collins.com.au",
+    "timestamp": 1753943460000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-catering"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "4b8f57f6-d969-440b-9f28-e9944268b08b",
+    "from": "payroll.au@jpmorgan.com",
+    "fromName": "J.P. Morgan Payroll",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Your J.P. Morgan Payslip is Available",
+    "body": "Dear Thomas Francis,\n\nYour payslip for July 2025 is now available online.\n\nTo view your payslip, please log in to the Employee Portal.\n\n--\nJ.P. Morgan Payroll - Australia\nThis is an automated notification. Please do not reply.\nFor inquiries, please contact HR Services.",
+    "timestamp": 1753944180000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal-hr"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Jul_25.pdf",
+        "size": 1487038
+      }
+    ]
+  },
+  {
+    "id": "1943319c-7198-4a05-ae53-a7c6208033f3",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Hi Thomas,\n\nQuick reminder that QBE needs a final sign-off. \n\nThanks,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1753946520000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "24313c3b-48ce-413c-815e-7437862352c2",
+    "from": "james@selbyjennings.com",
+    "fromName": "James Robertson",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Opportunity at Top-Tier Hedge Fund - Melbourne",
+    "body": "Hi Thomas,\n\nYour profile stood out given your experience in metals & mining. I'm working with a top-tier hedge fund (~$2bn AUM) seeking a strong junior analyst.\n\nOpen to a confidential 10-minute call this week?\n\nBest,\nJames Robertson\n\n--\nJames Robertson\nSenior Associate\nSelby Jennings | Ph: (459) 972-9521 x2269",
+    "timestamp": 1753950420000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-recruiter"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "3f73c50e-db4e-4b39-8e44-c3faa4f2dcb8",
+    "from": "investments@npf.org.nz",
+    "fromName": "Michael Jones",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Howe, Waelchi and Shanahan request for proposal",
+    "body": "Hi Thomas,\n\nHope you are well.\n\nI'm following up on the request for proposal. We require an update by EOD Thursday for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nMichael Jones\n\n--\nMichael Jones\nPortfolio Manager\nNational Provident Fund\nWellington, New Zealand",
+    "timestamp": 1753950960000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Jul_25.pdf",
+        "size": 742328
+      }
+    ]
+  },
+  {
+    "id": "a07d271b-a3f6-473c-8fbe-6b496507d431",
+    "from": "payroll.au@jpmorgan.com",
+    "fromName": "J.P. Morgan Payroll",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Your J.P. Morgan Payslip is Available",
+    "body": "Dear Thomas Francis,\n\nYour payslip for July 2025 is now available online.\n\nTo view your payslip, please log in to the Employee Portal.\n\n--\nJ.P. Morgan Payroll - Australia\nThis is an automated notification. Please do not reply.\nFor inquiries, please contact HR Services.",
+    "timestamp": 1753952520000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal-hr"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "195d90fa-16da-47ba-8a2d-f7fb2708c8fd",
+    "from": "investments@twusuper.com.au",
+    "fromName": "Lisa Tran",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Bernhard LLC investment committee meeting",
+    "body": "Thomas,\n\nGood to connect with you last week.\n\nI'm following up on the investment committee meeting. We require an update by EOD Thursday for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nLisa Tran\n\n--\nLisa Tran\nInvestment Analyst\nTWUSUPER",
+    "timestamp": 1753953180000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "c3812a7c-cda5-478d-9152-40285fa10e12",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Dear Thomas,\n\nQuick reminder that TWUSUPER needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1753953360000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "58f719f6-71ad-4c7a-b6dd-ba9456bc4421",
+    "from": "catering@101collins.com.au",
+    "fromName": "101 Collins Catering",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Reminder: Client Meeting Catering Order",
+    "body": "Dear Occupant,\n\nThis is a reminder that your catering order for a client meeting is confirmed for tomorrow at 11:00 AM.\n\nIf you need to make any changes or cancellations, please contact us immediately.\n\n--\n101 Collins Catering\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5001\nMenu: https://catering.101collins.com.au",
+    "timestamp": 1753953420000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-catering"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "44ffcecb-d9b9-4bf3-890d-d9e9af84bbc5",
+    "from": "investments@clubplus.com.au",
+    "fromName": "Robert Singh",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: McCullough Group investment committee meeting",
+    "body": "Thomas,\n\nHope you are well.\n\nI'm following up on the investment committee meeting. We require an update by EOD Thursday for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nRobert Singh\n\n--\nRobert Singh\nSenior Portfolio Manager\nClub Plus Super\nTel: +61 2 9254 5000",
+    "timestamp": 1753953540000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "dfccbf2c-6412-40ca-809d-e8e4683137eb",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: FMG - unusual options activity",
+    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: BHP AX Equity\nEvent: unusual options activity detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1753954320000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "f69d1181-b49e-4da5-833b-ac12692a3d16",
+    "from": "mandates@futurefund.gov.au",
+    "fromName": "Future Fund Mandates",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: West - Bechtelar transition of funds",
+    "body": "Hi Tom,\n\nHope you are well.\n\nI'm following up on the transition of funds. We require an update by EOD tomorrow for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nFuture Fund Mandates\n\n--\nFuture Fund\nMelbourne, Australia",
+    "timestamp": 1753956120000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Jul_25.pdf",
+        "size": 975668
+      }
+    ]
+  },
+  {
+    "id": "c59276fc-877b-4b3f-b38c-8d2544fb671b",
+    "from": "mandates@futurefund.gov.au",
+    "fromName": "Future Fund Mandates",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Mraz and Sons request for proposal",
+    "body": "Dear Thomas,\n\nHope you are well.\n\nI'm following up on the request for proposal. We require an update by EOD next week for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nFuture Fund Mandates\n\n--\nFuture Fund\nMelbourne, Australia",
+    "timestamp": 1753956660000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "8e121fb5-d466-4915-9427-0277ea409038",
+    "from": "mandates@futurefund.gov.au",
+    "fromName": "Future Fund Mandates",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Howe LLC request for proposal",
+    "body": "Thomas,\n\nHope you are well.\n\nI'm following up on the request for proposal. We require an update by EOD Thursday for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nFuture Fund Mandates\n\n--\nFuture Fund\nMelbourne, Australia",
+    "timestamp": 1753956840000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "84ab066e-958f-438a-9873-b36d358739c6",
+    "from": "it.alerts.apac@jpmorgan.com",
+    "fromName": "J.P. Morgan Technology",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Incident: Degraded Performance - Market Data Feed",
+    "body": "Dear Users,\n\nWe are investigating reports of degraded performance affecting the VPN Cluster. Mitigation in progress. Next update in 30 minutes.\n\n--\nJ.P. Morgan Technology - APAC\nThis is an automated message. Do not reply.\nFor support, please contact the IT Service Desk.",
+    "timestamp": 1753957200000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal-it"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Jul_25.pdf",
+        "size": 1370603
+      }
+    ]
+  },
+  {
+    "id": "3f2bdea5-961a-41e8-a607-ae137236f55b",
+    "from": "investments@npf.org.nz",
+    "fromName": "Michael Jones",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Batz, Ebert and Blanda investment committee meeting",
+    "body": "Dear Thomas,\n\nHope you are well.\n\nI'm following up on the investment committee meeting. We require an update by EOD tomorrow for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nMichael Jones\n\n--\nMichael Jones\nPortfolio Manager\nNational Provident Fund\nWellington, New Zealand",
+    "timestamp": 1753957440000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "6483e753-2c0f-4384-805d-16a9f080012e",
+    "from": "paul.randall@jpmorgan.com",
+    "fromName": "Paul Randall",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of BHP model",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the BHP model. Could you take a look?\n\nCheers,\nPaul\n\n--\nPaul Randall\nExecutive Director | Asset Management\nJ.P. Morgan Asset Management\nSydney, Australia\nTel: +61 2 9003 8888\n",
+    "timestamp": 1753957680000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "7d0457ec-e6c9-4e11-8077-63494ceac7af",
+    "from": "it.alerts.apac@jpmorgan.com",
+    "fromName": "J.P. Morgan Technology",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Planned Maintenance: Database Failover Test",
+    "body": "Notification: Planned maintenance will commence at 22:00 AEST tonight. Brief disruption possible.\n\n--\nJ.P. Morgan Technology - APAC\nThis is an automated message. Do not reply.\nFor support, please contact the IT Service Desk.",
+    "timestamp": 1753958880000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal-it"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "3fa7e80f-a8ce-4720-818d-7aca69e5fe35",
+    "from": "mandates@futurefund.gov.au",
+    "fromName": "Future Fund Mandates",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Howell, Reilly and Balistreri performance report",
+    "body": "Hi Thomas,\n\nHope you are well.\n\nI'm following up on the performance report. We require an update by EOD next week for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nFuture Fund Mandates\n\n--\nFuture Fund\nMelbourne, Australia",
+    "timestamp": 1753959660000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "3970a1a8-5d9d-4590-be6c-e57ceeda4a07",
+    "from": "paul.randall@jpmorgan.com",
+    "fromName": "Paul Randall",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Review of lithium sector deep dive",
+    "body": "Hi Thomas,\n\nI've just finished the first draft of the lithium sector deep dive. Could you take a look?\n\nCheers,\nPaul\n\n--\nPaul Randall\nExecutive Director | Asset Management\nJ.P. Morgan Asset Management\nSydney, Australia\nTel: +61 2 9003 8888\n",
+    "timestamp": 1753960800000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  }
+]

@@ -38,6 +38,7 @@ const monthRequireMap: Record<string, any> = {
   '2025/06_june': require('../data/2025/06_june.json'),
   '2025/07_july': require('../data/2025/07_july.json'),
   '2025/08_august': require('../data/2025/08_august.json'),
+  '2025/09_september': require('../data/2025/09_september.json'),
 };
 
 export type RawEmail = {
@@ -48,6 +49,9 @@ export type RawEmail = {
   body: string;
   timestamp: number;
   isRead: boolean;
+  labels?: string[];
+  attachments?: Array<{ name: string; size: number; mime?: string; inline?: boolean }>;
+  threadId?: string;
 };
 
 export function getAvailableMonths(): Array<{ year: string; monthKey: string }>{

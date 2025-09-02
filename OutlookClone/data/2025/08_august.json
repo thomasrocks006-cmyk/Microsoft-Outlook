@@ -1,47 +1,77 @@
 [
   {
-    "id": "e2c5d760-9f91-457b-9e5b-6a5ccc0d88f3",
-    "from": "research@jpmorgan.com",
-    "fromName": "J.P. Morgan Research",
+    "id": "ca3fc34e-3cc6-4d18-bdb5-2bc3609c7353",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan",
     "to": "thomas.francis@jpmorgan.com",
-    "subject": "AM Brief: Thu, 28 Aug 2025",
-    "body": "Good morning,\n\n**Overnight Market Summary:**\nThe tone was risk-on. USD strengthened amid concerns over Liberian Dollar.\n\n**Key Event Today:** China PMI at 11:00 AEST.\n\n**Key Reads for Today:**\n- JPM Research: Koch - Gottlieb upgraded to Neutral\n- Bloomberg: Crastinus cinis cui campana tempora via cado talus.\n- AFR: Caste ventus absconditus amor taceo comptus.\n\n--\nJ.P. Morgan Research\nThis is an automated daily briefing.\nFor more information, please contact your representative.",
-    "timestamp": 1756327980000,
+    "subject": "Fw: Interesting research from Metz LLC on lithium",
+    "body": "FYI – thought this might be useful for our Club Plus presentation.\n\n---------- Forwarded message ----------\nFrom: Hope_Runte-Mertz77@hotmail.com\nDate: August 31st, 2025\nSubject: Interesting research from Rolfson LLC\n\nCedo torqueo vivo ustilo depromo ambulo patior appono temperantia vulticulus. Terra amplexus calcar patruus civis ullus thesis illo aegrus tactus. Deorsum capillus error abscido candidus beatae molestiae capitulus.\nAgnosco crinis tot apto animi deleniti stultus turpis rem. Tamdiu molestias desidero omnis adeptio tardus arbor vis. Vomito aufero vomito id amplitudo conscendo cubitum thymbra.\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1756591260000,
     "isRead": true,
-    "isStarred": false,
-    "labels": [
-      "internal-brief"
-    ],
-    "attachments": []
-  },
-  {
-    "id": "ce15f508-fda6-44bd-b068-3b86d57fb9d1",
-    "from": "al.harvey@jpmorgan.com",
-    "fromName": "Al Harvey",
-    "to": "thomas.francis@jpmorgan.com",
-    "subject": "Review of QBE presentation",
-    "body": "Hi Thomas,\n\nI've just finished the first draft of the QBE presentation. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
-    "timestamp": 1756335000000,
-    "isRead": false,
     "isStarred": false,
     "labels": [
       "internal"
     ],
+    "attachments": []
+  },
+  {
+    "id": "95f8c2b7-bdd4-46b5-a0b1-cfffc52f44b6",
+    "from": "catering@101collins.com.au",
+    "fromName": "101",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Catering: Reminder: Client Meeting Catering Order",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nDear Occupant,\n\nThis is a reminder that your catering order for a client meeting is confirmed for tomorrow at 11:00 AM.\n\nIf you need to make any changes or cancellations, please contact us immediately.\n\n--\n101 Collins Catering\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5001\nMenu: https://catering.101collins.com.au",
+    "timestamp": 1756591860000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-catering"
+    ],
     "attachments": [
       {
-        "name": "Report_Aug_25.pdf",
-        "size": 1852273
+        "name": "Report_Aug_25.xlsx",
+        "size": 1641806
       }
     ]
   },
   {
-    "id": "dd5a1105-14e2-4c84-9745-1e651dad0e51",
+    "id": "e6f63605-a5a6-4b1e-8383-5888c03d74b1",
+    "from": "nathan.penny@101collins.com.au",
+    "fromName": "101 Collins",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Facilities: Building Update: Scheduled Fire Drill",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nDear Occupants,\n\nA scheduled fire drill will be conducted this Wednesday morning between 10:00 AM - 11:00 AM. All building employees must participate.\n\nPlease follow instructions from your floor wardens. If you have any questions, please don't hesitate to reach out.\n\nKind regards,\nNathan Penny\n\n--\nNathan Penny\nBuilding Manager\n101 Collins Street Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000",
+    "timestamp": 1756592520000,
+    "isRead": true,
+    "isStarred": true,
+    "labels": [
+      "external-facilities"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "7188a82f-4b21-4a69-83b0-5b1eb7874cdd",
+    "from": "catering@101collins.com.au",
+    "fromName": "101",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Catering: Lunch Menu - Monday 31st Aug",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nGood morning,\n\nToday's featured lunch options for 101 Collins are:\n\n- Main: Tuna Sashimi\n- Main: Chilli Pepper-rubbed Rabbit Salad\n- Salad: Tomato Pie\n- Soup: French Fries With Sausages\n\nPlease place your orders before 10:30 AM via the online portal.\n\nBon appétit,\nThe Catering Team\n\n--\n101 Collins Catering\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5001\nMenu: https://catering.101collins.com.au",
+    "timestamp": 1756593780000,
+    "isRead": true,
+    "isStarred": true,
+    "labels": [
+      "external-catering"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "c6d9e4c1-6620-426a-8ca8-52932e294cd8",
     "from": "investments@npf.org.nz",
     "fromName": "Michael Jones",
     "to": "thomas.francis@jpmorgan.com",
-    "subject": "Follow-up: Stamm - Abshire request for proposal",
-    "body": "Dear Thomas,\n\nHope you are well.\n\nI'm following up on the request for proposal. We require an update by EOD tomorrow for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nMichael Jones\n\n--\nMichael Jones\nPortfolio Manager\nNational Provident Fund\nWellington, New Zealand",
-    "timestamp": 1756336200000,
+    "subject": "Follow-up: Jacobson, Feil and Gleason transition of funds",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nDear Thomas,\n\nGood to connect with you last week.\n\nI'm following up on the transition of funds. We require an update by EOD Thursday for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nMichael Jones\n\n--\nMichael Jones\nPortfolio Manager\nNational Provident Fund\nWellington, New Zealand",
+    "timestamp": 1756594260000,
     "isRead": true,
     "isStarred": false,
     "labels": [
@@ -50,153 +80,63 @@
     "attachments": []
   },
   {
-    "id": "f4d4b91d-490e-4cc6-87d0-f37f94634fd6",
-    "from": "mandates@futurefund.gov.au",
-    "fromName": "Future Fund Mandates",
+    "id": "3b1aca84-b0a2-4c8c-a9a3-40adf6fa5563",
+    "from": "membership@mcg.org.au",
+    "fromName": "Melbourne Cricket Ground",
     "to": "thomas.francis@jpmorgan.com",
-    "subject": "Follow-up: Kunze - Boehm request for proposal",
-    "body": "Dear Thomas,\n\nGood to connect with you last week.\n\nI'm following up on the request for proposal. We require an update by EOD Thursday for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nFuture Fund Mandates\n\n--\nFuture Fund\nMelbourne, Australia",
-    "timestamp": 1756337340000,
-    "isRead": true,
-    "isStarred": false,
-    "labels": [
-      "external-client"
-    ],
-    "attachments": []
-  },
-  {
-    "id": "4995a6ec-3c60-43d9-88a8-1246fe062b14",
-    "from": "investments@ampcapital.com",
-    "fromName": "AMP Capital Investments",
-    "to": "thomas.francis@jpmorgan.com",
-    "subject": "Follow-up: Schinner - Okuneva transition of funds",
-    "body": "Hi Thomas,\n\nGood to connect with you last week.\n\nI'm following up on the transition of funds. We require an update by EOD Thursday for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nAMP Capital Investments\n\n--\nAMP Capital Investments\nSydney, Australia",
-    "timestamp": 1756337940000,
-    "isRead": false,
-    "isStarred": true,
-    "labels": [
-      "external-client"
-    ],
-    "attachments": []
-  },
-  {
-    "id": "bc798506-4dc8-4011-9baf-14c6d3118dbd",
-    "from": "investments@clubplus.com.au",
-    "fromName": "Robert Singh",
-    "to": "thomas.francis@jpmorgan.com",
-    "subject": "Follow-up: Carter - Rogahn investment committee meeting",
-    "body": "Thomas,\n\nGood to connect with you last week.\n\nI'm following up on the investment committee meeting. We require an update by EOD Thursday for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nRobert Singh\n\n--\nRobert Singh\nSenior Portfolio Manager\nClub Plus Super\nTel: +61 2 9254 5000",
-    "timestamp": 1756345860000,
+    "subject": "Exclusive Member Offer: AFL Grand Final Lunch",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nAs a valued MCG member, you're invited to our exclusive AFL Grand Final lunch event. This premium experience includes:\n\n- Three-course meal and beverages\n- Guest appearance by AFL legend Delia Ritchie\n- Premium reserved seating\n\nBook now: https://frivolous-hepatitis.biz\n\n--\nMelbourne Cricket Ground\nMembership Services\nBrunton Ave, Richmond VIC 3000\nTel: +61 3 9657 8888",
+    "timestamp": 1756594620000,
     "isRead": false,
     "isStarred": false,
     "labels": [
-      "external-client"
+      "external-personal"
     ],
     "attachments": []
   },
   {
-    "id": "83a0f059-0c98-417a-be7d-7fe1749832e6",
-    "from": "lyndon.fagan@jpmorgan.com",
-    "fromName": "Lyndon Fagan",
+    "id": "ae1eaa17-f832-417a-b911-23956cf7d060",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
     "to": "thomas.francis@jpmorgan.com",
-    "subject": "Client Request Follow-up",
-    "body": "Hi Tom,\n\nQuick reminder that QBE needs a final sign-off. \n\nThanks,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
-    "timestamp": 1756347360000,
+    "subject": "Bloomberg Markets Weekly Roundup",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nCerno tergeo sunt vester ancilla vel soluta degenero creator. Officiis arcus adimpleo cogo tibi voco valens. Accusator spoliatio demulceo solio aedificium auctor.\nVomer fugiat teneo tyrannus cubitum repellat carus. Vilicus velociter blandior urbs conduco quidem undique tonsor victus. Magni caveo vir advoco ubi caveo tamisium aureus cibo.\n\nTo unsubscribe from this newsletter, click here: https://warlike-underneath.name/\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1756596120000,
     "isRead": true,
     "isStarred": false,
     "labels": [
-      "internal"
+      "external-vendor"
     ],
     "attachments": []
   },
   {
-    "id": "bc867ce3-0596-418e-a523-1d34bd02ba12",
-    "from": "lyndon.fagan@jpmorgan.com",
-    "fromName": "Lyndon Fagan",
+    "id": "caea28ff-e1f4-4b0b-a35c-5e73bb96a8ee",
+    "from": "james@selbyjennings.com",
+    "fromName": "James Robertson",
     "to": "thomas.francis@jpmorgan.com",
-    "subject": "Client Request Follow-up",
-    "body": "Hi Tom,\n\nQuick reminder that TWUSUPER needs a final sign-off. \n\nThanks,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
-    "timestamp": 1756347720000,
+    "subject": "Opportunity at Top-Tier Hedge Fund - Melbourne",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nHi Thomas,\n\nYour profile stood out given your experience in metals & mining. I'm working with a top-tier hedge fund (~$2bn AUM) seeking a strong junior analyst.\n\nOpen to a confidential 10-minute call this week?\n\nBest,\nJames Robertson\n\n--\nJames Robertson\nSenior Associate\nSelby Jennings | Ph: 971.915.3717 x93764",
+    "timestamp": 1756597080000,
     "isRead": true,
     "isStarred": false,
     "labels": [
-      "internal"
-    ],
-    "attachments": []
-  },
-  {
-    "id": "0768f1e4-4071-4f5c-93e9-dc75122c5603",
-    "from": "al.harvey@jpmorgan.com",
-    "fromName": "Al Harvey",
-    "to": "thomas.francis@jpmorgan.com",
-    "subject": "Review of NPF report",
-    "body": "Hi Thomas,\n\nI've just finished the first draft of the NPF report. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
-    "timestamp": 1756351440000,
-    "isRead": true,
-    "isStarred": false,
-    "labels": [
-      "internal"
-    ],
-    "attachments": []
-  },
-  {
-    "id": "b68b97c1-54fa-419a-9e68-f42585b703d4",
-    "from": "investments@sunsuper.com.au",
-    "fromName": "Sunsuper Investments Team",
-    "to": "thomas.francis@jpmorgan.com",
-    "subject": "Follow-up: O'Connell - Sporer performance report",
-    "body": "Hi Tom,\n\nHope you are well.\n\nI'm following up on the performance report. We require an update by EOD next week for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nSunsuper Investments Team\n\n--\nSunsuper Investments Team\nQueensland, Australia",
-    "timestamp": 1756352880000,
-    "isRead": false,
-    "isStarred": false,
-    "labels": [
-      "external-client"
-    ],
-    "attachments": []
-  },
-  {
-    "id": "b7c3ac98-c3ae-4a4c-8fb8-8fffeb2b8f8b",
-    "from": "payroll.au@jpmorgan.com",
-    "fromName": "J.P. Morgan Payroll",
-    "to": "thomas.francis@jpmorgan.com",
-    "subject": "Your J.P. Morgan Payslip is Available",
-    "body": "Dear Thomas Francis,\n\nYour payslip for August 2025 is now available online.\n\nTo view your payslip, please log in to the Employee Portal.\n\n--\nJ.P. Morgan Payroll - Australia\nThis is an automated notification. Please do not reply.\nFor inquiries, please contact HR Services.",
-    "timestamp": 1756353660000,
-    "isRead": false,
-    "isStarred": false,
-    "labels": [
-      "internal-hr"
-    ],
-    "attachments": []
-  },
-  {
-    "id": "0ee93df8-ba87-4587-b565-d6574b18fb19",
-    "from": "al.harvey@jpmorgan.com",
-    "fromName": "Al Harvey",
-    "to": "thomas.francis@jpmorgan.com",
-    "subject": "Client Request Follow-up",
-    "body": "Thomas,\n\nQuick reminder that Club Plus needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
-    "timestamp": 1756355400000,
-    "isRead": true,
-    "isStarred": false,
-    "labels": [
-      "internal"
+      "external-recruiter"
     ],
     "attachments": [
       {
-        "name": "Report_Aug_25.pdf",
-        "size": 1849922
+        "name": "Report_Aug_25.xlsx",
+        "size": 940637
       }
     ]
   },
   {
-    "id": "26e8e3b7-34eb-4dcd-9cb6-b08fa17f09a2",
-    "from": "mandates@futurefund.gov.au",
-    "fromName": "Future Fund Mandates",
+    "id": "9b096ad9-6ef9-4e73-a797-348e0e3edd0e",
+    "from": "investments@twusuper.com.au",
+    "fromName": "Lisa Tran",
     "to": "thomas.francis@jpmorgan.com",
-    "subject": "Follow-up: Gulgowski, Schaefer and Rolfson transition of funds",
-    "body": "Thomas,\n\nHope you are well.\n\nI'm following up on the transition of funds. We require an update by EOD Thursday for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nFuture Fund Mandates\n\n--\nFuture Fund\nMelbourne, Australia",
-    "timestamp": 1756357380000,
+    "subject": "Follow-up: Wehner, Wisozk and Wehner performance report",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nDear Thomas,\n\nGood to connect with you last week.\n\nI'm following up on the performance report. We require an update by EOD next week for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nLisa Tran\n\n--\nLisa Tran\nInvestment Analyst\nTWUSUPER",
+    "timestamp": 1756597800000,
     "isRead": true,
     "isStarred": false,
     "labels": [
@@ -205,13 +145,74 @@
     "attachments": []
   },
   {
-    "id": "5e1cd019-4ce4-4ca5-b644-3334597f302d",
-    "from": "nathan.wright@101collins.com.au",
-    "fromName": "Nathan Wright",
+    "id": "825042f2-1b83-40e4-9392-331b6b76ba73",
+    "from": "investments@twusuper.com.au",
+    "fromName": "Lisa Tran",
     "to": "thomas.francis@jpmorgan.com",
-    "subject": "Important: Air Conditioning Maintenance Tonight",
-    "body": "Please be advised that essential maintenance will be performed on the building's air conditioning system after 7:00 PM tonight. Some noise disruption may occur.\n\nWe appreciate your patience and apologise for any inconvenience caused.\n\nRegards,\nNathan Wright\n\n--\nNathan Wright\nBuilding Manager\n101 Collins Street Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000",
-    "timestamp": 1756358040000,
+    "subject": "Follow-up: Skiles, Wehner and Rolfson transition of funds",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nHi Thomas,\n\nHope you are well.\n\nI'm following up on the transition of funds. We require an update by EOD tomorrow for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nLisa Tran\n\n--\nLisa Tran\nInvestment Analyst\nTWUSUPER",
+    "timestamp": 1756598280000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "2d1a61ae-7e51-476e-bad3-7fb68e693d29",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: BHP - analyst rating changes",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nThis is an automated alert from the Bloomberg Terminal.\n\nSecurity: FMG AX Equity\nEvent: unusual options activity detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1756598280000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": [],
+    "threadId": "2d1a61ae-7e51-476e-bad3-7fb68e693d29"
+  },
+  {
+    "id": "93fd9e18-6b95-4f70-9dc1-d767229899dd",
+    "from": "catering@101collins.com.au",
+    "fromName": "101",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Catering: Reminder: Client Meeting Catering Order",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nDear Team,\n\nThis is a reminder that your catering order for a client meeting is confirmed for tomorrow at 11:00 AM.\n\nIf you need to make any changes or cancellations, please contact us immediately.\n\n--\n101 Collins Catering\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5001\nMenu: https://catering.101collins.com.au",
+    "timestamp": 1756598820000,
+    "isRead": true,
+    "isStarred": true,
+    "labels": [
+      "external-catering"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "95f20537-13b7-4ec7-83e5-37d177f69e60",
+    "from": "nathan.penny@101collins.com.au",
+    "fromName": "101 Collins",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Facilities: Building Update: Scheduled Fire Drill",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nDear Occupants,\n\nA scheduled fire drill will be conducted this Monday morning between 10:00 AM - 11:00 AM. All building employees must participate.\n\nPlease follow instructions from your floor wardens. If you have any questions, please don't hesitate to reach out.\n\nKind regards,\nNathan Penny\n\n--\nNathan Penny\nBuilding Manager\n101 Collins Street Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000\n\nSent from my iPhone",
+    "timestamp": 1756599840000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-facilities"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "223a7e06-3187-4feb-b79a-c40053390ee9",
+    "from": "nathan.penny@101collins.com.au",
+    "fromName": "101 Collins",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Facilities: Important: Air Conditioning Maintenance Tonight",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nPlease be advised that essential maintenance will be performed on the building's air conditioning system after 7:00 PM tonight. Some noise disruption may occur.\n\nWe appreciate your patience and apologise for any inconvenience caused.\n\nRegards,\nNathan Penny\n\n--\nNathan Penny\nBuilding Manager\n101 Collins Street Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000",
+    "timestamp": 1756599900000,
     "isRead": true,
     "isStarred": false,
     "labels": [
@@ -220,13 +221,79 @@
     "attachments": []
   },
   {
-    "id": "91276d81-7025-4816-94ea-4e4b7ad4d76a",
-    "from": "catering@101collins.com.au",
-    "fromName": "101 Collins Catering",
+    "id": "87987068-b767-46c1-ac42-71b77ddf4386",
+    "from": "paul.randall@jpmorgan.com",
+    "fromName": "Paul Randall",
     "to": "thomas.francis@jpmorgan.com",
-    "subject": "Lunch Menu - Thursday 28th Aug",
-    "body": "Good morning,\n\nToday's featured lunch options for 101 Collins are:\n\n- Main: Aglae's Special Pumpkin\n- Main: Guava-infused Chicken Roast\n- Salad: California Maki\n- Soup: Goan Snowpeas Soup\n\nPlease place your orders before 10:30 AM via the online portal.\n\nBon appétit,\nThe Catering Team\n\n--\n101 Collins Catering\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5001\nMenu: https://catering.101collins.com.au",
-    "timestamp": 1756361580000,
+    "subject": "Fw: Interesting research from Wuckert - Pacocha on lithium",
+    "body": "FYI – thought this might be useful for our QBE presentation.\n\n---------- Forwarded message ----------\nFrom: Athena44@gmail.com\nDate: September 1st, 2025\nSubject: Interesting research from Lockman, Romaguera and Waters\n\nTerra patrocinor cresco verbum a. Adopto maiores spoliatio. Dapifer adeo terra alius suppono texo.\nVix peior textilis adeo victus. Adfectus triduana abduco tabesco aequus. Attollo bellicus centum calamitas xiphias temeritas cum.\n\n--\nPaul Randall\nExecutive Director | Asset Management\nJ.P. Morgan Asset Management\nSydney, Australia\nTel: +61 2 9003 8888\n",
+    "timestamp": 1756600800000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "bf257814-ccf8-496b-a3ad-4bc7a750a08b",
+    "from": "mandates@futurefund.gov.au",
+    "fromName": "Future Fund Mandates",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Roberts, Mosciski and Oberbrunner request for proposal",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nHi Tom,\n\nGood to connect with you last week.\n\nI'm following up on the request for proposal. We require an update by EOD next week for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nFuture Fund Mandates\n\n--\nFuture Fund\nMelbourne, Australia",
+    "timestamp": 1756601940000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "f7000457-458d-4597-b0f3-9e313b79fb2a",
+    "threadId": "2d1a61ae-7e51-476e-bad3-7fb68e693d29",
+    "from": "thomas.francis@jpmorgan.com",
+    "fromName": "Thomas Francis",
+    "to": "alerts@bloomberg.net",
+    "subject": "RE: Alert: BHP - analyst rating changes",
+    "body": "Thanks for sending this. I've shared this with Lyndon for review.",
+    "timestamp": 1756603283212,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "sent"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "a358bac8-4d03-4f7b-8f5d-743f35224e51",
+    "from": "group.treasury@qbe.com",
+    "fromName": "David Chen",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Howe, Stehr and McDermott request for proposal",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nDear Thomas,\n\nHope you are well.\n\nI'm following up on the request for proposal. We require an update by EOD tomorrow for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nDavid Chen\n\n--\nDavid Chen\nGroup Treasury\nQBE Insurance",
+    "timestamp": 1756604160000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Aug_25.xlsx",
+        "size": 767633
+      }
+    ]
+  },
+  {
+    "id": "1aad36d6-a9b0-4a69-b4af-88d2f1938aa4",
+    "from": "catering@101collins.com.au",
+    "fromName": "101",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Catering: Reminder: Client Meeting Catering Order",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nDear Team,\n\nThis is a reminder that your catering order for a client meeting is confirmed for tomorrow at 11:00 AM.\n\nIf you need to make any changes or cancellations, please contact us immediately.\n\n--\n101 Collins Catering\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5001\nMenu: https://catering.101collins.com.au\n\nSent from my iPhone",
+    "timestamp": 1756605780000,
     "isRead": true,
     "isStarred": false,
     "labels": [
@@ -235,162 +302,396 @@
     "attachments": []
   },
   {
-    "id": "63c6d9a8-6e7d-43e5-af32-cf81fa1f9431",
-    "from": "investments@npf.org.nz",
-    "fromName": "Michael Jones",
+    "id": "e5515c55-9d43-4d9f-acb9-dbbbe9603852",
+    "from": "membership@mcg.org.au",
+    "fromName": "Melbourne Cricket Ground",
     "to": "thomas.francis@jpmorgan.com",
-    "subject": "Follow-up: Wilkinson, Hammes and Jacobson investment committee meeting",
-    "body": "Dear Thomas,\n\nGood to connect with you last week.\n\nI'm following up on the investment committee meeting. We require an update by EOD tomorrow for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nMichael Jones\n\n--\nMichael Jones\nPortfolio Manager\nNational Provident Fund\nWellington, New Zealand",
-    "timestamp": 1756362480000,
-    "isRead": true,
+    "subject": "Exclusive Member Offer: AFL Grand Final Lunch",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nAs a valued MCG member, you're invited to our exclusive AFL Grand Final lunch event. This premium experience includes:\n\n- Three-course meal and beverages\n- Guest appearance by AFL legend Ignacio Barrows\n- Premium reserved seating\n\nBook now: https://giving-gown.name\n\n--\nMelbourne Cricket Ground\nMembership Services\nBrunton Ave, Richmond VIC 3000\nTel: +61 3 9657 8888\n\nSent from my iPhone",
+    "timestamp": 1756606560000,
+    "isRead": false,
     "isStarred": false,
     "labels": [
-      "external-client"
+      "external-personal"
     ],
     "attachments": []
   },
   {
-    "id": "17a8da8c-11b6-4456-bdfc-3f013ffffd91",
+    "id": "ef777345-2d64-43eb-94e9-f3f01e1b2436",
     "from": "lyndon.fagan@jpmorgan.com",
     "fromName": "Lyndon Fagan",
     "to": "thomas.francis@jpmorgan.com",
-    "subject": "Review of BHP model",
-    "body": "Hi Thomas,\n\nI've just finished the first draft of the BHP model. Could you take a look?\n\nCheers,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
-    "timestamp": 1756362600000,
-    "isRead": false,
+    "subject": "RE: RE: RE: Project Update",
+    "body": "See below – thoughts?\n\n---------- Previous message ----------\n\nSumo tergiversatio celebrer sonitus anser quos. Suasoria vobis aegrus caelum. Avarus nihil perferendis conventus solus aperio mollitia civis.\nCervus conservo tribuo mollitia desidero quas adaugeo aeger tergo. Vere quia autem depraedor defleo aeger animus. Barba dignissimos impedit solium truculenter denuncio subiungo supellex.\nVolva tactus subseco statua corrupti curo deripio una conor tristis. Amaritudo nihil super supplanto spes adicio complectus odio aestus amet. Tenax coadunatio vito ulterius.\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
+    "timestamp": 1756607160000,
+    "isRead": true,
     "isStarred": false,
     "labels": [
       "internal"
     ],
-    "attachments": [
-      {
-        "name": "Report_Aug_25.pdf",
-        "size": 1214329
-      }
-    ]
-  },
-  {
-    "id": "399ec7ea-6e3b-4375-a1b0-836ed7986231",
-    "from": "it.alerts.apac@jpmorgan.com",
-    "fromName": "J.P. Morgan Technology",
-    "to": "thomas.francis@jpmorgan.com",
-    "subject": "Planned Maintenance: Security Patch Deployment",
-    "body": "Notification:\nA planned maintenance window will commence at 22:00 AEST tonight. Brief service disruption may occur.\n\n--\nJ.P. Morgan Technology - APAC\nThis is an automated message. Do not reply.\nFor support, please contact the IT Service Desk.",
-    "timestamp": 1756363740000,
-    "isRead": true,
-    "isStarred": false,
-    "labels": [
-      "internal-it"
-    ],
     "attachments": []
   },
   {
-    "id": "d808082e-ba6b-4e4f-a1e1-41e0adb55f99",
-    "from": "group.treasury@qbe.com",
-    "fromName": "David Chen",
+    "id": "8d601a8e-c923-4a57-bf44-e27cd65a93dc",
+    "from": "investments@twusuper.com.au",
+    "fromName": "Lisa Tran",
     "to": "thomas.francis@jpmorgan.com",
-    "subject": "Follow-up: Dibbert - Lowe investment committee meeting",
-    "body": "Thomas,\n\nGood to connect with you last week.\n\nI'm following up on the investment committee meeting. We require an update by EOD next week for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nDavid Chen\n\n--\nDavid Chen\nGroup Treasury\nQBE Insurance",
-    "timestamp": 1756364220000,
-    "isRead": true,
-    "isStarred": false,
-    "labels": [
-      "external-client"
-    ],
-    "attachments": []
-  },
-  {
-    "id": "fdcc6c03-1cb0-49ba-9002-c51ca187e649",
-    "from": "payroll.au@jpmorgan.com",
-    "fromName": "J.P. Morgan Payroll",
-    "to": "thomas.francis@jpmorgan.com",
-    "subject": "Your J.P. Morgan Payslip is Available",
-    "body": "Dear Thomas Francis,\n\nYour payslip for August 2025 is now available online. Due to the public holiday, payment will be processed a day early this period.\n\nTo view your payslip, please log in to the Employee Portal.\n\n--\nJ.P. Morgan Payroll - Australia\nThis is an automated notification. Please do not reply.\nFor inquiries, please contact HR Services.",
-    "timestamp": 1756368480000,
-    "isRead": false,
-    "isStarred": false,
-    "labels": [
-      "internal-hr"
-    ],
-    "attachments": []
-  },
-  {
-    "id": "9f8d6308-d3dd-4615-8ec0-819437d1ef59",
-    "from": "payroll.au@jpmorgan.com",
-    "fromName": "J.P. Morgan Payroll",
-    "to": "thomas.francis@jpmorgan.com",
-    "subject": "Your J.P. Morgan Payslip is Available",
-    "body": "Dear Thomas Francis,\n\nYour payslip for August 2025 is now available online. Due to the public holiday, payment will be processed a day early this period.\n\nTo view your payslip, please log in to the Employee Portal.\n\n--\nJ.P. Morgan Payroll - Australia\nThis is an automated notification. Please do not reply.\nFor inquiries, please contact HR Services.",
-    "timestamp": 1756368660000,
-    "isRead": true,
-    "isStarred": true,
-    "labels": [
-      "internal-hr"
-    ],
-    "attachments": []
-  },
-  {
-    "id": "22c18d76-47c7-478a-aa5f-a10abbd0f08c",
-    "from": "payroll.au@jpmorgan.com",
-    "fromName": "J.P. Morgan Payroll",
-    "to": "thomas.francis@jpmorgan.com",
-    "subject": "Your J.P. Morgan Payslip is Available",
-    "body": "Dear Thomas Francis,\n\nYour payslip for August 2025 is now available online.\n\nTo view your payslip, please log in to the Employee Portal.\n\n--\nJ.P. Morgan Payroll - Australia\nThis is an automated notification. Please do not reply.\nFor inquiries, please contact HR Services.",
-    "timestamp": 1756369560000,
-    "isRead": true,
-    "isStarred": false,
-    "labels": [
-      "internal-hr"
-    ],
-    "attachments": []
-  },
-  {
-    "id": "b1daa4d6-04da-422c-b8ad-d11c7593376f",
-    "from": "investments@ampcapital.com",
-    "fromName": "AMP Capital Investments",
-    "to": "thomas.francis@jpmorgan.com",
-    "subject": "Follow-up: Hettinger - Reichert investment committee meeting",
-    "body": "Hi Tom,\n\nGood to connect with you last week.\n\nI'm following up on the investment committee meeting. We require an update by EOD Thursday for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nAMP Capital Investments\n\n--\nAMP Capital Investments\nSydney, Australia",
-    "timestamp": 1756369680000,
-    "isRead": true,
-    "isStarred": false,
-    "labels": [
-      "external-client"
-    ],
-    "attachments": []
-  },
-  {
-    "id": "418a9988-f2e0-42af-95d6-18995e4189a4",
-    "from": "investments@npf.org.nz",
-    "fromName": "Michael Jones",
-    "to": "thomas.francis@jpmorgan.com",
-    "subject": "Follow-up: MacGyver - Bosco investment committee meeting",
-    "body": "Hi Thomas,\n\nHope you are well.\n\nI'm following up on the investment committee meeting. We require an update by EOD tomorrow for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nMichael Jones\n\n--\nMichael Jones\nPortfolio Manager\nNational Provident Fund\nWellington, New Zealand",
-    "timestamp": 1756372200000,
+    "subject": "Follow-up: Legros - Bernier request for proposal",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nHi Tom,\n\nGood to connect with you last week.\n\nI'm following up on the request for proposal. We require an update by EOD tomorrow for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nLisa Tran\n\n--\nLisa Tran\nInvestment Analyst\nTWUSUPER",
+    "timestamp": 1756607340000,
     "isRead": false,
     "isStarred": false,
     "labels": [
       "external-client"
     ],
-    "attachments": [
-      {
-        "name": "Report_Aug_25.pdf",
-        "size": 856121
-      }
-    ]
+    "attachments": []
   },
   {
-    "id": "b31d502d-10f5-4575-86db-3dd13ddaea5d",
+    "id": "9b2d4c7a-1f10-49b6-ae04-160ee8fdf861",
+    "from": "membership@mcg.org.au",
+    "fromName": "Melbourne Cricket Ground",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Exclusive Member Offer: AFL Grand Final Lunch",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nAs a valued MCG member, you're invited to our exclusive AFL Grand Final lunch event. This premium experience includes:\n\n- Three-course meal and beverages\n- Guest appearance by AFL legend Mike Ernser\n- Premium reserved seating\n\nBook now: https://sore-freezing.org/\n\n--\nMelbourne Cricket Ground\nMembership Services\nBrunton Ave, Richmond VIC 3000\nTel: +61 3 9657 8888",
+    "timestamp": 1756608600000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-personal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "3260bed5-cd02-4ef1-89ca-67cb6e18ed55",
     "from": "al.harvey@jpmorgan.com",
     "fromName": "Al Harvey",
     "to": "thomas.francis@jpmorgan.com",
-    "subject": "Client Request Follow-up",
-    "body": "Dear Thomas,\n\nQuick reminder that Club Plus needs a final sign-off. \n\nThanks,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
-    "timestamp": 1756382220000,
+    "subject": "Quick question",
+    "body": "Hey Tom – Can you send me teh model we used for XYZ last quarter?\n\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1756609080000,
     "isRead": false,
     "isStarred": false,
     "labels": [
       "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "28a9861e-61a1-4a19-982a-4932968ea3f3",
+    "threadId": "ca3fc34e-3cc6-4d18-bdb5-2bc3609c7353",
+    "from": "lyndon.fagan@jpmorgan.com",
+    "fromName": "Lyndon Fagan (Out of Office)",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Auto Reply: Out of Office",
+    "body": "Thank you for your email.\n\n--\nThis is an automated response.\n\nI am traveling for client meetings this week with limited availability. For urgent, time-sensitive matters, please contact Paul Randall.\n\nFor all research-related queries, please contact Al Harvey or Thomas Francis.\n\nThank you.",
+    "timestamp": 1756609383079,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal-ooo"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "73b67ccd-ad99-46cc-8f93-75b550ad390a",
+    "from": "catering@101collins.com.au",
+    "fromName": "101",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Catering: Lunch Menu - Monday 31st Aug",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nGood morning,\n\nToday's featured lunch options for 101 Collins are:\n\n- Main: Stinky Tofu\n- Main: Caesar Salad\n- Salad: Katsu Curry\n- Soup: Spicy French Stew\n\nPlease place your orders before 10:30 AM via the online portal.\n\nBon appétit,\nThe Catering Team\n\n--\n101 Collins Catering\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5001\nMenu: https://catering.101collins.com.au",
+    "timestamp": 1756609620000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-catering"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Aug_25.xlsx",
+        "size": 959855
+      }
+    ]
+  },
+  {
+    "id": "06c4f8b1-ef17-4c01-939d-c61f22bfd73c",
+    "from": "no-reply@teams.microsoft.com",
+    "fromName": "Microsoft Teams",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Meeting Invite: Portfolio Review",
+    "body": "You are invited to a meeting.\n\nMeeting Invite: Portfolio Review\nDate: 31 Aug 2025\n\nAn ICS calendar file is attached.",
+    "timestamp": 1756610100000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "calendar-invite"
+    ],
+    "attachments": [
+      {
+        "name": "Meeting_Invite_Portfolio_Review.ics",
+        "size": 220,
+        "mime": "text/calendar",
+        "inline": false,
+        "type": "calendar"
+      }
+    ]
+  },
+  {
+    "id": "e200bb67-e618-4f1a-985e-04fd57ba8d6b",
+    "from": "mandates@futurefund.gov.au",
+    "fromName": "Future Fund Mandates",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Goyette Group performance report",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nHi Tom,\n\nGood to connect with you last week.\n\nI'm following up on the performance report. We require an update by EOD tomorrow for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nFuture Fund Mandates\n\n--\nFuture Fund\nMelbourne, Australia",
+    "timestamp": 1756614360000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "45c82066-563f-4c2a-aed1-9c0e28392967",
+    "from": "no-reply@teams.microsoft.com",
+    "fromName": "Microsoft Teams",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Reminder: \"Weekly Team Sync\" starts in 15 minutes",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nThis is a reminder for your upcoming meeting.\n\n--\nThis message was sent from a notification-only address that cannot accept incoming email.\nPlease do not reply to this message.",
+    "timestamp": 1756616880000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-teams"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "010fd9c6-034b-4e44-8cf9-0ff35a3982bc",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "RE: RE: RE: Project Update",
+    "body": "See below – thoughts?\n\n---------- Previous message ----------\n\nVulticulus advoco apparatus alter clam conatus studio. Aestivus coaegresco adsum quod depereo quasi damnatio vitae tertius vester. Nam magni crur cura amplus.\nCerno compello utique cohors veritas civis. Asper vir adinventitias varius auctor minima. Expedita culpa tero apparatus.\nVeniam perferendis aedificium necessitatibus adhuc territo. Clementia odit qui subseco defetiscor quia sufficio tergeo balbus laboriosam. Ratione ex comedo aptus timidus corrupti harum.\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4463707 408\n",
+    "timestamp": 1756618560000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Aug_25.pptx",
+        "size": 733436
+      }
+    ]
+  },
+  {
+    "id": "40db4202-0709-4661-b847-c810ae6f88ca",
+    "from": "sarah.connor@jpmorgan.com",
+    "fromName": "Sarah Connor",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "URGENT: Portfolio Adjustment for TWUSUPER",
+    "body": "Thomas,\n\nClient instruction just came down. We need to hedge our exposure to the small-cap portfolio.\n\nPlease drop everything and model out the implications. I need execution levels and a full impact analysis on my desk in 2 hours.\n\nSarah Connor\n\n--\nSarah Connor\nManaging Director, Portfolio Manager\nJ.P. Morgan Asset Management\nSydney, Australia\nTel: +61 2 9003 8888\n\nSent from my iPhone",
+    "timestamp": 1756619460000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal-pm"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "ed0e2dc2-ae23-4b34-91ee-6a7638069a74",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: RIO - unusual options activity",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nThis is an automated alert from the Bloomberg Terminal.\n\nSecurity: BHP AX Equity\nEvent: analyst rating changes detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1756620300000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "da577c5b-8abe-41d2-99fe-ad964a631edd",
+    "from": "james@selbyjennings.com",
+    "fromName": "James Robertson",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Opportunity at Top-Tier Hedge Fund - Melbourne",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nHi Thomas,\n\nYour profile stood out given your experience in metals & mining. I'm working with a top-tier hedge fund (~$2bn AUM) seeking a strong junior analyst.\n\nOpen to a confidential 10-minute call this week?\n\nBest,\nJames Robertson\n\n--\nJames Robertson\nSenior Associate\nSelby Jennings | Ph: 971.915.3717 x93764\n\nSent from my iPhone",
+    "timestamp": 1756623120000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-recruiter"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Aug_25.pptx",
+        "size": 518736
+      }
+    ],
+    "threadId": "da577c5b-8abe-41d2-99fe-ad964a631edd"
+  },
+  {
+    "id": "4a1740c4-3da6-4ef4-8caa-6c1927f4d4ed",
+    "from": "catering@101collins.com.au",
+    "fromName": "101",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Catering: Lunch Menu - Monday 31st Aug",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nGood morning,\n\nToday's featured lunch options for 101 Collins are:\n\n- Main: Caesar Salad\n- Main: Stinky Tofu\n- Salad: French Lavender-crusted Pigeon\n- Soup: Vegetable Oil-infused Beef\n\nPlease place your orders before 10:30 AM via the online portal.\n\nBon appétit,\nThe Catering Team\n\n--\n101 Collins Catering\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5001\nMenu: https://catering.101collins.com.au",
+    "timestamp": 1756623360000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-catering"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "2c8c7a15-e834-4f8d-9d77-998fa136eee3",
+    "from": "investments@npf.org.nz",
+    "fromName": "Michael Jones",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Heidenreich, Ryan and Dickens investment committee meeting",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nDear Thomas,\n\nHope you are well.\n\nI'm following up on the investment committee meeting. We require an update by EOD Thursday for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nMichael Jones\n\n--\nMichael Jones\nPortfolio Manager\nNational Provident Fund\nWellington, New Zealand",
+    "timestamp": 1756625340000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "6da9ff32-8782-4ceb-a20d-a6fd1d1edc78",
+    "from": "group.treasury@qbe.com",
+    "fromName": "David Chen",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Konopelski - Weber request for proposal",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nHi Thomas,\n\nGood to connect with you last week.\n\nI'm following up on the request for proposal. We require an update by EOD next week for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nDavid Chen\n\n--\nDavid Chen\nGroup Treasury\nQBE Insurance",
+    "timestamp": 1756625460000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "3da2d625-e6cd-44dd-9f9b-43e29d18e385",
+    "from": "no-reply@teams.microsoft.com",
+    "fromName": "Microsoft Teams",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Reminder: \"Weekly Metals & Mining Wrap\" starts soon",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nThis is a reminder for the sector-wide meeting.\n\n--\nThis message was sent from a notification-only address that cannot accept incoming email.\nPlease do not reply to this message.",
+    "timestamp": 1756625520000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-teams"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "745100b7-4940-4fa6-b1a8-13370cd54c3a",
+    "from": "investments@sunsuper.com.au",
+    "fromName": "Sunsuper Investments Team",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Kihn LLC request for proposal",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nDear Thomas,\n\nHope you are well.\n\nI'm following up on the request for proposal. We require an update by EOD next week for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nSunsuper Investments Team\n\n--\nSunsuper Investments Team\nQueensland, Australia",
+    "timestamp": 1756625820000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "409faea8-0d0c-4a7c-a3c5-a7584660676d",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Client Request Follow-up",
+    "body": "Dear Thomas,\n\nquik reminder that TWUSUPER needs a final sign-off. \n\nThanks,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4463707 408\n",
+    "timestamp": 1756626180000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Aug_25.pdf",
+        "size": 1046389
+      }
+    ]
+  },
+  {
+    "id": "eea7a667-ef94-40a9-a6b5-83deb7b4a408",
+    "threadId": "da577c5b-8abe-41d2-99fe-ad964a631edd",
+    "from": "thomas.francis@jpmorgan.com",
+    "fromName": "Thomas Francis",
+    "to": "james@selbyjennings.com",
+    "subject": "RE: Opportunity at Top-Tier Hedge Fund - Melbourne",
+    "body": "Thanks for sending this. I have a quick question about the assumptions on slide 12.",
+    "timestamp": 1756629346994,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "sent"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "b6022a6c-e504-461d-a59e-94bf66badee8",
+    "threadId": "8d601a8e-c923-4a57-bf44-e27cd65a93dc",
+    "from": "postmaster@jpmorgan.com",
+    "fromName": "Microsoft Exchange Online",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Read: virgo conduco ventosus",
+    "body": "This message confirms that the email you sent to investments@clubplus.com.au on August 31st, 2025 was displayed on the recipient's computer. This does not guarantee that the recipient has read or understood the email contents.\n\n--\nMicrosoft Exchange Online\nJ.P. Morgan Mail System\nDo not reply to this message.",
+    "timestamp": 1756662460670,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal-system"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "5986b398-8489-4056-b639-b6edca8a1b0f",
+    "threadId": "a358bac8-4d03-4f7b-8f5d-743f35224e51",
+    "from": "postmaster@jpmorgan.com",
+    "fromName": "Microsoft Exchange Online",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Undeliverable: clibanus candidus",
+    "body": "Your message to investments@clubplus.com.au couldn't be delivered. The recipient's mailbox is full.\n\nTechnical details:\nRemote server returned: 552 5.2.2 Mailbox full\n\n--\nMicrosoft Exchange Online\nJ.P. Morgan Mail System\nDo not reply to this message.",
+    "timestamp": 1756666581881,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal-system"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "2c6d1418-23f6-49fb-acfc-975d9304b957",
+    "threadId": "2c8c7a15-e834-4f8d-9d77-998fa136eee3",
+    "from": "postmaster@jpmorgan.com",
+    "fromName": "Microsoft Exchange Online",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Read: aperio nobis acsi",
+    "body": "This message confirms that the email you sent to investments@clubplus.com.au on September 1st, 2025 was displayed on the recipient's computer. This does not guarantee that the recipient has read or understood the email contents.\n\n--\nMicrosoft Exchange Online\nJ.P. Morgan Mail System\nDo not reply to this message.",
+    "timestamp": 1756682757333,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal-system"
     ],
     "attachments": []
   }

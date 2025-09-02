@@ -1,12 +1,12 @@
 [
   {
-    "id": "104cea83-3885-4040-847a-db3db0d2d498",
+    "id": "13c41e28-a426-4624-bb43-16d18add4b0f",
     "from": "research@jpmorgan.com",
     "fromName": "J.P. Morgan Research",
     "to": "thomas.francis@jpmorgan.com",
     "subject": "AM Brief: Mon, 30 Sep 2024",
-    "body": "Good morning,\n\n**Overnight Market Summary:**\nThe tone was risk-off. Base metals were volatile amid concerns over Sudanese Pound.\n\n**Key Event Today:** China PMI at 15:00 AEST.\n\n**Key Reads for Today:**\n- JPM Research: Erdman - Wuckert upgraded to Overweight\n- Bloomberg: Articulus cubicularis strenuus decumbo tollo comedo explicabo vetus.\n- AFR: Atavus vacuus voro titulus nemo tubineus.\n\n--\nJ.P. Morgan Research\nThis is an automated daily briefing.\nFor more information, please contact your representative.",
-    "timestamp": 1727642220000,
+    "body": "Good morning,\n\n**Overnight Market Summary:**\nThe tone was risk-on. Tech stocks rallied amid concerns over Nuevo Sol.\n\n**Key Event Today:** RBA Speech at 11:00 AEST.\n\n**Key Reads for Today:**\n- JPM Research: Crona, Upton and Becker upgraded to Overweight\n- Bloomberg: Ullus apostolus spargo spiritus tergeo abstergo expedita confido.\n- AFR: Tametsi utor terminatio accedo alter vinitor.\n\n--\nJ.P. Morgan Research\nThis is an automated daily briefing.\nFor more information, please contact your representative.",
+    "timestamp": 1727642280000,
     "isRead": true,
     "isStarred": false,
     "labels": [
@@ -15,59 +15,29 @@
     "attachments": []
   },
   {
-    "id": "aa5db272-f8f1-4f79-9187-7deb142c4aaf",
-    "from": "nathan.wright@101collins.com.au",
-    "fromName": "Nathan Wright",
+    "id": "f0b52389-2c50-4b66-b675-3aeb13c32959",
+    "from": "membership@mcg.org.au",
+    "fromName": "Melbourne Cricket Ground",
     "to": "thomas.francis@jpmorgan.com",
-    "subject": "Building Update: Scheduled Fire Drill",
-    "body": "Dear Occupants,\n\nA scheduled fire drill will be conducted this Wednesday morning between 10:00 AM - 11:00 AM. All building employees must participate.\n\nPlease follow instructions from your floor wardens. If you have any questions, please don't hesitate to reach out.\n\nKind regards,\nNathan Wright\n\n--\nNathan Wright\nBuilding Manager\n101 Collins Street Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000",
-    "timestamp": 1727648040000,
-    "isRead": true,
-    "isStarred": false,
-    "labels": [
-      "external-facilities"
-    ],
-    "attachments": []
-  },
-  {
-    "id": "ffade2f9-7f1d-4da2-99ee-d688434d0dfb",
-    "from": "lyndon.fagan@jpmorgan.com",
-    "fromName": "Lyndon Fagan",
-    "to": "thomas.francis@jpmorgan.com",
-    "subject": "Client Request Follow-up",
-    "body": "Hi Thomas,\n\nQuick reminder that Sunsuper needs a final sign-off. \n\nThanks,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
-    "timestamp": 1727649000000,
+    "subject": "Your MCG Membership Renewal is Due",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize teh sender and know teh content is safe.\n\nDear Mr. Francis,\n\nYour Melbourne Cricket Ground membership is due for renewal on Tuesday, September 9th, 2025.\n\nTo renew your membership and secure your seat for teh 2025 season, please visit our website or call teh membership team.\n\n--\nMelbourne Cricket Ground\nMembership Services\nBrunton Ave, Richmond VIC 3000\nTel: +61 3 9657 8888\n\nSent from my iPhone",
+    "timestamp": 1727647740000,
     "isRead": false,
     "isStarred": false,
     "labels": [
-      "internal"
+      "external-personal"
     ],
     "attachments": []
   },
   {
-    "id": "4d06f5ac-9e61-4119-a2ab-42647ec47ae3",
-    "from": "payroll.au@jpmorgan.com",
-    "fromName": "J.P. Morgan Payroll",
+    "id": "6cb6e2b1-5f5d-453f-acf5-00ea4101fd62",
+    "from": "investments@npf.org.nz",
+    "fromName": "Michael Jones",
     "to": "thomas.francis@jpmorgan.com",
-    "subject": "Your J.P. Morgan Payslip is Available",
-    "body": "Dear Thomas Francis,\n\nYour payslip for September 2024 is now available online.\n\nTo view your payslip, please log in to the Employee Portal.\n\n--\nJ.P. Morgan Payroll - Australia\nThis is an automated notification. Please do not reply.\nFor inquiries, please contact HR Services.",
-    "timestamp": 1727661960000,
+    "subject": "Follow-up: McDermott, Stamm and Orn request for proposal",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nHi Thomas,\n\nHope you are well.\n\nI'm following up on the request for proposal. We require an update by EOD Thursday for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nMichael Jones\n\n--\nMichael Jones\nPortfolio Manager\nNational Provident Fund\nWellington, New Zealand",
+    "timestamp": 1727649480000,
     "isRead": true,
-    "isStarred": false,
-    "labels": [
-      "internal-hr"
-    ],
-    "attachments": []
-  },
-  {
-    "id": "fafff17d-38bb-4729-9db4-fdba2a8d0a8b",
-    "from": "investments@clubplus.com.au",
-    "fromName": "Robert Singh",
-    "to": "thomas.francis@jpmorgan.com",
-    "subject": "Follow-up: Zulauf, Bergnaum and Wehner investment committee meeting",
-    "body": "Hi Thomas,\n\nGood to connect with you last week.\n\nI'm following up on the investment committee meeting. We require an update by EOD tomorrow for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nRobert Singh\n\n--\nRobert Singh\nSenior Portfolio Manager\nClub Plus Super\nTel: +61 2 9254 5000",
-    "timestamp": 1727666700000,
-    "isRead": false,
     "isStarred": false,
     "labels": [
       "external-client"
@@ -75,29 +45,119 @@
     "attachments": []
   },
   {
-    "id": "b79b08b3-8413-4ddc-a7a8-3d7eb487dc8d",
+    "id": "bc257d0b-eefb-4c18-9758-de0df52cfa01",
+    "from": "compliance.asia@jpmorgan.com",
+    "fromName": "Compliance Office",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "FINAL REMINDER: Annual Code of Conduct Certification",
+    "body": "Final reminder: Your Annual Code of Conduct certification is overdue and must be completed by 5pm TODAY or access may be restricted.\n\n--\nCompliance Office | Asia Pacific\nJ.P. Morgan",
+    "timestamp": 1727649720000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal-compliance"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Sep_24.pptx",
+        "size": 920419
+      }
+    ]
+  },
+  {
+    "id": "d4b04dcb-a97c-4638-a49a-c336867076ea",
+    "from": "investments@ampcapital.com",
+    "fromName": "AMP Capital Investments",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Crona Inc performance report",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open atachments unless you recognize the sender and know the content is safe.\n\nDear Thomas,\n\nHope you are well.\n\nI'm following up on the performance report. We require an update by EOD Thursday for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nAMP Capital Investments\n\n--\nAMP Capital Investments\nSydney, Australia",
+    "timestamp": 1727651280000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "5ab4f127-df6f-4b3d-a61a-9ab154b6f2dc",
+    "from": "investments@ampcapital.com",
+    "fromName": "AMP Capital Investments",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Koepp, Hilll and Lockman transition of funds",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nThomas,\n\nHope you are well.\n\nI'm following up on the transition of funds. We require an update by EOD Thursday for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nAMP Capital Investments\n\n--\nAMP Capital Investments\nSydney, Australia",
+    "timestamp": 1727651280000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Sep_24.xlsx",
+        "size": 1333319
+      }
+    ]
+  },
+  {
+    "id": "7f7bdd55-0e3f-4df8-a278-fc87e539b0c7",
+    "from": "mandates@futurefund.gov.au",
+    "fromName": "Future Fund Mandates",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Moen Group request for proposal",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nDear Thomas,\n\nHope you are well.\n\nI'm following up on the request for proposal. We require an update by EOD tomorrow for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nFuture Fund Mandates\n\n--\nFuture Fund\nMelbourne, Australia",
+    "timestamp": 1727651580000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "6f0d3d56-0294-483b-a313-9abe20921260",
     "from": "al.harvey@jpmorgan.com",
     "fromName": "Al Harvey",
     "to": "thomas.francis@jpmorgan.com",
-    "subject": "Review of lithium sector deep dive",
-    "body": "Hi Thomas,\n\nI've just finished the first draft of the lithium sector deep dive. Could you take a look?\n\nCheers,\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
-    "timestamp": 1727673420000,
+    "subject": "Quick question",
+    "body": "Hey Tom – Do you have the latest deck for the NPF meeting?\n\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1727651700000,
     "isRead": true,
     "isStarred": false,
     "labels": [
       "internal"
     ],
+    "attachments": [
+      {
+        "name": "Report_Sep_24.xlsx",
+        "size": 1192433
+      }
+    ]
+  },
+  {
+    "id": "f8439373-4e50-40a6-a0d1-b1b746320f6a",
+    "from": "mandates@futurefund.gov.au",
+    "fromName": "Future Fund Mandates",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Stracke - Bogan performance report",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nDear Thomas,\n\nGood to connect with you last week.\n\nI'm following up on the performance report. We require an update by EOD Thursday for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nFuture Fund Mandates\n\n--\nFuture Fund\nMelbourne, Australia",
+    "timestamp": 1727651760000,
+    "isRead": false,
+    "isStarred": true,
+    "labels": [
+      "external-client"
+    ],
     "attachments": []
   },
   {
-    "id": "b23fd765-6ace-4455-b092-b4d1c6f6eed0",
-    "from": "investments@twusuper.com.au",
-    "fromName": "Lisa Tran",
+    "id": "5a2a2f74-c0d3-4cc6-a569-a056ceb7e241",
+    "from": "investments@npf.org.nz",
+    "fromName": "Michael Jones",
     "to": "thomas.francis@jpmorgan.com",
-    "subject": "Follow-up: Schoen - Satterfield request for proposal",
-    "body": "Dear Thomas,\n\nGood to connect with you last week.\n\nI'm following up on the request for proposal. We require an update by EOD tomorrow for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nLisa Tran\n\n--\nLisa Tran\nInvestment Analyst\nTWUSUPER",
-    "timestamp": 1727676180000,
-    "isRead": true,
+    "subject": "Follow-up: Luettgen - McLaughlin request for proposal",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nHi Thomas,\n\nGood to connect with you last week.\n\nI'm following up on the request for proposal. We require an update by EOD next week for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nMichael Jones\n\n--\nMichael Jones\nPortfolio Manager\nNational Provident Fund\nWellington, New Zealand",
+    "timestamp": 1727651880000,
+    "isRead": false,
     "isStarred": false,
     "labels": [
       "external-client"
@@ -105,13 +165,28 @@
     "attachments": []
   },
   {
-    "id": "1dbecef4-a9e5-4deb-b90d-a93221f8200d",
-    "from": "lyndon.fagan@jpmorgan.com",
-    "fromName": "Lyndon Fagan",
+    "id": "9ff5a9d0-66cc-4504-b026-83a2ddf7f1d6",
+    "from": "investments@npf.org.nz",
+    "fromName": "Michael Jones",
     "to": "thomas.francis@jpmorgan.com",
-    "subject": "Review of QBE presentation",
-    "body": "Hi Thomas,\n\nI've just finished the first draft of the QBE presentation. Could you take a look?\n\nCheers,\nLyndon\n\n--\nLyndon Fagan\nExecutive Director | Head of APAC Metals & Mining Equity Research\nJ.P. Morgan Asset Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 9633 4000\n",
-    "timestamp": 1727676240000,
+    "subject": "Follow-up: VonRueden, Kshlerin and Cruickshank request for proposal",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nHi Thomas,\n\nGood to connect with you last week.\n\nI'm following up on the request for proposal. We require an update by EOD next week for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nMichael Jones\n\n--\nMichael Jones\nPortfolio Manager\nNational Provident Fund\nWellington, New Zealand",
+    "timestamp": 1727652420000,
+    "isRead": false,
+    "isStarred": true,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "e06d1b85-d93c-4480-b718-9b7a1d03dc5f",
+    "from": "paul.randall@jpmorgan.com",
+    "fromName": "Paul Randall",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Fw: Interesting research from Schmidt LLC on iron ore",
+    "body": "FYI – thought this might be useful for our QBE presentation.\n\n---------- Forwarded message ----------\nFrom: Francesco.Schinner@gmail.com\nDate: September 1st, 2025\nSubject: Interesting research from Harvey - Erdman\n\nCondico arx adimpleo curto libero ea. Ago aro bonus solutio baiulus audio carbo dolorum adduco. Uredo venia vetus amaritudo dedico appello.\nIpsum stillicidium pel vitium uterque vacuus aut. Altus triumphus cruentus. Custodia antepono aurum expedita provident totidem quae textilis astrum velit.\n\n--\nPaul Randall\nExecutive Director | Asset Management\nJ.P. Morgan Asset Management\nSydney, Australia\nTel: +61 2 9003 8888\n",
+    "timestamp": 1727652780000,
     "isRead": true,
     "isStarred": false,
     "labels": [
@@ -120,13 +195,78 @@
     "attachments": []
   },
   {
-    "id": "d5b72fe9-e58d-442f-b6fa-e5e1339dfba4",
-    "from": "it.alerts.apac@jpmorgan.com",
-    "fromName": "J.P. Morgan Technology",
+    "id": "6a76f545-d38f-4cbd-b6df-d73eae89139f",
+    "from": "james@selbyjennings.com",
+    "fromName": "James Robertson",
     "to": "thomas.francis@jpmorgan.com",
-    "subject": "Incident: Degraded Performance - VPN Cluster",
-    "body": "Dear Users,\n\nWe are investigating reports of degraded performance affecting the Email Gateway. Our engineers are actively working on mitigation. Next update in 30 minutes.\n\n--\nJ.P. Morgan Technology - APAC\nThis is an automated message. Do not reply.\nFor support, please contact the IT Service Desk.",
-    "timestamp": 1727676720000,
+    "subject": "Opportunity at Top-Tier Hedge Fund - Melbourne",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nHi Thomas,\n\nYour profile stood out given your experience in metals & mining. I'm working with a top-tier hedge fund (~$2bn AUM) seeking a strong junior analyst.\n\nOpen to a confidential 10-minute call this week?\n\nBest,\nJames Robertson\n\n--\nJames Robertson\nSenior Associate\nSelby Jennings | Ph: 971.915.3717 x93764",
+    "timestamp": 1727654280000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-recruiter"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "6f3187b5-cdd7-4a98-bf5c-c0b273bbecb2",
+    "from": "compliance.asia@jpmorgan.com",
+    "fromName": "Compliance Office",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "FINAL REMINDER: Annual Code of Conduct Certification",
+    "body": "Final reminder: Your Annual Code of Conduct certification is overdue and must be completed by 5pm TODAY or access may be restricted.\n\n--\nCompliance Office | Asia Pacific\nJ.P. Morgan\n\nSent from my iPhone",
+    "timestamp": 1727656920000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal-compliance"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "ff2381c5-3b8f-471f-ba1d-482b1c2488c6",
+    "from": "mandates@futurefund.gov.au",
+    "fromName": "Future Fund Mandates",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Zboncak, Purdy and Farrell investment committee meeting",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize teh sender and know teh content is safe.\n\nThomas,\n\nGood to connect with you last week.\n\nI'm following up on teh investment committee meeting. We require an update by EOD next week for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nFuture Fund Mandates\n\n--\nFuture Fund\nMelbourne, Australia\n\nSent from my iPhone",
+    "timestamp": 1727659080000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "f895c9a5-8bd5-4037-bd2d-786cce1106a9",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Bloomberg Markets Weekly Roundup",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nTumultus aro creo confido cubicularis. Explicabo suppono vitiosus constans utrimque bos depulso voluptatum usus. Unde constans stillicidium.\nAdipiscor aestivus caput delectus pecto socius videlicet. Verbera stips succedo vir amitto demulceo ater strenuus beneficium. Demum voluptas arceo adinventitias aperio.\n\nTo unsubscribe from this newsletter, click here: https://elliptical-newsprint.org/\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1727660400000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Sep_24.pdf",
+        "size": 1325309
+      }
+    ]
+  },
+  {
+    "id": "a6d6bb1b-e86f-4cd8-8aa9-7860c237e81b",
+    "from": "it.alerts.apac@jpmorgan.com",
+    "fromName": "J.P. Morgan IT",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Phishing Alert: Fake Compliance Training Email",
+    "body": "Security Alert.\n\nBe aware of a phishing campaign using a fake 'Compliance Training' email. Do not click links from 'jpmorgan.compliance.training@gmail.com'. If clicked, contact IT Security immediately.\n\n--\nJ.P. Morgan Technology - APAC\nThis is an automated message. Do not reply.\nFor support, please contact the IT Service Desk.",
+    "timestamp": 1727660700000,
     "isRead": true,
     "isStarred": false,
     "labels": [
@@ -135,12 +275,310 @@
     "attachments": []
   },
   {
-    "id": "338f765c-77bb-45bd-995f-231dabba9582",
+    "id": "840a1d44-0919-43f5-a202-aa54819c0495",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Fwd: URGENT: Fay Group Trade Query",
+    "body": "Lyndon – can you and Thomas handle this? Client is getting anxious.\n\n---------- Forwarded message ----------\nFrom: Cleta_Bailey90@yahoo.com\nDate: September 2nd, 2025\nSubject: URGENT: Rogahn Group Trade Query\n\nCometes vesper cenaculum magnam. Verbum theatrum cunabula ancilla terreo peior arx vapulus. Canonicus conculco tamen cruciamentum.\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1727661240000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "7ee0d522-0f7e-49dc-a733-bbdd59b07e24",
+    "from": "it.alerts.apac@jpmorgan.com",
+    "fromName": "J.P. Morgan IT",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Planned Maintenance: Network Core Switch Maintenance",
+    "body": "Notification: Planned maintenance will commence at 23:00 AEST tonight. Brief disruption possible.\n\n--\nJ.P. Morgan Technology - APAC\nThis is an automated message. Do not reply.\nFor support, please contact the IT Service Desk.\n\nSent from my iPhone",
+    "timestamp": 1727661240000,
+    "isRead": true,
+    "isStarred": true,
+    "labels": [
+      "internal-it"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "e1a058a7-fd52-4a50-9521-c25a73c4716b",
+    "from": "no-reply@teams.microsoft.com",
+    "fromName": "Microsoft Teams",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Missed call from The Resources Team",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nYou missed a call.\n\nAl Harvey tried to call you at 12:44.\n\n\n--\nThis message was sent from a notification-only address that cannot accept incoming email.\nPlease do not reply to this message.",
+    "timestamp": 1727661600000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-teams"
+    ],
+    "attachments": [],
+    "threadId": "e1a058a7-fd52-4a50-9521-c25a73c4716b"
+  },
+  {
+    "id": "4b9fd710-811a-4698-b41d-9e53b318bfe8",
+    "from": "investments@sunsuper.com.au",
+    "fromName": "Sunsuper Investments Team",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Koepp, Terry and Koss investment committee meeting",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nHi Tom,\n\nHope you are well.\n\nI'm following up on the investment committee meeting. We require an update by EOD next week for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nSunsuper Investments Team\n\n--\nSunsuper Investments Team\nQueensland, Australia",
+    "timestamp": 1727662440000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "2911d0b8-afa1-4386-9bc9-9c9c7df23131",
+    "from": "no-reply@teams.microsoft.com",
+    "fromName": "Microsoft Teams",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Meeting Invite: Client Update",
+    "body": "You are invited to a meeting.\n\nMeeting Invite: Client Update\nDate: 30 Sep 2024\n\nAn ICS calendar file is attached.",
+    "timestamp": 1727662500000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "calendar-invite"
+    ],
+    "attachments": [
+      {
+        "name": "Meeting_Invite_Client_Update.ics",
+        "size": 217,
+        "mime": "text/calendar",
+        "inline": false,
+        "type": "calendar"
+      }
+    ]
+  },
+  {
+    "id": "871ddb84-6f63-4234-8f0c-346e81c4c4db",
+    "threadId": "e1a058a7-fd52-4a50-9521-c25a73c4716b",
+    "from": "thomas.francis@jpmorgan.com",
+    "fromName": "Thomas Francis",
+    "to": "no-reply@teams.microsoft.com",
+    "subject": "RE: Missed call from The Resources Team",
+    "body": "Thanks for sending this. I have a quick question about the assumptions on slide 12.",
+    "timestamp": 1727666986494,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "sent"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "bc937527-96a7-4597-b22c-32cff0258f50",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Fwd: URGENT: Medhurst, Stanton and Barrows Trade Query",
+    "body": "Lyndon – can you and Thomas handle this? Client is getting anxious.\n\n---------- Forwarded message ----------\nFrom: Hipolito22@hotmail.com\nDate: September 1st, 2025\nSubject: URGENT: Kerluke - Wisozk Trade Query\n\nPlaceat aut blandior voluptatum volutabrum volo. Cura volaticus vaco super voluptatibus speciosus tendo. Crudelis damno quis solium valens terra temeritas accommodo conforto.\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1727667180000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Sep_24.pdf",
+        "size": 914190
+      }
+    ],
+    "threadId": "bc937527-96a7-4597-b22c-32cff0258f50"
+  },
+  {
+    "id": "f12134de-78a0-43e0-83b6-c45c5d878e82",
+    "from": "investments@twusuper.com.au",
+    "fromName": "Lisa Tran",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Lakin, Wunsch and Prosacco performance report",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nHi Thomas,\n\nGood to connect with you last week.\n\nI'm following up on the performance report. We require an update by EOD Thursday for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nLisa Tran\n\n--\nLisa Tran\nInvestment Analyst\nTWUSUPER",
+    "timestamp": 1727667300000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "9db5a593-9e6c-4094-aaa7-24c6b09be7ec",
+    "threadId": "f12134de-78a0-43e0-83b6-c45c5d878e82",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham (Out of Office)",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Auto Reply: Out of Office",
+    "body": "Thank you for your email.\n\n--\nThis is an automated response.\n\nI am out of the office on annual leave from Mon Sep 08 2025 07:49:05 GMT+0000 (Coordinated Universal Time) to Sun Oct 05 2025 09:34:15 GMT+0000 (Coordinated Universal Time) with no email access. For urgent matters, please contact Thomas Francis at thomas.francis@jpmorgan.com.\n\nOtherwise, I will respond to your email upon my return.\n\nThank you.",
+    "timestamp": 1727669382728,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal-ooo"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "9f80f0cc-e513-4e89-a20a-9551c90adc52",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Bloomberg Markets Weekly Roundup",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nAudio thorax vomica textor. Calcar aperio corrumpo laboriosam civitas amplexus. Claro minus temptatio derideo stips depulso deripio bellum astrum.\nCilicium terminatio cunctatio contra acquiro creta. Minus crepusculum deleniti ex conicio decerno statim commodi arceo. Curvo coadunatio baiulus.\n\nTo unsubscribe from this newsletter, click here: https://crushing-challenge.net/\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1727671140000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "c98ea0d5-828e-46b4-aa46-e585518ae5dc",
+    "from": "sarah.connor@jpmorgan.com",
+    "fromName": "Sarah Connor",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "URGENT: Portfolio Adjustment for Future Fund",
+    "body": "Thomas -\n\nClient instruction just came down. We need to immediately reduce teh USD exposure.\n\nPlease drop everything and model out teh implications. I need execution levels and a full impact analysis on my desk in 2 hours.\n\nSarah Connor\n\n--\nSarah Connor\nManaging Director, Portfolio Manager\nJ.P. Morgan Asset Management\nSydney, Australia\nTel: +61 2 9003 8888",
+    "timestamp": 1727671440000,
+    "isRead": true,
+    "isStarred": true,
+    "labels": [
+      "internal-pm"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "750e7ed9-1f62-486f-a3c8-62afa36fc76f",
+    "from": "sarah.connor@jpmorgan.com",
+    "fromName": "Sarah Connor",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "URGENT: Portfolio Adjustment for QBE",
+    "body": "Team,\n\nClient instruction just came down. We need to liquidate the the BHP position.\n\nPlease drop everything and model out the implications. I need execution levels and a full impact analysis on my desk in 2 hours.\n\nSarah Connor\n\n--\nSarah Connor\nManaging Director, Portfolio Manager\nJ.P. Morgan Asset Management\nSydney, Australia\nTel: +61 2 9003 8888",
+    "timestamp": 1727672400000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal-pm"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "bac93676-1fb5-42f5-86d1-0b85f1dffa72",
+    "threadId": "bc937527-96a7-4597-b22c-32cff0258f50",
+    "from": "thomas.francis@jpmorgan.com",
+    "fromName": "Thomas Francis",
+    "to": "al.harvey@jpmorgan.com",
+    "subject": "RE: Fwd: URGENT: Medhurst, Stanton and Barrows Trade Query",
+    "body": "Thanks for sending this. I have a quick question about the assumptions on slide 12.",
+    "timestamp": 1727674270293,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "sent"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "0fecdd32-78e6-43fe-9a61-692802c0f1c5",
+    "from": "investments@sunsuper.com.au",
+    "fromName": "Sunsuper Investments Team",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Frami, Cremin and Smitham investment committee meeting",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nDear Thomas,\n\nHope you are well.\n\nI'm following up on the investment committee meeting. We require an update by EOD Thursday for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nSunsuper Investments Team\n\n--\nSunsuper Investments Team\nQueensland, Australia",
+    "timestamp": 1727675280000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "a3ca04e3-0131-43f6-a5bf-139de311ac99",
     "from": "investments@clubplus.com.au",
     "fromName": "Robert Singh",
     "to": "thomas.francis@jpmorgan.com",
-    "subject": "Follow-up: Emard, Hegmann and Brown transition of funds",
-    "body": "Thomas,\n\nHope you are well.\n\nI'm following up on the transition of funds. We require an update by EOD tomorrow for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nRobert Singh\n\n--\nRobert Singh\nSenior Portfolio Manager\nClub Plus Super\nTel: +61 2 9254 5000",
+    "subject": "Follow-up: Carroll LLC transition of funds",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nDear Thomas,\n\nGood to connect with you last week.\n\nI'm following up on the transition of funds. We require an update by EOD tomorrow for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nRobert Singh\n\n--\nRobert Singh\nSenior Portfolio Manager\nClub Plus Super\nTel: +61 2 9254 5000",
+    "timestamp": 1727675340000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "67595f96-cb1f-4091-8ebb-7d4b7f8bd3f7",
+    "from": "payroll.au@jpmorgan.com",
+    "fromName": "J.P. Morgan Payroll",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Your J.P. Morgan Payslip is Available",
+    "body": "Dear Thomas Francis,\n\nYour payslip for September 2024 is now available online.\n\nTo view your payslip, pleas log in to teh Employee Portal.\n\n--\nJ.P. Morgan Payroll - Australia\nThis is an automated notification. pleas do not reply.\nFor inquiries, pleas contact HR Services.",
+    "timestamp": 1727676540000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal-hr"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "08071410-4292-4a7f-bc10-323e02e79dbf",
+    "from": "al.harvey@jpmorgan.com",
+    "fromName": "Al Harvey",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Quick question",
+    "body": "Hey Tom – Do you have teh latest deck for teh NPF meeting?\n\nAl\n\n--\nAl Harvey\nMining Analyst | Equity Research\nJ.P. Morgan\nSydney, Australia\n",
+    "timestamp": 1727676720000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Sep_24.xlsx",
+        "size": 720790
+      }
+    ]
+  },
+  {
+    "id": "f17f0e64-97a8-4192-89f1-bfb53b464a76",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Alert: BHP - analyst rating changes",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nThis is an automated alert from the Bloomberg Terminal.\n\nSecurity: BHP AX Equity\nEvent: analyst rating changes detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1727677020000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": [
+      {
+        "name": "Report_Sep_24.pdf",
+        "size": 863495
+      }
+    ]
+  },
+  {
+    "id": "f9ce367c-e367-4271-8b9a-c1bb41f761bd",
+    "from": "investments@sunsuper.com.au",
+    "fromName": "Sunsuper Investments Team",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Heaney Inc investment committee meeting",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nDear Thomas,\n\nGood to connect with you last week.\n\nI'm following up on the investment committee meeting. We require an update by EOD tomorrow for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nSunsuper Investments Team\n\n--\nSunsuper Investments Team\nQueensland, Australia\n\nSent from my iPhone",
     "timestamp": 1727677980000,
     "isRead": true,
     "isStarred": false,
@@ -150,13 +588,13 @@
     "attachments": []
   },
   {
-    "id": "bfa54aa2-732a-4107-8c60-b59a2d182b60",
-    "from": "investments@twusuper.com.au",
-    "fromName": "Lisa Tran",
+    "id": "1b084121-ff05-4b59-a94a-7b7cbff8735c",
+    "from": "group.treasury@qbe.com",
+    "fromName": "David Chen",
     "to": "thomas.francis@jpmorgan.com",
-    "subject": "Follow-up: Bartoletti - Satterfield investment committee meeting",
-    "body": "Thomas,\n\nGood to connect with you last week.\n\nI'm following up on the investment committee meeting. We require an update by EOD tomorrow for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nLisa Tran\n\n--\nLisa Tran\nInvestment Analyst\nTWUSUPER",
-    "timestamp": 1727682360000,
+    "subject": "Follow-up: Stroman - Langosh transition of funds",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nThomas,\n\nGood to connect with you last week.\n\nI'm following up on the transition of funds. We require an update by EOD tomorrow for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nDavid Chen\n\n--\nDavid Chen\nGroup Treasury\nQBE Insurance",
+    "timestamp": 1727678940000,
     "isRead": true,
     "isStarred": false,
     "labels": [
@@ -165,13 +603,119 @@
     "attachments": []
   },
   {
-    "id": "a60b3ddb-35de-4e5d-9707-1eae39083851",
-    "from": "hannah.pham@jpmorgan.com",
-    "fromName": "Hannah Pham",
+    "id": "ab27ba55-f8f7-40ba-b3f0-6efc974aeaac",
+    "from": "group.treasury@qbe.com",
+    "fromName": "David Chen",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Rowe - Lindgren transition of funds",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nThomas,\n\nGood to connect with you last week.\n\nI'm following up on the transition of funds. We require an update by EOD next week for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nDavid Chen\n\n--\nDavid Chen\nGroup Treasury\nQBE Insurance",
+    "timestamp": 1727680080000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "1860b71c-7164-42c8-8e8e-d1a49e47d7b8",
+    "from": "investments@ampcapital.com",
+    "fromName": "AMP Capital Investments",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Okuneva - Turcotte transition of funds",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nHi Tom,\n\nGood to connect with you last week.\n\nI'm following up on the transition of funds. We require an update by EOD next week for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nAMP Capital Investments\n\n--\nAMP Capital Investments\nSydney, Australia",
+    "timestamp": 1727682780000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "a6352985-0ea1-44d4-aaa0-340642ff8248",
+    "from": "group.treasury@qbe.com",
+    "fromName": "David Chen",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Kuvalis, Runte and Raynor investment committee meeting",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nThomas,\n\nHope you are well.\n\nI'm following up on the investment committee meeting. We require an update by EOD Thursday for our trustees.\n\nCould you pleas provide a status update?\n\nKind regards,\nDavid Chen\n\n--\nDavid Chen\nGroup Treasury\nQBE Insurance",
+    "timestamp": 1727683140000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "d0ecfe67-6713-48a7-a79b-0e6b4cd9a9d3",
+    "from": "payroll.au@jpmorgan.com",
+    "fromName": "J.P. Morgan Payroll",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Your J.P. Morgan Payslip is Available",
+    "body": "Dear Thomas Francis,\n\nYour payslip for September 2024 is now available online.\n\nTo view your payslip, please log in to the Employee Portal.\n\n--\nJ.P. Morgan Payroll - Australia\nThis is an automated notification. Please do not reply.\nFor inquiries, please contact HR Services.",
+    "timestamp": 1727683560000,
+    "isRead": false,
+    "isStarred": false,
+    "labels": [
+      "internal-hr"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "2d3cb29e-2ca6-4b8e-a5db-15dfb53db6c1",
+    "from": "alerts@bloomberg.net",
+    "fromName": "Bloomberg Terminal",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Bloomberg Markets Weekly Roundup",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize teh sender and know teh content is safe.\n\nBis cui ipsum tutis taceo hic. Turpis a totidem ab synagoga tactus abscido. Pariatur non comes defluo adopto adimpleo terror acceptus taedium.\nConfido beatus cursim arbitro demum virtus cenaculum sursum. Coadunatio dedecor vesco angustus. Angelus canonicus recusandae curia.\n\nTo unsubscribe from this newsletter, click here: https://intrepid-developing.name\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
+    "timestamp": 1727684040000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-vendor"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "088aff20-2765-49a0-a987-702da232d0db",
+    "from": "no-reply@teams.microsoft.com",
+    "fromName": "Microsoft Teams",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Missed call from Hannah Pham",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nYou missed a call.\n\nHannah Pham tried to call you at 12:20.\n\n\n--\nThis message was sent from a notification-only address that cannot accept incoming email.\nPlease do not reply to this message.",
+    "timestamp": 1727688240000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-teams"
+    ],
+    "attachments": [],
+    "threadId": "088aff20-2765-49a0-a987-702da232d0db"
+  },
+  {
+    "id": "99c59150-40c0-457e-ac25-cede4a80506f",
+    "from": "no-reply@teams.microsoft.com",
+    "fromName": "Microsoft Teams",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Reminder: \"Weekly Team Sync\" starts in 15 minutes",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nThis is a reminder for your upcoming meeting.\n\n--\nThis message was sent from a notification-only address that cannot accept incoming email.\nPlease do not reply to this message.",
+    "timestamp": 1727691420000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-teams"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "4902264b-7a63-4c38-8a74-0d2985ef3914",
+    "from": "paul.randall@jpmorgan.com",
+    "fromName": "Paul Randall",
     "to": "thomas.francis@jpmorgan.com",
     "subject": "Client Request Follow-up",
-    "body": "Dear Thomas,\n\nQuick reminder that Future Fund needs a final sign-off. \n\nThanks,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4202290 894\n",
-    "timestamp": 1727688900000,
+    "body": "Thomas,\n\nQuick reminder that Future Fund needs a final sign-off. \n\nThanks,\nPaul\n\n--\nPaul Randall\nExecutive Director | Asset Management\nJ.P. Morgan Asset Management\nSydney, Australia\nTel: +61 2 9003 8888\n",
+    "timestamp": 1727692080000,
     "isRead": true,
     "isStarred": false,
     "labels": [
@@ -180,28 +724,59 @@
     "attachments": []
   },
   {
-    "id": "a9fa4d0f-571d-4e3e-8317-ff7039373e85",
-    "from": "hannah.pham@jpmorgan.com",
-    "fromName": "Hannah Pham",
-    "to": "thomas.francis@jpmorgan.com",
-    "subject": "Client Request Follow-up",
-    "body": "Dear Thomas,\n\nQuick reminder that Future Fund needs a final sign-off. \n\nThanks,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4202290 894\n",
-    "timestamp": 1727689860000,
-    "isRead": false,
+    "id": "790783be-2baa-4f01-bf6a-47d57afc58a9",
+    "threadId": "088aff20-2765-49a0-a987-702da232d0db",
+    "from": "thomas.francis@jpmorgan.com",
+    "fromName": "Thomas Francis",
+    "to": "no-reply@teams.microsoft.com",
+    "subject": "RE: Missed call from Hannah Pham",
+    "body": "Thanks for sending this. Can you please forward the underlying data?",
+    "timestamp": 1727693346594,
+    "isRead": true,
     "isStarred": false,
     "labels": [
-      "internal"
+      "sent"
     ],
     "attachments": []
   },
   {
-    "id": "3060c67d-ddf7-4fe0-998e-68ddce886264",
-    "from": "hannah.pham@jpmorgan.com",
-    "fromName": "Hannah Pham",
+    "id": "8d786f53-e5ae-4217-b0d2-19172259f2e9",
+    "from": "investments@clubplus.com.au",
+    "fromName": "Robert Singh",
     "to": "thomas.francis@jpmorgan.com",
-    "subject": "Client Request Follow-up",
-    "body": "Thomas,\n\nQuick reminder that QBE needs a final sign-off. \n\nThanks,\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4202290 894\n",
-    "timestamp": 1727692680000,
+    "subject": "Follow-up: Kling Group performance report",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nDear Thomas,\n\nHope you are well.\n\nI'm following up on the performance report. We require an update by EOD Thursday for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nRobert Singh\n\n--\nRobert Singh\nSenior Portfolio Manager\nClub Plus Super\nTel: +61 2 9254 5000",
+    "timestamp": 1727694720000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "23f8e743-c167-4222-9473-b6d563a56f95",
+    "from": "group.treasury@qbe.com",
+    "fromName": "David Chen",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Follow-up: Greenfelder Group investment committee meeting",
+    "body": "⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\nDear Thomas,\n\nHope you are well.\n\nI'm following up on the investment committee meeting. We require an update by EOD next week for our trustees.\n\nCould you please provide a status update?\n\nKind regards,\nDavid Chen\n\n--\nDavid Chen\nGroup Treasury\nQBE Insurance\n\nSent from my iPhone",
+    "timestamp": 1727695320000,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "external-client"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "1cbf4a21-054f-42d8-a0c2-224e5ba908a7",
+    "from": "paul.randall@jpmorgan.com",
+    "fromName": "Paul Randall",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Fwd: URGENT: Heaney - O'Connell Trade Query",
+    "body": "Lyndon – can you and Thomas handle this? Client is getting anxious.\n\n---------- Forwarded message ----------\nFrom: Walter_Mann@yahoo.com\nDate: September 1st, 2025\nSubject: URGENT: Larson - Marks Trade Query\n\nDepulso eligendi adinventitias aestivus tristis adulescens. Perspiciatis baiulus delectatio utroque truculenter cumque. Caput thymum averto beatae alo denique iste.\n\n--\nPaul Randall\nExecutive Director | Asset Management\nJ.P. Morgan Asset Management\nSydney, Australia\nTel: +61 2 9003 8888\n",
+    "timestamp": 1727695860000,
     "isRead": true,
     "isStarred": true,
     "labels": [
@@ -210,52 +785,48 @@
     "attachments": []
   },
   {
-    "id": "933a6e8a-426d-4be9-a017-6ca8e306baad",
-    "from": "alerts@bloomberg.net",
-    "fromName": "Bloomberg Terminal",
+    "id": "fc630f69-1e7a-4ffa-94c3-d02741d57f60",
+    "from": "hannah.pham@jpmorgan.com",
+    "fromName": "Hannah Pham",
     "to": "thomas.francis@jpmorgan.com",
-    "subject": "Alert: RIO - analyst rating changes",
-    "body": "This is an automated alert from the Bloomberg Terminal.\n\nSecurity: FMG AX Equity\nEvent: analyst rating changes detected.\n\n--\nBloomberg Terminal Alert Service\nVisit: www.bloomberg.com/professional\n",
-    "timestamp": 1727694900000,
+    "subject": "Quick question",
+    "body": "Hey Tom – Can you send me the model we used for XYZ last quarter?\n\nHannah\n\n--\nHannah Pham\nMarkets Analyst | Asset Management\nJ.P. Morgan Asset Management\nMelbourne, Australia\nMobile: +61 4463707 408\n",
+    "timestamp": 1727696400000,
     "isRead": true,
     "isStarred": false,
     "labels": [
-      "external-vendor"
-    ],
-    "attachments": [
-      {
-        "name": "Report_Sep_24.pdf",
-        "size": 1526670
-      }
-    ]
-  },
-  {
-    "id": "bc51850b-fdbb-4062-b2a2-ba189692e8d2",
-    "from": "nathan.wright@101collins.com.au",
-    "fromName": "Nathan Wright",
-    "to": "thomas.francis@jpmorgan.com",
-    "subject": "Building Update: Scheduled Fire Drill",
-    "body": "Dear Occupants,\n\nA scheduled fire drill will be conducted this Monday morning between 10:00 AM - 11:00 AM. All building employees must participate.\n\nPlease follow instructions from your floor wardens. If you have any questions, please don't hesitate to reach out.\n\nKind regards,\nNathan Wright\n\n--\nNathan Wright\nBuilding Manager\n101 Collins Street Management\nLevel 31, 101 Collins Street, Melbourne VIC 3000\nTel: +61 3 8636 5000",
-    "timestamp": 1727696280000,
-    "isRead": true,
-    "isStarred": false,
-    "labels": [
-      "external-facilities"
+      "internal"
     ],
     "attachments": []
   },
   {
-    "id": "44587670-1d6a-43bd-b602-bf76c79d8ebb",
-    "from": "payroll.au@jpmorgan.com",
-    "fromName": "J.P. Morgan Payroll",
+    "id": "c8ed251c-6705-4b84-823d-1e824df0e075",
+    "from": "paul.randall@jpmorgan.com",
+    "fromName": "Paul Randall",
     "to": "thomas.francis@jpmorgan.com",
-    "subject": "Your J.P. Morgan Payslip is Available",
-    "body": "Dear Thomas Francis,\n\nYour payslip for September 2024 is now available online.\n\nTo view your payslip, please log in to the Employee Portal.\n\n--\nJ.P. Morgan Payroll - Australia\nThis is an automated notification. Please do not reply.\nFor inquiries, please contact HR Services.",
-    "timestamp": 1727696520000,
+    "subject": "RE: RE: RE: Project Update",
+    "body": "See below – thoughts?\n\nOn Tue, Mar 12, 2024 at 9:30 AM, Hannah Pham <hannah.pham@jpmorgan.com> wrote:\n\nRepudiandae apostolus reiciendis. Dolor vesica desolo accusantium aggredior spectaculum reprehenderit volva delego considero. Sopor depono numquam vere.\nCiminatio stabilis vesper curtus spiculum alienus annus. Voro pauper totidem suus. Carpo deduco capio.\nUmerus dapifer unus conforto nostrum cubicularis rerum numquam benevolentia bardus. Tabesco spectaculum sperno vester creptio. Absconditus asporto suppono censura decerno suscipio defetiscor.\n\n--\nPaul Randall\nExecutive Director | Asset Management\nJ.P. Morgan Asset Management\nSydney, Australia\nTel: +61 2 9003 8888\n",
+    "timestamp": 1727696640000,
     "isRead": true,
     "isStarred": false,
     "labels": [
-      "internal-hr"
+      "internal"
+    ],
+    "attachments": []
+  },
+  {
+    "id": "743a74fa-9510-4327-8cc6-d7d30ae5c871",
+    "threadId": "5ab4f127-df6f-4b3d-a61a-9ab154b6f2dc",
+    "from": "postmaster@jpmorgan.com",
+    "fromName": "Microsoft Exchange Online",
+    "to": "thomas.francis@jpmorgan.com",
+    "subject": "Read: depopulo comparo terreo",
+    "body": "This message confirms that the email you sent to group.treasury@qbe.com on August 31st, 2025 was displayed on the recipient's computer. This does not guarantee that the recipient has read or understood the email contents.\n\n--\nMicrosoft Exchange Online\nJ.P. Morgan Mail System\nDo not reply to this message.",
+    "timestamp": 1727712861543,
+    "isRead": true,
+    "isStarred": false,
+    "labels": [
+      "internal-system"
     ],
     "attachments": []
   }

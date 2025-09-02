@@ -216,7 +216,8 @@ const senders = [
   },
   // New: IT Alerts sender (internal-it)
   {
-    name: 'J.P. Morgan Technology',
+  // Renamed per requirement: show as IT instead of Technology
+  name: 'J.P. Morgan IT',
     email: 'it.alerts.apac@jpmorgan.com',
     role: 'APAC Technology Operations',
     type: 'internal-it',
@@ -266,6 +267,13 @@ const senders = [
 // 4. TEMPLATE STORES
 const templateStores = {
   internal: [
+    // (1) Forwarding thread variant - starts as a forward with embedded original
+    (from, to, currentDate) => {
+      return {
+        subject: `Fwd: URGENT: ${faker.company.name()} Trade Query`,
+        body: `Lyndon – can you and Thomas handle this? Client is getting anxious.\n\n---------- Forwarded message ----------\nFrom: ${faker.internet.email()}\nDate: ${format(faker.date.recent({ days: 1 }), 'PPP')}\nSubject: URGENT: ${faker.company.name()} Trade Query\n\n${faker.lorem.paragraphs(1)}\n\n${from.signature}`,
+      };
+    },
     (from, to, currentDate) => {
       const topics = ['BHP model', 'NPF report', 'QBE presentation', 'lithium sector deep dive'];
       const topic = faker.helpers.arrayElement(topics);
@@ -312,6 +320,15 @@ const templateStores = {
       subject: `Fw: Interesting research from ${faker.company.name()} on ${faker.helpers.arrayElement(['lithium','iron ore','gold'])}`,
       body: `FYI – thought this might be useful for our ${faker.helpers.arrayElement(['Club Plus','QBE','NPF'])} presentation.\n\n---------- Forwarded message ----------\nFrom: ${faker.internet.email()}\nDate: ${format(faker.date.recent({ days: 2 }), 'PPP')}\nSubject: Interesting research from ${faker.company.name()}\n\n${faker.lorem.paragraphs(2)}\n\n${from.signature}`,
     }),
+    // (5) See below email chain variant
+    (from, to, currentDate) => ({
+      subject: `RE: RE: RE: Project Update`,
+      body: `See below – thoughts?\n\n${faker.helpers.arrayElement([
+        'On Tue, Mar 12, 2024 at 9:30 AM, Hannah Pham <hannah.pham@jpmorgan.com> wrote:',
+        'From: Lyndon Fagan <lyndon.fagan@jpmorgan.com>',
+        '---------- Previous message ----------'
+      ])}\n\n${faker.lorem.paragraphs(3)}\n\n${from.signature}`,
+    }),
   ],
   // NEW: External Client templates
   'external-client': [
@@ -334,6 +351,11 @@ const templateStores = {
         body: `This is an automated alert from the Bloomberg Terminal.\n\nSecurity: ${faker.helpers.arrayElement(stocks)} AX Equity\nEvent: ${faker.helpers.arrayElement(alerts)} detected.\n\n${from.signature}`,
       };
     },
+    // (9) Newsletter with unsubscribe link
+    (from, to, currentDate) => ({
+      subject: `Bloomberg Markets Weekly Roundup`,
+      body: `${faker.lorem.paragraphs(2)}\n\nTo unsubscribe from this newsletter, click here: ${faker.internet.url()}\n\n${from.signature}`,
+    }),
   ],
   'internal-brief': [
     (from, to, currentDate) => {
@@ -541,6 +563,11 @@ const templateStores = {
       subject: `Delivery has failed` ,
       body: `Your message couldn't be delivered to ${faker.internet.email()} because the recipient's email provider rejected it.\n\nTechnical Details:\nRemote server returned: 550 5.1.1 RESOLVER.ADR.RecipientNotFound; Recipient not found\n\n${from.signature}`,
     }),
+    // (7) Delivery failure variant with Undeliverable prefix
+    (from, to, currentDate) => ({
+      subject: `Undeliverable: ${faker.lorem.words(2)}`,
+      body: `Your message to investments@clubplus.com.au couldn't be delivered. The recipient's mailbox is full.\n\nTechnical details:\nRemote server returned: 552 5.2.2 Mailbox full\n\n${from.signature}`,
+    }),
   ],
   // JUNK / SPAM (rare)
   'external-junk': [
@@ -577,6 +604,34 @@ function generateTimestampAt(date, hour, minute) {
   return utcDate.getTime();
 }
 
+// (3) Introduce minor typos with probability
+function addTypos(text) {
+  if (faker.datatype.boolean({ probability: 0.15 })) {
+    const commonTypos = [
+      ['the', 'teh'], ['please', 'pleas'], ['quick', 'quik'],
+      ['forward', 'foward'], ['attachment', 'atachment']
+    ];
+    commonTypos.forEach(([correct, typo]) => {
+      if (faker.datatype.boolean({ probability: 0.3 })) {
+        const re = new RegExp(correct, 'gi');
+        text = text.replace(re, typo);
+      }
+    });
+  }
+  return text;
+}
+
+// (10) Mixed date formats selector
+function randomDateFormat(date) {
+  const formats = [
+    'MMM d, yyyy',
+    'd MMM yyyy',
+    'MM/dd/yyyy',
+    'yyyy-MM-dd'
+  ];
+  return format(date, faker.helpers.arrayElement(formats));
+}
+
 function getEmailCountForDate(date) {
   const weekOfMonth = getWeekOfMonth(date);
   const isCrunchTime = weekOfMonth >= 4;
@@ -590,6 +645,9 @@ function getEmailCountForDate(date) {
 function generateEmails(start, end) {
   let current = new Date(start);
   console.log('Starting FULL email generation...');
+  // Track last payments email date (ms) to enforce <= 1 per 14 days, scheduled only on fortnightly Wednesday
+  const baseFortnightWednesday = new Date('2023-04-26T00:00:00Z'); // known Wednesday after start
+  let lastPaymentsTs = null;
 
   if (!existsSync(outputDirectory)) {
     mkdirSync(outputDirectory, { recursive: true });
@@ -690,10 +748,43 @@ function generateEmails(start, end) {
       }
     }
 
-    // 3) Remaining random emails for the day
+    // 3a) Scheduled fortnightly Payments update (only every second Wednesday)
+    const isWed = current.getUTCDay() === 3 || current.getDay() === 3; // handle TZ differences; treat local day too
+    if (isWed) {
+      const diffDays = Math.floor((current - baseFortnightWednesday) / 86400000);
+      if (diffDays >= 0 && diffDays % 14 === 0) {
+        // Only place one if none in last 13 days
+        const tooSoon = lastPaymentsTs && (current - lastPaymentsTs) < 13 * 86400000; // safeguard
+        if (!tooSoon) {
+          const paymentsSender = senders.find(s => s.type === 'internal-payments');
+          const pStore = templateStores['internal-payments'];
+          if (paymentsSender && pStore && pStore.length) {
+            const tpl = faker.helpers.arrayElement(pStore);
+            const { subject, body } = tpl(paymentsSender, user, current);
+            const ts = generateTimestampAt(current, 10, faker.number.int({ min: 0, max: 40 })); // mid-morning
+            dateEmails.push({
+              id: uuidv4(),
+              from: paymentsSender.email,
+              fromName: paymentsSender.name,
+              to: user.email,
+              subject,
+              body,
+              timestamp: ts,
+              isRead: faker.datatype.boolean({ probability: 0.75 }),
+              isStarred: false,
+              labels: ['internal-payments'],
+              attachments: [],
+            });
+            lastPaymentsTs = current.getTime();
+          }
+        }
+      }
+    }
+
+    // 3) Remaining random emails for the day (excluding internal-payments which are now scheduled)
     const targetCount = getEmailCountForDate(current);
     const remaining = Math.max(0, targetCount - dateEmails.length);
-  const generalSenders = senders.filter((s) => !['internal-brief','internal-allstaff','internal-ooo','internal-system','external-junk'].includes(s.type));
+  const generalSenders = senders.filter((s) => !['internal-brief','internal-allstaff','internal-ooo','internal-system','external-junk','internal-payments'].includes(s.type));
     for (let i = 0; i < remaining; i++) {
       const from = faker.helpers.arrayElement(generalSenders);
       const templateStore = templateStores[from.type];
@@ -708,8 +799,8 @@ function generateEmails(start, end) {
         from: from.email,
         fromName: from.name,
         to: user.email,
-        subject,
-        body,
+  subject,
+  body,
         timestamp: tsOverride ?? generateTimestampForDate(current),
         isRead: faker.datatype.boolean({ probability: 0.7 }),
         isStarred: faker.datatype.boolean({ probability: 0.1 }),
@@ -724,6 +815,37 @@ function generateEmails(start, end) {
           : [],
       };
       dateEmails.push(email);
+
+      // Sender + Subject normalization rules for 101 Collins & Catering
+      if (email.labels.includes('external-catering')) {
+        // Sender should just appear as '101'; subject prefixed with 'Catering:' if not already
+        email.fromName = '101';
+        if (!/^catering[:\-]/i.test(email.subject)) {
+          email.subject = 'Catering: ' + email.subject;
+        }
+      } else if (email.labels.includes('external-facilities')) {
+        // Sender unified as '101 Collins'; prefix subject with Facilities: if not already
+        email.fromName = '101 Collins';
+        if (!/^facilities[:\-]/i.test(email.subject)) {
+          email.subject = 'Facilities: ' + email.subject;
+        }
+      } else if (email.labels.includes('internal-it')) {
+        // Ensure renamed IT sender reflected even if template used old name
+        email.fromName = 'J.P. Morgan IT';
+      }
+
+      // (2) Mobile signature injection (low probability)
+      if (faker.datatype.boolean({ probability: 0.1 })) {
+        email.body += `\n\nSent from my iPhone`;
+      }
+
+      // (8) External email warning banner
+      if (from.type.includes('external')) {
+        email.body = `⚠️  CAUTION: This email originated from outside of J.P. Morgan. Do not click links or open attachments unless you recognize the sender and know the content is safe.\n\n` + email.body;
+      }
+
+      // (3) Apply typos
+      email.body = addTypos(email.body);
 
       // THREAD: 5% chance create a reply thread (avoid junk/system types)
       if (faker.datatype.boolean({ probability: 0.05 }) && !['external-junk','internal-system','internal-ooo'].includes(from.type)) {
@@ -752,8 +874,8 @@ function generateEmails(start, end) {
         });
       }
 
-      // OOO Auto-reply chance if emailing Hannah or Lyndon (simulate you sent something earlier)
-      if (faker.datatype.boolean({ probability: 0.1 }) && ['hannah.pham@jpmorgan.com','lyndon.fagan@jpmorgan.com'].includes(from.email)) {
+  // OOO Auto-reply chance if emailing Hannah or Lyndon (simulate you sent something earlier) OR internal thread variant (6)
+  if (faker.datatype.boolean({ probability: 0.1 }) && ['hannah.pham@jpmorgan.com','lyndon.fagan@jpmorgan.com'].includes(from.email)) {
         const oooSender = senders.find(s => s.email === from.email && s.type === 'internal-ooo');
         if (oooSender) {
           const tpl = templateStores['internal-ooo'][0];
@@ -769,6 +891,32 @@ function generateEmails(start, end) {
             body: oooBody,
             timestamp: oooTs,
             isRead: faker.datatype.boolean({ probability: 0.9 }),
+            isStarred: false,
+            labels: ['internal-ooo'],
+            attachments: [],
+          });
+        }
+      }
+
+      // (6) Vacation auto-reply can also trigger for internal / external-client with small probability
+      if (faker.datatype.boolean({ probability: 0.08 }) && (from.type.includes('internal') || from.type.includes('external-client'))) {
+        const internalStaff = ['hannah.pham@jpmorgan.com','lyndon.fagan@jpmorgan.com'];
+        const chosen = faker.helpers.arrayElement(internalStaff);
+        const oooSender = senders.find(s => s.email === chosen && s.type === 'internal-ooo');
+        if (oooSender) {
+          const tpl = templateStores['internal-ooo'][0];
+          const { subject: oooSubject, body: oooBody } = tpl(oooSender, user, current);
+          const oooTs = email.timestamp + faker.number.int({ min: 30*60*1000, max: 3*60*60*1000 });
+          dateEmails.push({
+            id: uuidv4(),
+            threadId: email.threadId || email.id,
+            from: oooSender.email,
+            fromName: oooSender.name,
+            to: user.email,
+            subject: oooSubject,
+            body: oooBody,
+            timestamp: oooTs,
+            isRead: true,
             isStarred: false,
             labels: ['internal-ooo'],
             attachments: [],
@@ -806,7 +954,7 @@ function generateEmails(start, end) {
         const junkTemplate = faker.helpers.arrayElement(templateStores['external-junk']);
         const junkSender = { name: faker.company.name(), email: faker.internet.email() };
         const { subject: junkSubject, body: junkBody } = junkTemplate(junkSender, user, current);
-        dateEmails.push({
+  const newEmail = {
           id: uuidv4(),
           from: junkSender.email,
           fromName: junkSender.name,
@@ -818,10 +966,11 @@ function generateEmails(start, end) {
           isStarred: false,
           labels: ['junk'],
           attachments: [],
-        });
+  };
+  dateEmails.push(newEmail);
       }
 
-      // CALENDAR INVITE (small probability) with .ics attachment
+      // CALENDAR INVITE (small probability) with .ics attachment (4)
       if (faker.datatype.boolean({ probability: 0.03 })) {
         const meetingHour = faker.number.int({ min: 9, max: 16 });
         const meetingMinute = faker.helpers.arrayElement([0,15,30,45]);
@@ -835,13 +984,13 @@ function generateEmails(start, end) {
           fromName: 'Microsoft Teams',
           to: user.email,
             subject: subjectMeeting,
-            body: `You are invited to a meeting.\n\n${subjectMeeting}\n\nAn ICS calendar file is attached.`,
+            body: addTypos(`You are invited to a meeting.\n\n${subjectMeeting}\nDate: ${randomDateFormat(new Date(inviteTs + 60*60*1000))}\n\nAn ICS calendar file is attached.`),
           timestamp: inviteTs,
           isRead: faker.datatype.boolean({ probability: 0.6 }),
           isStarred: false,
           labels: ['calendar-invite'],
           attachments: [
-            { name: icsName, size: Buffer.byteLength(icsContent, 'utf8'), mime: 'text/calendar', inline: false },
+            { name: icsName, size: Buffer.byteLength(icsContent, 'utf8'), mime: 'text/calendar', inline: false, type: 'calendar' },
           ],
         });
       }
@@ -872,6 +1021,19 @@ function generateEmails(start, end) {
       }
     }
 
+    // Post-process normalization for any scheduled catering / facilities inserted earlier (e.g., morning brief & catering schedule)
+    for (const e of dateEmails) {
+      if (e.labels?.includes('external-catering')) {
+        e.fromName = '101';
+        if (e.subject && !/^catering[:\-]/i.test(e.subject)) e.subject = 'Catering: ' + e.subject;
+      } else if (e.labels?.includes('external-facilities')) {
+        e.fromName = '101 Collins';
+        if (e.subject && !/^facilities[:\-]/i.test(e.subject)) e.subject = 'Facilities: ' + e.subject;
+      } else if (e.labels?.includes('internal-it')) {
+        e.fromName = 'J.P. Morgan IT';
+      }
+    }
+
     dateEmails.sort((a, b) => a.timestamp - b.timestamp);
     let allEmailsForMonth;
     if (existingMonthlyData.length === 0) {
@@ -888,9 +1050,17 @@ function generateEmails(start, end) {
       }
     }
 
+    //  Deduplicate exact duplicates (same subject + identical body) within month
+    const seen = new Map();
+    const deduped = [];
+    for (const em of allEmailsForMonth) {
+      const key = (em.subject||'') + '|' + (em.body||'');
+      if (!seen.has(key)) { seen.set(key, true); deduped.push(em); }
+    }
+
     if (!existsSync(yearDirectory)) mkdirSync(yearDirectory, { recursive: true });
     const tmpFile = monthlyFile + '.tmp';
-    writeFileSync(tmpFile, JSON.stringify(allEmailsForMonth, null, 2), 'utf8');
+    writeFileSync(tmpFile, JSON.stringify(deduped, null, 2), 'utf8');
     // Atomic replace
     try { require('fs').renameSync(tmpFile, monthlyFile); } catch { /* fallback already written */ }
     if (!QUIET && ((dateEmails.length && !((current - startDate) / 86400000 % LOG_EVERY)) || LOG_EVERY === 1)) {
